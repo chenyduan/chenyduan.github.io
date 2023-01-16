@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<pre>
+  <code>
+    SpringBoot设置连接超时时间
+spring:
+  servlet:
+    multipart:
+      enabled: true # 必须为true
+      max-file-size: -1 # 单个数据大小 100M , -1 是不限制大小
+      max-request-size: -1 # 总数据大小，
+      file-size-threshold: 0 # 文件写入磁盘后的阈值。值可以使用后缀"MB"或"KB"分别表示兆字节或千字节
+  session:
+    timeout: 60s  # HTTP会话超时设置
+
+  mvc:
+    async:
+      request-timeout: 60000 # 接口超时时间
+  </code>
+</pre>
+HTTP会话超时代码设置方式
+<pre>
+  <code>
+    @Configuration
+public class WebConfiguration {
+  @Bean
+  public EmbeddedServletContainerCustomizer embeddedServletContainerCustomizer() {
+    return new EmbeddedServletContainerCustomizer() {
+      @Override
+      public void customize(ConfigurableEmbeddedServletContainer container) {
+        container.setSessionTimeout(2, TimeUnit.MINUTES);
+      }
+    };
+  }
+}
+
+  </code>
+</pre>
+
+
+接口超时代码配置
+<pre>
+  <code>
+    public class WebMvcConfig extends WebMvcConfigurerAdapter {
+
+	@Override
+
+	public void configureAsyncSupport(final AsyncSupportConfigurer configurer) {
+
+		configurer.setDefaultTimeout(20000);
+
+		configurer.registerCallableInterceptors(timeoutInterceptor());
+
+	}
+
+	@Bean
+
+	public TimeoutCallableProcessingInterceptor timeoutInterceptor() {
+
+		return new TimeoutCallableProcessingInterceptor();
+
+	}
+
+}
+
+  </code>
+</pre>
+
+
+</body>
+</html>
