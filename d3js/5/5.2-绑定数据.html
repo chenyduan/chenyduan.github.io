@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../d3js-4.5.0/d3.js"></script>
+</head>
+<body>
+<pre>
+d3的data（）方法可以把数据绑定到元素上。
+- 数据
+- 元素的选集
+
+  let dataSet = [5,10,15,20,25]
+
+  价值csv文件 food.csv
+</pre>
+
+
+<script>
+
+
+    d3.csv("food.csv", function (data) {
+        console.log(data)
+    })
+</script>
+
+<pre>
+  csv（）接受两个参数：表示要加载的CSV文件的路径字符串和用作回调函数的匿名函数。
+  回调函数只有在把CSV文件加载到内存之后才会执行。因此可以确定，在调用这个函数时，d3.csv（）已经把数据加载完了。
+
+
+
+  另外还要注意的是，CSV中的每个值都是以字符串形式保存的，连数字都是。（因为数字9两边有双引号，即是"9"，而非9。）这一点可能会影响后面的操作，因为你会把它当数值，但实际上它却是一个字符串。为了避免以后调试起来麻烦，可以指定一个行转换函数，它可以指定CSV每行数据的类型。拿我们的例子来说，Food列的字符串不需要转换。但Deliciousness列的字符串里包含整数和浮点数。因此下一步我就要定义一个新的rowConverter函数，让它来处理各列的数据。
+
+</pre>
+
+
+<script>
+    //行转换
+    var rowConverter = function (d) {
+        return {
+            Food: d.Food,
+            // 转成数值
+            Deliciousness: parseFloat(d.Deliciousness)
+        }
+    }
+
+    d3.csv("food.csv", rowConverter, function (data) {
+        //这里转换成了数值
+        console.log(data)
+    })
+
+
+</script>
+
+
+<pre>
+  d3.csv()是一个异步方法，所以只能在回调函数内部引用数据。
+  可以先声明一个全局变量，然后在回调函数内引用
+
+</pre>
+
+<script>
+
+    var dataset;
+    d3.csv("food.csv", function (error, data) {
+
+        // 如果error不是null，则加载错误
+        if (error) {
+            console.log(error)
+        } else {
+            console.log("加载成功，不为error")
+            dataset = data;
+            // 再调用其他依赖的数据
+            // generateVis()
+            //hideLoadingMsg() //
+        }
+
+
+    })
+
+
+    var userTheDataLater = function () {
+        // 在d3.csv()成功加载数据后的某一刻调用
+        // 就可以访问到全局的dataset变量
+        console.log(dataset)
+    }
+
+
+</script>
+
+
+<pre>
+
+    加载json；
+
+
+</pre>
+
+<script>
+    d3.json("user.json", function (data) {
+        console.log(data)
+    })
+
+</script>
+
+</body>
+
+</html>

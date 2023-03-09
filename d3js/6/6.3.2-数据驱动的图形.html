@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../d3js-4.5.0/d3.js"></script>
+</head>
+<body>
+
+<pre>
+
+
+</pre>
+
+<script>
+    let width = 500;
+    let height = 50;
+
+    var svg = d3.select("body").append("svg")
+        //设置高度和宽度属性
+        .attr("width", width)
+        .attr("height", height)
+
+
+    var dataset = [5, 10, 15, 20, 25]
+
+    // selectAll（）会返回对所有circle元素的空引用（因为还不存在呢）
+    // ，而data（）把数据绑定到即将创建的元素，
+    // enter（）返回对这个新元素的占位引用，
+    // 最后append（）把circle添加到DOM。
+    var circles = svg.selectAll("circle")
+        .data(dataset)
+        .enter()
+        .append("circle")
+
+
+    circles
+        /*通过引用所有circle的变量来设置每一个圆形的cx属性。（在SVG中，cx是圆形圆心的x坐标，没忘吧？）因为数据已经绑定到了circle元素，
+  所以对每个circle来说，值d分别对应于原始数据集里相应的值（5、10、15、20和25）*/
+        .attr("cx", function (d, i) {
+            /*i就是当前元素的索引值。这个值从0开始，因此第一个圆形的i == 0，第二个圆形的i == 1，以此类推。这里我们利用了这个顺序值，把每个圆形都向右推进一段，因为每次循环i的值都会加1：*/
+            return (i * 50) + 25;
+        })
+
+        /*cy是每个圆形圆心的y坐标。这里把cy设置成了h的一半。还记得吧，h保存着整个SVG元素的高度，因此h/2等于把所有circle元素垂直居中：*/
+        .attr("cy", height / 2)
+        /*简单地把每个circle元素的半径r设为与d相等，也就是对应的数据值。（注意：不要用半径来表征数据值，具体原因会在本章后面解释。）*/
+        .attr("r", function (d) {
+            return d;
+        })
+        /* 色彩填充  fill  和描边 stroke 也是属性 ，通过attr()方法来设置*/
+        .attr("fill", "yellow")
+        .attr("stroke", "orange")
+        .attr("stroke-width", function (d) {
+            return d / 2;
+        })
+
+</script>
+
+</body>
+</html>

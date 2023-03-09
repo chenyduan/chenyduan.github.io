@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../d3js-4.5.0/d3.js"></script>
+</head>
+<body>
+
+
+<script>
+
+    var dataset = [5, 10, 15, 20, 25, 11, 12, 25, 28, 15, 25, 11, 2, 5, 2, 16, 22, 14, 15, 11]
+    //svg 高度和宽度
+    let w = 500;
+    h = 100;
+    barPadding = 1;
+
+    //创建svg元素
+    var svg = d3.select("body")
+        .append("svg")
+        .attr("width", w)
+        .attr("height", h)
+
+    //生成矩形元素rect并将它们添加到svg
+    svg.selectAll("rect")
+        .data(dataset)
+        .enter()
+        .append("rect")
+        .attr("x", function (d, i) {
+            return i * (w / dataset.length)
+        })
+        .attr("y", function (d) {
+            return h - (d * 4);
+        })
+        .attr("width", function (d) {
+            /*条形宽度不再是固定的20像素，而是要设置成SVG宽度与数据值个数的商再减掉内边距的值：*/
+            return w / dataset.length - barPadding
+        })
+        .attr("height", function (d) {
+            //放大 4倍数
+            return d * 4;
+        })
+        //填充颜色
+        // .attr("fill","teal")
+        .attr("fill", function (d) {
+            return "rgb(0,0," + Math.round(d * 10) + ")"
+        })
+
+
+    //添加标签
+    svg.selectAll("text")
+        .data(dataset)
+        .enter()
+        .append("text")
+        .text(function (d) {
+            return d;
+        })
+        //  设置标签的位置,设置和上面一样,然后偏移 5 和15个像素，移动到条形图内部
+        .attr("x", function (d, i) {
+            //然后，再改一下x值的计算方式，让它等于每个条形的左边位置值加上条形宽度的一半：
+            return i * (w / dataset.length) + (w / dataset.length - barPadding) / 2
+        })
+        .attr("y", function (d) {
+            return h - (d * 4) + 14;
+        })
+        //  设置字体样式，解决看不清楚
+        .attr("font-family", "sans-serif")
+        .attr("font-size", "11px")
+        .attr("fill", "white")
+        /*假如你没有排版强迫症，现在就可以收手了。不过，假如你跟我一样吹毛求疵，会发现标签与各自的条形没有完美对齐。（比如，第一个条形中的“5”。）这个问题好改，可以使用SVG的text-anchor属性，让文本在指定的x值上水平居中：*/
+        .attr("text-anchor", "middle")
+
+
+</script>
+
+</body>
+</html>

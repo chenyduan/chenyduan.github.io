@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <script type="text/javascript" src="../d3js-4.5.0/d3.js"></script>
+  <style>
+    div.bar{
+      display: inline-block;
+      width: 20px;
+      /*后面会覆盖这个高度*/
+      height: 75px;
+      background-color: teal;
+      margin-right: 2px;
+    }
+  </style>
+</head>
+<body>
+
+
+<pre>
+
+  简单介绍D3的另一个方法classed（），用于快速地添加或删除元素的类。比如，前面那行代码可以重写成下面这样：
+  .classed("bar",true)
+  这行代码会为调用该方法的选集添加类bar。
+  ////////////
+  如果第二个参数是false，则会把元素的类bar删除：
+  .classed("bar",false)
+
+</pre>
+
+
+<script>
+  // var dataset = [25,7,5,26,11,8,25,14,23,19,14,11,22,29,11,13,12,17,18,10,24,18,25,9,3]
+  //试试使用随机数
+  var dataset = [];
+  for(let i = 0;i<25;i++){
+    //生成0-30的随机数
+   let num =Math.floor( Math.random()*30);
+   dataset.push(num)
+  }
+
+
+  d3.select("body").selectAll("p")
+          // 传多少个值，就会循环多少次
+          .data(dataset)
+          .enter()
+          .append("div")
+            // 给div设置类
+          .attr("class","bar")
+          // 设置样式
+          .style("height",function (d) {
+            //放大5倍
+            let height = d *5 ;
+            return height+"px";
+          })
+
+</script>
+
+</body>
+</html>

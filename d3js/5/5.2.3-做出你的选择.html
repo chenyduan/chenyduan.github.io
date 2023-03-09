@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../d3js-4.5.0/d3.js"></script>
+</head>
+<body>
+
+
+<script>
+
+  var dataset = [5,10,15,20,25]
+
+
+  d3.select("body")
+          // 此时p还没有创建,返回空选集，可以认为空代表接下来会创建
+          .selectAll("p")
+          //绑定数据，解析并输出数据值，dataset数组中有5个值，后面所有方法都会执行5遍，每次针对一个值
+          .data(dataset)
+          // 要创建新的绑定数据的元素，必须用到enter(),这个方法会分析当前的dom选集和传给他的数据，
+          //如果数据值比对应dom多，就创建一个新的占位元素供你使用。
+          //然后把新元素交给下一个方法
+          .enter()
+          /* 取得enter()创建的空占位符选集，并把一个p元素附加到相应的DOM中 ，
+          *  再把创建的元素交给下一个方法
+          * */
+          .append("p")
+          // 取得传来的P元素引用，插入文本
+          // .text("new graph")
+      /*   使用自己的数据*/
+            .text(function (d) {
+                return "使用数据： "+d;
+            })
+</script>
+
+
+
+<pre>
+    d3.selectAll("p")查看p，可以看到返回的返回的对象中绑定的数据，
+
+    你看，D3绑定的数据没有出现在DOM中，而是作为该元素的data属性保存在内存里。控制台就是确认数据绑定是否正确的一个工具。
+
+
+</pre>
+
+
+
+
+
+</body>
+</html>

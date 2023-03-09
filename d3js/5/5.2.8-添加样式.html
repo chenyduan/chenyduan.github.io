@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../d3js-4.5.0/d3.js"></script>
+</head>
+<body>
+
+<pre>
+，attr（）和style（）可以分别用来设置选集的HTML属性和CSS属性。
+
+</pre>
+
+
+<script>
+  var dataset = [5,10,15,20,25]
+
+
+  d3.select("body")
+          // 此时p还没有创建,返回空选集，可以认为空代表接下来会创建
+          .selectAll("p")
+          //绑定数据，解析并输出数据值，dataset数组中有5个值，后面所有方法都会执行5遍，每次针对一个值
+          .data(dataset)
+          // 要创建新的绑定数据的元素，必须用到enter(),这个方法会分析当前的dom选集和传给他的数据，
+          //如果数据值比对应dom多，就创建一个新的占位元素供你使用。
+          //然后把新元素交给下一个方法
+          .enter()
+          /* 取得enter()创建的空占位符选集，并把一个p元素附加到相应的DOM中 ，
+          *  再把创建的元素交给下一个方法
+          * */
+          .append("p")
+          // 取得传来的P元素引用，插入文本
+          // .text("new graph")
+          /*   使用自己的数据*/
+          .text(function (d) {
+            return "使用数据： "+d;
+          })
+          //添加样式
+          // .style("color","red")
+          /* 也可以使用函数,根据数据设置不同的颜色*/
+          .style("color",function (d){
+            if(d>15){
+              return "red"
+            }else {
+              return "blue"
+            }
+          })
+</script>
+
+
+
+</body>
+</html>
