@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../d3js-4.5.0/d3.js"></script>
+</head>
+<body>
+
+<pre>
+D3有一个比例尺函数生成器，通过d3.scaleLinear（）来访问。
+
+</pre>
+
+
+<script>
+    let scale = d3.scaleLinear()
+        /* 设置输入值域 */
+        .domain([100, 500])
+        /*设置输出值域*/
+        .range([10, 350])
+
+    console.log(scale(100)) // 10
+    console.log(scale(300)) // 180
+    console.log(scale(500)) // 350
+
+    var dataset = [
+        [5, 20],
+        [480, 90],
+        [250, 50],
+        [100, 33],
+        [330, 95],
+        [410, 12],
+        [475, 44],
+        [25, 67],
+        [85, 21],
+        [220, 88]
+    ]
+    var maxNum = d3.max(dataset, function (d) {
+        return d[0]
+    });
+    console.log(maxNum)
+
+</script>
+
+
+
+<pre>
+
+    要告诉max（）想比较哪个具体的值，就必须传入第二个参数，也就是一个访问器函数：
+    d3.max(dataset, function (d) {
+        return d[0]
+    });
+</pre>
+
+</body>
+</html>
