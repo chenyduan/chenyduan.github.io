@@ -9,7 +9,7 @@
 
 <script>
     // 对应 x,y坐标
-    var dataset = [
+    const dataset = [
         [5, 20],
         [480, 90],
         [250, 50],
@@ -20,9 +20,7 @@
         [25, 67],
         [85, 21],
         [220, 88]
-    ]
-
-
+    ];
 
 
     var w = 500;
@@ -36,21 +34,42 @@
     // 2017 -2 -20
     console.log(parseTime("02/20/17"))
 
-   var dateset = d3.csv("time_scale_data.csv",function (d) {
+  var dateTime = d3.csv("time_scale_data.csv",function (d) {
         return {
             Date: parseTime(d.Date),
             Amount: parseInt(d.Amount)
         }
-    })
+    },function (d) {
+       console.log(d)
+       return d;
+   })
+
 
     // 时间比例尺
   var xScale =  d3.scaleTime()
-        .domain([d3.min(dateset,function (d){
+        .domain([d3.min(dateTime,function (d){
             return d.Date
-        }),d3.max(dateset,function (d){
+        }),d3.max(dateTime,function (d){
             return d.Date
         })])
         .range([padding,w-padding])
+
+    // y轴比例尺
+    var yScale = d3.scaleLinear()
+        //输入的值域
+        .domain([0, d3.max(dateTime, function (d) {
+            return d.Amount
+        })])
+        //输出,注意这里是反过来，让最大值对应到最小值
+        .range([h-padding, padding])
+
+
+    // 半径的比例尺
+    var rScale = d3.scaleLinear()
+        .domain([0,d3.max(dataset,function (d) {
+            return d[1]
+        })])
+        .range([2,5])
 
 
     var svg = d3.select("body")
