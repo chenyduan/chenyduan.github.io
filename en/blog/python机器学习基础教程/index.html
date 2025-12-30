@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="blog-wrapper blog-post-page plugin-blog plugin-id-default" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.2">
+<title data-rh="true">python机器学习基础教程 | 寄蜉蝣于天地,渺沧海之一粟</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://chenyduan.github.io/en/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://chenyduan.github.io/en/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://chenyduan.github.io/en/blog/python机器学习基础教程"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" property="og:locale:alternate" content="zh"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docusaurus_tag" content="default"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docsearch:docusaurus_tag" content="default"><meta data-rh="true" property="og:title" content="python机器学习基础教程 | 寄蜉蝣于天地,渺沧海之一粟"><meta data-rh="true" name="description" content="https://weread.qq.com/web/bookDetail/b0d32910718ff601b0d0aee"><meta data-rh="true" property="og:description" content="https://weread.qq.com/web/bookDetail/b0d32910718ff601b0d0aee"><meta data-rh="true" property="og:type" content="article"><meta data-rh="true" property="article:published_time" content="2025-09-21T13:09:30.000Z"><link data-rh="true" rel="icon" href="/en/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://chenyduan.github.io/en/blog/python机器学习基础教程"><link data-rh="true" rel="alternate" href="https://chenyduan.github.io/en/blog/python机器学习基础教程" hreflang="en"><link data-rh="true" rel="alternate" href="https://chenyduan.github.io/blog/python机器学习基础教程" hreflang="zh"><link data-rh="true" rel="alternate" href="https://chenyduan.github.io/blog/python机器学习基础教程" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","@id":"https://chenyduan.github.io/en/blog/python机器学习基础教程","mainEntityOfPage":"https://chenyduan.github.io/en/blog/python机器学习基础教程","url":"https://chenyduan.github.io/en/blog/python机器学习基础教程","headline":"python机器学习基础教程","name":"python机器学习基础教程","description":"https://weread.qq.com/web/bookDetail/b0d32910718ff601b0d0aee","datePublished":"2025-09-21T13:09:30.000Z","author":[],"keywords":[],"isPartOf":{"@type":"Blog","@id":"https://chenyduan.github.io/en/blog","name":"Blog"}}</script><link rel="alternate" type="application/rss+xml" href="/en/blog/rss.xml" title="寄蜉蝣于天地,渺沧海之一粟 RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/en/blog/atom.xml" title="寄蜉蝣于天地,渺沧海之一粟 Atom Feed"><link rel="stylesheet" href="/en/assets/css/styles.d55402a3.css">
+<script src="/en/assets/js/runtime~main.b2de4ade.js" defer="defer"></script>
+<script src="/en/assets/js/main.49844fb4.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||"light"),document.documentElement.setAttribute("data-theme-choice",t||"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/en/img/logo.png"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/en/"><div class="navbar__logo"><img src="/en/img/logo.png" alt="My Site Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/en/img/logo.png" alt="My Site Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">My Blog</b></a><a class="navbar__item navbar__link" href="/en/docs/">Docs</a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/en/blog">Blog</a><a class="navbar__item navbar__link" href="/en/color">Color</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://github.com/facebook/docusaurus" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"><div class="navbar__search searchBarContainer_NW3z" dir="ltr"><input placeholder="Search" aria-label="Search" class="navbar__search-input searchInput_YFbd" value=""><div class="loadingRing_RJI3 searchBarLoadingRing_YnHq"><div></div><div></div><div></div><div></div></div></div></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="container margin-vert--lg"><div class="row"><aside class="col col--3"><nav class="sidebar_re4s thin-scrollbar" aria-label="Blog recent posts navigation"><div class="sidebarItemTitle_pO2u margin-bottom--md">All posts</div><div role="group"><h3 class="yearGroupHeading_rMGB">2025</h3><ul class="sidebarItemList_Yudw clean-list"><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/2017/博客收藏-基于浏览器的Oauth2应用">基于浏览器的Oauth2应用</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/2025-07/博客">2025-07/博客</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/maven/maven4">Maven</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/ai-website">AI网站书签页</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/AiGC">AiGC</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/Compose 与 Kotlin 的兼容性对应关系">Compose 与 Kotlin 的兼容性对应关系</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/DRY还是DAMP">DRY or DAMP</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/GPA">GPA</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/Git">Git</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/GitHub Actions 配置">GitHub Actions 配置</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/JVM调优参数">oracle 官方G1GC</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/Java性能权威指南（第2版）">Java性能权威指南（第2版）</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/Java虚拟机规范-JavaSE21">原文</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/Macos">Macos</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/PNPM2">PNPM2</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/SQL必知必会">本·福达 （Ben Forta）</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/ai">AI网站书签页</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/bazel-build-system">bazel 构建系统知识</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/bazel构建工具">bazel构建工具</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/excalidraw">excalidraw</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/liquibase">liquibase</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/monorepo-tech-stack">Monorepo技术栈</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/nexus3搭建NPM私服">nexus3搭建NPM私服</a></li><li class="sidebarItem__DBe"><a aria-current="page" class="sidebarItemLink_mo7H sidebarItemLinkActive_I1ZP" href="/en/blog/python机器学习基础教程">python机器学习基础教程</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/css/height">min-h-screen、min-h-[svh] 和 min-h-[svw]</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/winui3 项目 CShap版本">winui3 项目 CShap版本</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/a-tag-safe">a 标签跳转其他网站的安全问题</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/剑指JVM-虚拟机实践与性能">剑指JVM-虚拟机实践与性能</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/响应式编程">响应式编程</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/图片素材">图片素材</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/file-diff">如何记录文件变化</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/本地优先">本地优先</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/游戏引擎">游戏引擎</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/胜任力模型">胜任力模型</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/计算机是怎样跑起来的">计算机是怎样跑起来的</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/version/semver">语义化版本号</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/2017/多编程语言的软件通讯">2017/多编程语言的软件通讯</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/2017/美国免税州">2017/美国免税州</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/2025-07/Git">2025-07/Git</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/2025-07/PNPM">2025-07/PNPM</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/2025-07/deno">2025-07/deno</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/2025-07/shell工具">2025-07/shell工具</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/2025-07/看板模板-四象限TodoList">2025-07/看板模板-四象限TodoList</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/2024/1.9-webgl">2024/1.9-webgl</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/2024/Java">2024/Java</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/2024/Java字符串和16进制数转换">2024/Java字符串和16进制数转换</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/2024/Java密封类">2024/Java密封类</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/2024/Java读取文件内容的六种方式">2024/Java读取文件内容的六种方式</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/2024/Jenkins">2024/Jenkins</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/2024/Objects.requireNonNull">为什么要使用：Objects.requireNonNull</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/2024/Ubuntu 添加用户">添加用户</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/2024/javascript">2024/javascript</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/2024/jvm 参数">2024/jvm 参数</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/2024/smart原则">2024/smart原则</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/2024/弱引用">2024/弱引用</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/2024/算法的时间复杂度和空间复杂度">2024/算法的时间复杂度和空间复杂度</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/2024/连接windows 远程桌面，remote desktop">开启远程控制</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/act">act</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/GitHub/GitHub 开源项目">GitHub</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/GitHub/Web开源项目">web 开源项目</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/GitHub/shell工具">shell</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/GitHub/web 图标库">Web端图表库</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/GitHub/数据库">数据库</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/dart语言/0-flutter组件">dart语言/0-flutter组件</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/dart语言/1.1.1-lutterLogo组件">dart语言/1.1.1-lutterLogo组件</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/dart语言/1.1.2-Placeholder">dart语言/1.1.2-Placeholder</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/dart语言/1.1.3-Container">dart语言/1.1.3-Container</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/dart语言/11.1　Material风格">dart语言/11.1　Material风格</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/dart语言/Flutter">官网</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/dart语言/flutter状态管理-局部刷新--自己封装框架">dart语言/flutter状态管理-局部刷新--自己封装框架</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/error/ssh">ssh 配置不生效</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/go/Go">Go创建项目</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/go/Go函数调用">main.go</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/go/go - hello world">go/go - hello world</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/gorm">Gorm</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/swift开发/1.coredata 和swiftdata">swift开发/1.coredata 和swiftdata</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/swift开发/xcode添加包">swift开发/xcode添加包</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/域名/域名后缀">域名后缀数据</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/域名/备案">备案</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/boilerplate-and-temple">boilerplate 和 temple 的区别</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/编译原理/a-参考资料">编译原理/a-参考资料</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/编译原理/b-语言设计">设计</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/编译原理/c- 词法解析">编译原理/c- 词法解析</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/编译原理/d-字母表">编译原理/d-字母表</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/编译原理/e-有限状态自动机">编译原理/e-有限状态自动机</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/2024/01/桌面应用开发">桌面应用开发</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/编译原理/originlang语言设计/0.定义目标">编译原理/originlang语言设计/0.定义目标</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/编译原理/originlang语言设计/1. 语法设计">编译原理/originlang语言设计/1. 语法设计</a></li><li class="sidebarItem__DBe"><a class="sidebarItemLink_mo7H" href="/en/blog/编译原理/originlang语言设计/2. 项目结构设计">结构如下</a></li></ul></div></nav></aside><main class="col col--7"><article class=""><header><h1 class="title_f1Hy">python机器学习基础教程</h1><div class="container_mt6G margin-vert--md"><time datetime="2025-09-21T13:09:30.000Z">September 21, 2025</time> · <!-- -->29 min read</div></header><div id="__blog-post-container" class="markdown"><p>#Andreas_C.Muller_Sarah_Guido
+<a href="https://weread.qq.com/web/bookDetail/b0d32910718ff601b0d0aee" target="_blank" rel="noopener noreferrer" class="">https://weread.qq.com/web/bookDetail/b0d32910718ff601b0d0aee</a></p>
+<p>#todo</p>
+<p>机器学习(machine learning)是从数据中提取知识。
+它是统计学、人工智能和计算机科学交叉的研究领域，也被称为预测分析(predictive analytics)或统计学习(statistical learning)。
+近年来，机器学习方法已经应用到日常生活的方方面面。从自动推荐看什么电影、点什么食物、买什么商品，到个性化的在线电台和从照片中识别好友，
+许多现代化网站和设备的核心都是机器学习算法。当你访问像Facebook、Amazon或Netflix这样的复杂网站时，很可能网站的每一部分都包含多种机器学习模型。
+除了商业应用之外，机器学习也对当前数据驱动的研究方法产生了很大影响。
+本书中介绍的工具均已应用在各种科学问题上，比如研究恒星、寻找遥远的行星、发现新粒子、分析DNA序列，以及提供个性化的癌症治疗方案。
+不过，如果想受益于机器学习算法，你的应用无需像上面那些例子那样给世界带来重大改变，数据量也用不着那么大。
+本章将解释机器学习如此流行的原因，并探讨机器学习可以解决哪些类型的问题。然后将向你展示如何构建第一个机器学习模型，同时介绍一些重要的概念。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="11为何选择机器学习">1.1　为何选择机器学习<a href="#11为何选择机器学习" class="hash-link" aria-label="Direct link to 1.1　为何选择机器学习" title="Direct link to 1.1　为何选择机器学习" translate="no">​</a></h2>
+<p>在“智能”应用的早期，许多系统使用人为制订的“if”和“else”决策规则来处理数据，或根据用户输入的内容进行调整。
+想象有一个垃圾邮件过滤器，其任务是酌情将收到的某些邮件移动到垃圾邮件文件夹。你可以创建一个关键词黑名单，
+所有包含这些关键词的邮件都会被标记为垃圾邮件。
+这是用专家设计的规则体系来设计“智能”应用的一个示例。
+人为制订的决策规则对某些应用来说是可行的，特别是人们对其模型处理过程非常熟悉的应用。
+但是，人为制订决策规则主要有两个缺点。
+做决策所需要的逻辑只适用于单一领域和单项任务。任务哪怕稍有变化，都可能需要重写整个系统。
+想要制订规则，需要对人类专家的决策过程有很深刻的理解。</p>
+<p>这种人为制订规则的方法并不适用的一个例子就是图像中的人脸检测。如今，每台智能手机都能够检测到图像中的人脸。但直到2001年，人脸检测问题才得到解决。
+其主要问题在于，计算机“感知”像素（像素组成了计算机中的图像）的方式与人类感知面部的方式有非常大的不同。
+正是由于这种表征差异，人类想要制订出一套好的规则来描述数字图像中的人脸构成，基本上是不可能的。
+但有了机器学习算法，仅向程序输入海量人脸图像，就足以让算法确定识别人脸需要哪些特征。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="111机器学习能够解决的问题">1.1.1　机器学习能够解决的问题<a href="#111机器学习能够解决的问题" class="hash-link" aria-label="Direct link to 1.1.1　机器学习能够解决的问题" title="Direct link to 1.1.1　机器学习能够解决的问题" translate="no">​</a></h3>
+<p>最成功的机器学习算法是能够将决策过程自动化的那些算法，这些决策过程是从已知示例中泛化得出的。
+在这种叫作监督学习(supervised learning)的方法中，用户将成对的输入和预期输出提供给算法，算法会找到一种方法，根据给定输入给出预期输出。
+尤其是在没有人类帮助的情况下，给定前所未见的输入，算法也能够给出相应的输出。
+回到前面垃圾邮件分类的例子，利用机器学习算法，用户为算法提供大量电子邮件（作为输入），以及这些邮件是否为垃圾邮件的信息（作为预期输出）。
+给定一封新邮件，算法就能够预测它是否为垃圾邮件。从输入/输出对中进行学习的机器学习算法叫作监督学习算法(supervised learning algorithm)，
+因为每个用于算法学习的样例都对应一个预期输出，好像有一个“老师”在监督着算法。虽然创建一个包含输入和输出的数据集往往费时又费力，
+但监督学习算法很好理解，其性能也易于测量。如果你的应用可以表示成一个监督学习问题，并且你能够创建包含预期输出的数据集，
+那么机器学习很可能可以解决你的问题。监督机器学习任务的示例如下。</p>
+<ul>
+<li class="">识别信封上手写的邮政编码</li>
+</ul>
+<p>这里的输入是扫描的手写数字，预期输出是邮政编码中的实际数字。
+想要创建用于构建机器学习模型的数据集，你需要收集许多信封。然后你可以自己阅读邮政编码，将数字保存为预期输出。</p>
+<ul>
+<li class="">基于医学影像判断肿瘤是否为良性</li>
+</ul>
+<p>这里的输入是影像，输出是肿瘤是否为良性。想要创建用于构建模型的数据集，你需要一个医学影像数据库。
+你还需要咨询专家的意见，因此医生需要查看所有影像，然后判断哪些肿瘤是良性的，哪些不是良性的。
+除了影像内容之外，甚至可能还需要做额外的诊断来判断影像中的肿瘤是否为癌变。</p>
+<ul>
+<li class="">检测信用卡交易中的诈骗行为</li>
+</ul>
+<p>这里的输入是信用卡交易记录，输出是该交易记录是否可能为诈骗。
+假设你是信用卡的发行单位，收集数据集意味着需要保存所有的交易，并记录用户是否上报过任何诈骗交易。</p>
+<p>在这些例子中需要注意一个有趣的现象，就是虽然输入和输出看起来相当简单，但三个例子中的数据收集过程却大不相同。阅读信封虽然很辛苦，却非常简单，也不用花多少钱。与之相反，获取医学影像和诊断不仅需要昂贵的设备，还需要稀有又昂贵的专家知识，更不要说伦理问题和隐私问题了。在检测信用卡诈骗的例子中，收集数据要容易得多。你的顾客会上报诈骗行为，从而为你提供预期输出。要获取所有欺诈行为和非欺诈行为的输入/输出对，你只需等待即可。</p>
+<p>本书会讲到的另一类算法是无监督学习算法(unsupervised learning algorithm)。在无监督学习中，只有输入数据是已知的，没有为算法提供输出数据。虽然这种算法有许多成功的应用，但理解和评估这些算法往往更加困难。</p>
+<p>无监督学习的示例如下。</p>
+<ul>
+<li class="">确定一系列博客文章的主题</li>
+</ul>
+<p>如果你有许多文本数据，可能想对其进行汇总，并找到其中共同的主题。事先你可能并不知道都有哪些主题，或者可能有多少个主题。所以输出是未知的。</p>
+<ul>
+<li class="">将客户分成具有相似偏好的群组</li>
+</ul>
+<p>给定一组客户记录，你可能想要找出哪些客户比较相似，并判断能否根据相似偏好对这些客户进行分组。对于一家购物网站来说，客户分组可能是“父母”“书虫”或“游戏玩家”。由于你事先并不知道可能有哪些分组，甚至不知道有多少组，所以并不知道输出是什么。</p>
+<ul>
+<li class="">检测网站的异常访问模式</li>
+</ul>
+<p>想要识别网站的滥用或bug，找到异常的访问模式往往是很有用的。每种异常访问模式都互不相同，而且你可能没有任何记录在案的异常行为示例。
+在这个例子中你只是观察流量，并不知道什么是正常访问行为和异常访问行为，所以这是一个无监督学习问题。</p>
+<p>无论是监督学习任务还是无监督学习任务，将输入数据表征为计算机可以理解的形式都是十分重要的。通常来说，将数据想象成表格是很有用的。
+你想要处理的每一个数据点（每一封电子邮件、每一名客户、每一次交易）对应表格中的一行，
+描述该数据点的每一项属性（比如客户年龄、交易金额或交易地点）对应表格中的一列。
+你可能会从年龄、性别、账号创建时间、在你的购物网站上的购买频率等方面来描述用户。
+你可能会用每一个像素的灰度值来描述肿瘤图像，也可能利用肿瘤的大小、形状和颜色进行描述。
+在机器学习中，这里的每个实体或每一行被称为一个样本(sample)或数据点，而每一列（用来描述这些实体的属性）则被称为特征(feature)。</p>
+<p>本书后面会更详细地介绍如何构建良好的数据表征，这被称为特征提取(feature extraction)或特征工程(feature engineering)。
+但你应该记住，如果没有数据信息的话，所有机器学习算法都无法做出预测。举个例子，如果你只有病人的姓氏这一个特征，那么任何算法都无法预测其性别。
+这一信息并未包含在数据中。
+如果你添加另一个特征，里面包含病人的名字，那么你预测正确的可能性就会变大，因为通过一个人的名字往往可以判断其性别。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="112熟悉任务和数据">1.1.2　熟悉任务和数据<a href="#112熟悉任务和数据" class="hash-link" aria-label="Direct link to 1.1.2　熟悉任务和数据" title="Direct link to 1.1.2　熟悉任务和数据" translate="no">​</a></h3>
+<p>在机器学习过程中，最重要的部分很可能是理解你正在处理的数据，以及这些数据与你想要解决的任务之间的关系。
+随机选择一个算法并将你的数据输入进去，这种做法是不会有什么用的。
+在开始构建模型之前，你需要理解数据集的内容。
+每一种算法的输入数据类型和最适合解决的问题都是不一样的。
+在构建机器学习解决方案的过程中，你应该给出下列问题的答案，或者至少要将这些问题记在脑中。</p>
+<p>我想要回答的问题是什么？已经收集到的数据能够回答这个问题吗？
+要将我的问题表示成机器学习问题，用哪种方法最好？
+我收集的数据是否足够表达我想要解决的问题？
+我提取了数据的哪些特征？
+这些特征能否实现正确的预测？
+如何衡量应用是否成功？
+机器学习解决方案与我的研究或商业产品中的其他部分是如何相互影响的？</p>
+<p>从更大的层面来看，机器学习算法和方法只是解决特定问题的过程中的一部分，一定要始终牢记整个项目的大局。
+许多人浪费大量时间构建复杂的机器学习解决方案，最终却发现没有解决正确的问题。
+当深入研究机器学习的技术细节时（本书会讲到这些细节），很容易忽视最终目标。我们虽然不会详细讨论上面列出的问题，
+但仍然鼓励你记住自己在开始构建机器学习模型时做出的假设，无论是明确的还是隐含的假设。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="12为何选择python">1.2　为何选择Python<a href="#12为何选择python" class="hash-link" aria-label="Direct link to 1.2　为何选择Python" title="Direct link to 1.2　为何选择Python" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="13scikit-learn">1.3　scikit-learn<a href="#13scikit-learn" class="hash-link" aria-label="Direct link to 1.3　scikit-learn" title="Direct link to 1.3　scikit-learn" translate="no">​</a></h2>
+<p>scikit-learn是一个开源项目，可以免费使用和分发，任何人都可以轻松获取其源代码来查看其背后的原理。
+scikit-learn项目正在不断地开发和改进中，它的用户社区非常活跃。
+它包含许多目前最先进的机器学习算法，每个算法都有详细的文档(<a href="http://scikit-learn.org/stable/documentation)%E3%80%82" target="_blank" rel="noopener noreferrer" class="">http://scikit-learn.org/stable/documentation)。</a>
+scikit-learn是一个非常流行的工具，也是最有名的Python机器学习库。它广泛应用于工业界和学术界，网上有大量的教程和代码片段。
+scikit-learn也可以与其他大量Python科学计算工具一起使用，本章后面会讲到相关内容。
+在阅读本书的过程中，我们建议你同时浏览scikit-learn用户指南(<a href="http://scikit-learn.org/stable/user_guide.html)%E5%92%8CAPI%E6%96%87%E6%A1%A3%EF%BC%8C" target="_blank" rel="noopener noreferrer" class="">http://scikit-learn.org/stable/user_guide.html)和API文档，</a>
+里面给出了每个算法的更多细节和更多选项。
+在线文档非常全面，而本书会介绍机器学习的所有必备知识，以便于你深入了解。</p>
+<ul>
+<li class=""><strong>安装scikit-learn</strong></li>
+</ul>
+<p>scikit-learn依赖于另外两个Python包：NumPy和SciPy。
+若想绘图和进行交互式开发，还应该安装matplotlib、IPython和Jupyter Notebook。
+我们推荐使用下面三个预先打包的Python发行版之一，里面已经装有必要的包。
+Anaconda(<a href="https://store.continuum.io/cshop/anaconda/)%E7%94%A8%E4%BA%8E%E5%A4%A7%E8%A7%84%E6%A8%A1%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E3%80%81%E9%A2%84%E6%B5%8B%E5%88%86%E6%9E%90%E5%92%8C%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E7%9A%84Python%E5%8F%91%E8%A1%8C%E7%89%88%E3%80%82" target="_blank" rel="noopener noreferrer" class="">https://store.continuum.io/cshop/anaconda/)用于大规模数据处理、预测分析和科学计算的Python发行版。</a>
+Anaconda已经预先安装好NumPy、SciPy、matplotlib、pandas、IPython、Jupyter Notebook和scikit-learn。
+它可以在Mac OS、Windows和Linux上运行，是一种非常方便的解决方案。对于尚未安装Python科学计算包的人，我们建议使用Anaconda。
+Anaconda现在还免费提供商用的Intel MKL库。MKL（在安装Anaconda时自动安装）可以使scikit-learn中许多算法的速度大大提升。</p>
+<p><strong>Enthought Canopy(<a href="https://www.enthought.com/products/canopy/" target="_blank" rel="noopener noreferrer" class="">https://www.enthought.com/products/canopy/</a>)</strong>
+用于科学计算的另一款Python发行版。它已经预先装有NumPy、SciPy、matplotlib、pandas和IPython，但免费版没有预先安装scikit-learn。如果你是能够授予学位的学术机构的成员，可以申请学术许可，免费使用Enthought Canopy的付费订阅版。Enthought Canopy适用于Python 2.7.x，可以在Mac OS、Windows和Linux上运行。</p>
+<p><strong>Python(x,y)(<a href="http://python-xy.github.io/" target="_blank" rel="noopener noreferrer" class="">http://python-xy.github.io/</a>)</strong></p>
+<p>专门为Windows打造的Python科学计算免费发行版。Python(x,y)已经预先装有NumPy、SciPy、matplotlib、pandas、IPython和scikit-learn。如果你已经安装了Python，可以用pip安装上述所有包：</p>
+<div class="language-pip codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-pip codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">pip install numpy scipy matplotlib ipython scikit-learn pandas</span><br></span></code></pre></div></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="14必要的库和工具">1.4　必要的库和工具<a href="#14必要的库和工具" class="hash-link" aria-label="Direct link to 1.4　必要的库和工具" title="Direct link to 1.4　必要的库和工具" translate="no">​</a></h2>
+<p>了解scikit-learn及其用法是很重要的，但还有其他一些库也可以改善你的编程体验。scikit-learn是基于NumPy和SciPy科学计算库的。
+除了NumPy和SciPy，我们还会用到pandas和matplotlib。我们还会介绍Jupyter Notebook，一个基于浏览器的交互编程环境。
+简单来说，对于这些工具，你应该了解以下内容，以便充分利用scikit-learn。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="141jupyter-notebook">1.4.1　Jupyter Notebook<a href="#141jupyter-notebook" class="hash-link" aria-label="Direct link to 1.4.1　Jupyter Notebook" title="Direct link to 1.4.1　Jupyter Notebook" translate="no">​</a></h3>
+<p>Jupyter Notebook是可以在浏览器中运行代码的交互环境。这个工具在探索性数据分析方面非常有用，在数据科学家中广为使用。
+虽然Jupyter Notebook支持多种编程语言，但我们只需要支持Python即可。
+用Jupyter Notebook整合代码、文本和图像非常方便，实际上本书所有内容都是以Jupyter Notebook的形式进行编写的。
+所有代码示例都可以在GitHub下载(<a href="https://github.com/amueller/introduction_to_ml_with_python)%E3%80%82" target="_blank" rel="noopener noreferrer" class="">https://github.com/amueller/introduction_to_ml_with_python)。</a></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="142numpy">1.4.2　NumPy<a href="#142numpy" class="hash-link" aria-label="Direct link to 1.4.2　NumPy" title="Direct link to 1.4.2　NumPy" translate="no">​</a></h3>
+<p>NumPy是Python科学计算的基础包之一。它的功能包括多维数组、高级数学函数（比如线性代数运算和傅里叶变换），以及伪随机数生成器。在scikit-learn中，NumPy数组是基本数据结构。scikit-learn接受NumPy数组格式的数据。你用到的所有数据都必须转换成NumPy数组。NumPy的核心功能是ndarray类，即多维（n维）数组。数组的所有元素必须是同一类型。NumPy数组如下所示：</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="143scipy">1.4.3　SciPy<a href="#143scipy" class="hash-link" aria-label="Direct link to 1.4.3　SciPy" title="Direct link to 1.4.3　SciPy" translate="no">​</a></h3>
+<p>SciPy是Python中用于科学计算的函数集合。它具有线性代数高级程序、数学函数优化、信号处理、特殊数学函数和统计分布等多项功能。scikit-learn利用SciPy中的函数集合来实现算法。对我们来说，SciPy中最重要的是scipy.sparse：它可以给出稀疏矩阵(sparse matrice)，稀疏矩阵是scikit-learn中数据的另一种表示方法。如果想保存一个大部分元素都是0的二维数组，就可以使用稀疏矩阵：</p>
+<p>通常来说，创建稀疏数据的稠密表示(dense representation)是不可能的（因为太浪费内存），所以我们需要直接创建其稀疏表示(sparse representation)。下面给出的是创建同一稀疏矩阵的方法，用的是COO格式：
+关于SciPy稀疏矩阵的更多内容可查阅SciPy讲稿(<a href="http://www.scipy-lectures.org/)%E3%80%82" target="_blank" rel="noopener noreferrer" class="">http://www.scipy-lectures.org/)。</a></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="144matplotlib">1.4.4　matplotlib<a href="#144matplotlib" class="hash-link" aria-label="Direct link to 1.4.4　matplotlib" title="Direct link to 1.4.4　matplotlib" translate="no">​</a></h3>
+<p>matplotlib是Python主要的科学绘图库，其功能为生成可发布的可视化内容，如折线图、直方图、散点图等。将数据及各种分析可视化，可以让你产生深刻的理解，而我们将用matplotlib完成所有的可视化内容。在Jupyter Notebook中，你可以使用%matplotlib notebook和%matplotlib inline命令，将图像直接显示在浏览器中。我们推荐使用%matplotlib notebook命令，它可以提供交互环境（虽然在写作本书时我们用的是%matplotlib inline）。举个例子，下列代码会生成图1-1中的图像：</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="145pandas">1.4.5　pandas<a href="#145pandas" class="hash-link" aria-label="Direct link to 1.4.5　pandas" title="Direct link to 1.4.5　pandas" translate="no">​</a></h3>
+<p>pandas是用于处理和分析数据的Python库。它基于一种叫作DataFrame的数据结构，这种数据结构模仿了R语言中的DataFrame。简单来说，一个pandas DataFrame是一张表格，类似于Excel表格。pandas中包含大量用于修改表格和操作表格的方法，尤其是可以像SQL一样对表格进行查询和连接。NumPy要求数组中的所有元素类型必须完全相同，而pandas不是这样，每一列数据的类型可以互不相同（比如整型、日期、浮点数和字符串）。pandas的另一个强大之处在于，它可以从许多文件格式和数据库中提取数据，如SQL、Excel文件和逗号分隔值(CSV)文件。pandas的详细功能介绍已经超出了本书的范围。但Wes McKinney的《Python数据处理》[插图]一书是很好的参考指南。下面是利用字典创建DataFrame的一个小例子：</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="146mglearn">1.4.6　mglearn<a href="#146mglearn" class="hash-link" aria-label="Direct link to 1.4.6　mglearn" title="Direct link to 1.4.6　mglearn" translate="no">​</a></h3>
+<p>本书的附加代码可以在GitHub下载(<a href="https://github.com/amueller/introduction_to_ml_with_python)%E3%80%82" target="_blank" rel="noopener noreferrer" class="">https://github.com/amueller/introduction_to_ml_with_python)。</a>
+附加代码不仅包括本书中的所有示例，还包括mglearn库。这是我们为本书编写的实用函数库，以免将代码清单与绘图和数据加载的细节混在一起。
+感兴趣的话，你可以查看仓库中的所有函数，但mglearn模块的细节并不是本书的重点。
+如果你在代码中看到了对mglearn的调用，通常是用来快速美化绘图，或者用于获取一些有趣的数据。
+　本书会频繁使用NumPy、matplotlib和pandas。所有代码都默认导入了这些库：</p>
+<p>我们还假设你在Jupyter Notebook中运行代码，并使用%matplotlib notebook或%matplotlib inline魔法命令来显示图像。
+如果你没有使用Jupyter Notebook或这些魔法命令，那么就需要调用plt.show来显示图像。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="17第一个应用鸢尾花分类">1.7　第一个应用：鸢尾花分类<a href="#17第一个应用鸢尾花分类" class="hash-link" aria-label="Direct link to 1.7　第一个应用：鸢尾花分类" title="Direct link to 1.7　第一个应用：鸢尾花分类" translate="no">​</a></h2>
+<p>本节我们将完成一个简单的机器学习应用，并构建我们的第一个模型。同时还将介绍一些核心概念和术语。
+假设有一名植物学爱好者对她发现的鸢尾花的品种很感兴趣。
+她收集了每朵鸢尾花的一些测量数据：花瓣的长度和宽度以及花萼的长度和宽度，所有测量结果的单位都是厘米</p>
+<p>她还有一些鸢尾花的测量数据，这些花之前已经被植物学专家鉴定为属于setosa、versicolor或virginica三个品种之一。
+对于这些测量数据，她可以确定每朵鸢尾花所属的品种。我们假设这位植物学爱好者在野外只会遇到这三种鸢尾花。</p>
+<p>我们的目标是构建一个机器学习模型，可以从这些已知品种的鸢尾花测量数据中进行学习，从而能够预测新鸢尾花的品种。</p>
+<p>因为我们有已知品种的鸢尾花的测量数据，所以这是一个监督学习问题。
+在这个问题中，我们要在多个选项中预测其中一个（鸢尾花的品种）。这是一个<strong>分类(classification)<strong>问题的示例。
+可能的输出（鸢尾花的不同品种）叫作</strong>类别(class)</strong>。数据集中的每朵鸢尾花都属于三个类别之一，所以这是一个三分类问题。</p>
+<p>单个数据点（一朵鸢尾花）的预期输出是这朵花的品种。对于一个数据点来说，它的品种叫作<strong>标签(label)</strong>。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="171初识数据">1.7.1　初识数据<a href="#171初识数据" class="hash-link" aria-label="Direct link to 1.7.1　初识数据" title="Direct link to 1.7.1　初识数据" translate="no">​</a></h3>
+<p>本例中我们用到了鸢尾花(Iris)数据集，这是机器学习和统计学中一个经典的数据集。
+它包含在scikit-learn的datasets模块中。我们可以调用load_iris函数来加载数据：</p>
+<p>load_iris返回的iris对象是一个Bunch对象，与字典非常相似，里面包含键和值：</p>
+<p>DESCR键对应的值是数据集的简要说明。我们这里给出说明的开头部分（你可以自己查看其余的内容）：</p>
+<p>可以看出，数组中包含150朵不同的花的测量数据。前面说过，机器学习中的个体叫作样本(sample)，其属性叫作特征(feature)。data数组的形状(shape)是样本数乘以特征数。这是scikit-learn中的约定，你的数据形状应始终遵循这个约定。下面给出前5个样本的特征数值：</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="172衡量模型是否成功训练数据与测试数据">1.7.2　衡量模型是否成功：训练数据与测试数据<a href="#172衡量模型是否成功训练数据与测试数据" class="hash-link" aria-label="Direct link to 1.7.2　衡量模型是否成功：训练数据与测试数据" title="Direct link to 1.7.2　衡量模型是否成功：训练数据与测试数据" translate="no">​</a></h3>
+<p>我们想要利用这些数据构建一个机器学习模型，用于预测新测量的鸢尾花的品种。
+但在将模型应用于新的测量数据之前，我们需要知道模型是否有效，
+也就是说，我们是否应该相信它的预测结果。
+不幸的是，我们不能将用于构建模型的数据用于评估模型。
+因为我们的模型会一直记住整个训练集，所以对于训练集中的任何数据点总会预测正确的标签。
+这种“记忆”无法告诉我们模型的泛化(generalize)能力如何（换句话说，在新数据上能否正确预测）。
+我们要用新数据来评估模型的性能。
+新数据是指模型之前没有见过的数据，而我们有这些新数据的标签。
+通常的做法是将收集好的带标签数据（此例中是150朵花的测量数据）分成两部分。
+一部分数据用于构建机器学习模型，叫作<strong>训练数据(training data)或训练集(training set)</strong>。
+其余的数据用来评估模型性能，叫作<strong>测试数据(test data)、测试集(test set)或留出集(hold-out set)</strong>。</p>
+<p>scikit-learn中的train_test_split函数可以打乱数据集并进行拆分。这个函数将75%的行数据及对应标签作为训练集，剩下25%的数据及其标签作为测试集。训练集与测试集的分配比例可以是随意的，但使用25%的数据作为测试集是很好的经验法则。</p>
+<p>scikit-learn中的数据通常用大写的X表示，而标签用小写的y表示。这是受到了数学标准公式f(x)=y的启发，其中x是函数的输入，y是输出。我们用大写的X是因为数据是一个二维数组（矩阵），用小写的y是因为目标是一个一维数组（向量），这也是数学中的约定。</p>
+<p>对数据调用train_test_split，并对输出结果采用下面这种命名方法：</p>
+<p>在对数据进行拆分之前，train_test_split函数利用伪随机数生成器将数据集打乱。
+如果我们只是将最后25%的数据作为测试集，那么所有数据点的标签都是2，
+因为数据点是按标签排序的（参见之前iris[&#x27;target&#x27;]的输出）。
+测试集中只有三个类别之一，这无法告诉我们模型的泛化能力如何，
+所以我们将数据打乱，确保测试集中包含所有类别的数据。</p>
+<p>为了确保多次运行同一函数能够得到相同的输出，我们利用random_state参数指定了随机数生成器的种子。
+这样函数输出就是固定不变的，所以这行代码的输出始终相同。
+本书用到随机过程时，都会用这种方法指定random_state。</p>
+<p>train_test_split函数的输出为X_train、X_test、y_train和y_test，它们都是NumPy数组。X_train包含75%的行数据，X_test包含剩下的25%：</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="173要事第一观察数据">1.7.3　要事第一：观察数据<a href="#173要事第一观察数据" class="hash-link" aria-label="Direct link to 1.7.3　要事第一：观察数据" title="Direct link to 1.7.3　要事第一：观察数据" translate="no">​</a></h3>
+<p>在构建机器学习模型之前，通常最好检查一下数据，
+看看如果不用机器学习能不能轻松完成任务，或者需要的信息有没有包含在数据中。
+此外，检查数据也是发现异常值和特殊值的好方法。
+举个例子，可能有些鸢尾花的测量单位是英寸而不是厘米。
+在现实世界中，经常会遇到不一致的数据和意料之外的测量数据。</p>
+<p>检查数据的最佳方法之一就是将其可视化。
+一种可视化方法是绘<strong>制散点图</strong>(scatter plot)。
+数据散点图将一个特征作为x轴，另一个特征作为y轴，将每一个数据点绘制为图上的一个点。
+不幸的是，计算机屏幕只有两个维度，所以我们一次只能绘制两个特征（也可能是3个）。
+用这种方法难以对多于3个特征的数据集作图。
+解决这个问题的一种方法是绘制<strong>散点图矩阵</strong>(pair plot)，从而可以两两查看所有的特征。
+如果特征数不多的话，比如我们这里有4个，这种方法是很合理的。
+但是你应该记住，散点图矩阵无法同时显示所有特征之间的关系，
+所以这种可视化方法可能无法展示数据的某些有趣内容。</p>
+<p>图1-3是训练集中特征的散点图矩阵。数据点的颜色与鸢尾花的品种相对应。为了绘制这张图，我们首先将NumPy数组转换成pandas DataFrame。pandas有一个绘制散点图矩阵的函数，叫作scatter_matrix。矩阵的对角线是每个特征的直方图：</p>
+<p>从图中可以看出，利用花瓣和花萼的测量数据基本可以将三个类别区分开。这说明机器学习模型很可能可以学会区分它们。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="174构建第一个模型k近邻算法">1.7.4　构建第一个模型：k近邻算法<a href="#174构建第一个模型k近邻算法" class="hash-link" aria-label="Direct link to 1.7.4　构建第一个模型：k近邻算法" title="Direct link to 1.7.4　构建第一个模型：k近邻算法" translate="no">​</a></h3>
+<p>现在我们可以开始构建真实的机器学习模型了。
+scikit-learn中有许多可用的分类算法。
+这里我们用的是k近邻分类器，这是一个很容易理解的算法。
+构建此模型只需要保存训练集即可。
+要对一个新的数据点做出预测，算法会在训练集中寻找与这个新数据点距离最近的数据点
+，然后将找到的数据点的标签赋值给这个新数据点。
+k近邻算法中k的含义是，
+我们可以考虑训练集中与新数据点最近的任意k个邻居
+（比如说，距离最近的3个或5个邻居），
+而不是只考虑最近的那一个。
+然后，我们可以用这些邻居中数量最多的类别做出预测。
+第2章会进一步介绍这个算法的细节，现在我们只考虑一个邻居的情况。</p>
+<p>scikit-learn中所有的机器学习模型都在各自的类中实现，这些类被称为Estimator类。k近邻分类算法是在neighbors模块的KNeighborsClassifier类中实现的。我们需要将这个类实例化为一个对象，然后才能使用这个模型。这时我们需要设置模型的参数。KNeighborsClassifier最重要的参数就是邻居的数目，这里我们设为1：</p>
+<p>knn对象对算法进行了封装，既包括用训练数据构建模型的算法，也包括对新数据点进行预测的算法。它还包括算法从训练数据中提取的信息。对于KNeighborsClassifier来说，里面只保存了训练集。想要基于训练集来构建模型，需要调用knn对象的fit方法，输入参数为X_train和y_train，二者都是NumPy数组，前者包含训练数据，后者包含相应的训练标签：</p>
+<p>fit方法返回的是knn对象本身并做原处修改，因此我们得到了分类器的字符串表示。从中可以看出构建模型时用到的参数。几乎所有参数都是默认值，但你也会注意到n_neighbors=1，这是我们传入的参数。scikit-learn中的大多数模型都有很多参数，但多用于速度优化或非常特殊的用途。你无需关注这个字符串表示中的其他参数。打印scikit-learn模型会生成非常长的字符串，但不要被它吓到。我们会在第2章讲到所有重要的参数。在本书的其他章节中，我们不会给出fit的输出，因为里面没有包含任何新的信息。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="175做出预测">1.7.5　做出预测<a href="#175做出预测" class="hash-link" aria-label="Direct link to 1.7.5　做出预测" title="Direct link to 1.7.5　做出预测" translate="no">​</a></h3>
+<p>现在我们可以用这个模型对新数据进行预测了，我们可能并不知道这些新数据的正确标签。想象一下，我们在野外发现了一朵鸢尾花，花萼长5cm宽2.9cm，花瓣长1cm宽0.2cm。这朵鸢尾花属于哪个品种？我们可以将这些数据放在一个NumPy数组中，再次计算形状，数组形状为样本数(1)乘以特征数(4)：</p>
+<p>注意，我们将这朵花的测量数据转换为二维NumPy数组的一行，这是因为scikit-learn的输入数据必须是二维数组。我们调用knn对象的predict方法来进行预测：</p>
+<p>根据我们模型的预测，这朵新的鸢尾花属于类别0，也就是说它属于setosa品种。但我们怎么知道能否相信这个模型呢？我们并不知道这个样本的实际品种，这也是我们构建模型的重点啊！</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="176评估模型">1.7.6　评估模型<a href="#176评估模型" class="hash-link" aria-label="Direct link to 1.7.6　评估模型" title="Direct link to 1.7.6　评估模型" translate="no">​</a></h3>
+<p>这里需要用到之前创建的测试集。
+这些数据没有用于构建模型，但我们知道测试集中每朵鸢尾花的实际品种。
+因此，我们可以对测试数据中的每朵鸢尾花进行预测，
+并将预测结果与标签（已知的品种）进行对比。
+我们可以通过计算精度(accuracy)来衡量模型的优劣，
+精度就是品种预测正确的花所占的比例：</p>
+<p>我们还可以使用knn对象的score方法来计算测试集的精度：</p>
+<p>对于这个模型来说，测试集的精度约为0.97，也就是说，对于测试集中的鸢尾花，我们的预测有97%是正确的。根据一些数学假设，对于新的鸢尾花，可以认为我们的模型预测结果有97%都是正确的。对于我们的植物学爱好者应用程序来说，高精度意味着模型足够可信，可以使用。在后续章节中，我们将讨论提高性能的方法，以及模型调参时的注意事项。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="18小结与展望">1.8　小结与展望<a href="#18小结与展望" class="hash-link" aria-label="Direct link to 1.8　小结与展望" title="Direct link to 1.8　小结与展望" translate="no">​</a></h2>
+<p>总结一下本章所学的内容。
+我们首先简要介绍了机器学习及其应用，
+然后讨论了监督学习和无监督学习之间的区别，
+并简要介绍了本书将会用到的工具。
+随后，我们构思了一项任务，要利用鸢尾花的物理测量数据来预测其品种。
+我们在构建模型时用到了由专家标注过的测量数据集，专家已经给出了花的正确品种，
+因此这是一个监督学习问题。
+一共有三个品种：setosa、versicolor或virginica，因此这是一个三分类问题。
+在分类问题中，可能的品种被称为类别(class)，
+每朵花的品种被称为它的标签(label)。</p>
+<p>鸢尾花(Iris)数据集包含两个NumPy数组：
+一个包含数据，在scikit-learn中被称为X；
+一个包含正确的输出或预期输出，被称为y。
+数组X是特征的二维数组，每个数据点对应一行，每个特征对应一列。
+数组y是一维数组，里面包含一个类别标签，对每个样本都是一个0到2之间的整数。</p>
+<p>我们将数据集分成训练集(training set)和测试集(test set)，前者用于构建模型，
+后者用于评估模型对前所未见的新数据的泛化能力。</p>
+<p>我们选择了k近邻分类算法，
+根据新数据点在训练集中距离最近的邻居来进行预测。
+该算法在KNeighborsClassifier类中实现，里面既包含构建模型的算法，
+也包含利用模型进行预测的算法。我们将类实例化，并设定参数。
+然后调用fit方法来构建模型，传入训练数据(X_train)和训练输出(y_trian)作为参数。
+我们用score方法来评估模型，该方法计算的是模型精度。
+我们将score方法用于测试集数据和测试集标签，
+得出模型的精度约为97%，也就是说，该模型在测试集上97%的预测都是正确的。</p>
+<p>这让我们有信心将模型应用于新数据（在我们的例子中是新花的测量数据），并相信模型在约97%的情况下都是正确的。
+下面汇总了整个训练和评估过程所必需的代码：</p>
+<p>这个代码片段包含了应用scikit-learn中任何机器学习算法的核心代码。fit、predict和score方法是scikit-learn监督学习模型中最常用的接口。学完本章介绍的概念，你可以将这些模型应用到许多机器学习任务上。下一章，我们会更深入地介绍scikit-learn中各种类型的监督学习模型，以及这些模型的正确使用方法。</p></div><footer class="docusaurus-mt-lg"><div class="row margin-top--sm theme-blog-footer-edit-meta-row"><div class="col noPrint_WFHX"><a href="https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/python机器学习基础教程.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Blog post page navigation"><a class="pagination-nav__link pagination-nav__link--prev" href="/en/blog/nexus3搭建NPM私服"><div class="pagination-nav__sublabel">Newer post</div><div class="pagination-nav__label">nexus3搭建NPM私服</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/en/blog/css/height"><div class="pagination-nav__sublabel">Older post</div><div class="pagination-nav__label">min-h-screen、min-h-[svh] 和 min-h-[svw]</div></a></nav></main><div class="col col--2"><div class="tableOfContents_bqdL thin-scrollbar"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#11为何选择机器学习" class="table-of-contents__link toc-highlight">1.1　为何选择机器学习</a><ul><li><a href="#111机器学习能够解决的问题" class="table-of-contents__link toc-highlight">1.1.1　机器学习能够解决的问题</a></li><li><a href="#112熟悉任务和数据" class="table-of-contents__link toc-highlight">1.1.2　熟悉任务和数据</a></li></ul></li><li><a href="#12为何选择python" class="table-of-contents__link toc-highlight">1.2　为何选择Python</a></li><li><a href="#13scikit-learn" class="table-of-contents__link toc-highlight">1.3　scikit-learn</a></li><li><a href="#14必要的库和工具" class="table-of-contents__link toc-highlight">1.4　必要的库和工具</a><ul><li><a href="#141jupyter-notebook" class="table-of-contents__link toc-highlight">1.4.1　Jupyter Notebook</a></li><li><a href="#142numpy" class="table-of-contents__link toc-highlight">1.4.2　NumPy</a></li><li><a href="#143scipy" class="table-of-contents__link toc-highlight">1.4.3　SciPy</a></li><li><a href="#144matplotlib" class="table-of-contents__link toc-highlight">1.4.4　matplotlib</a></li><li><a href="#145pandas" class="table-of-contents__link toc-highlight">1.4.5　pandas</a></li><li><a href="#146mglearn" class="table-of-contents__link toc-highlight">1.4.6　mglearn</a></li></ul></li><li><a href="#17第一个应用鸢尾花分类" class="table-of-contents__link toc-highlight">1.7　第一个应用：鸢尾花分类</a><ul><li><a href="#171初识数据" class="table-of-contents__link toc-highlight">1.7.1　初识数据</a></li><li><a href="#172衡量模型是否成功训练数据与测试数据" class="table-of-contents__link toc-highlight">1.7.2　衡量模型是否成功：训练数据与测试数据</a></li><li><a href="#173要事第一观察数据" class="table-of-contents__link toc-highlight">1.7.3　要事第一：观察数据</a></li><li><a href="#174构建第一个模型k近邻算法" class="table-of-contents__link toc-highlight">1.7.4　构建第一个模型：k近邻算法</a></li><li><a href="#175做出预测" class="table-of-contents__link toc-highlight">1.7.5　做出预测</a></li><li><a href="#176评估模型" class="table-of-contents__link toc-highlight">1.7.6　评估模型</a></li></ul></li><li><a href="#18小结与展望" class="table-of-contents__link toc-highlight">1.8　小结与展望</a></li></ul></div></div></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/en/docs/">Docs</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://stackoverflow.com/questions/tagged/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">Stack Overflow<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://discordapp.com/invite/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discord<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://x.com/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">X<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/en/blog">Blog</a></li><li class="footer__item"><a href="https://github.com/facebook/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 My Project.</div></div></div></footer></div>
+</body>
+</html>

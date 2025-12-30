@@ -1,0 +1,1268 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>寄蜉蝣于天地,渺沧海之一粟 Blog</title>
+        <link>https://chenyduan.github.io/en/blog</link>
+        <description>寄蜉蝣于天地,渺沧海之一粟 Blog</description>
+        <lastBuildDate>Sun, 02 Nov 2025 10:26:13 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[基于浏览器的Oauth2应用]]></title>
+            <link>https://chenyduan.github.io/en/blog/2017/博客收藏-基于浏览器的Oauth2应用</link>
+            <guid>https://chenyduan.github.io/en/blog/2017/博客收藏-基于浏览器的Oauth2应用</guid>
+            <pubDate>Sun, 02 Nov 2025 10:26:13 GMT</pubDate>
+            <description><![CDATA[https://www.ietf.org/archive/id/draft-ietf-oauth-browser-based-apps-15.html#name-token-mediating-backend]]></description>
+            <content:encoded><![CDATA[<p><a href="https://www.ietf.org/archive/id/draft-ietf-oauth-browser-based-apps-15.html#name-token-mediating-backend" target="_blank" rel="noopener noreferrer" class="">https://www.ietf.org/archive/id/draft-ietf-oauth-browser-based-apps-15.html#name-token-mediating-backend</a></p>
+<h1>spring data jpa 最佳方式</h1>
+<p><a href="https://vladmihalcea.com/spring-data-jpa-specification/#more-26869" target="_blank" rel="noopener noreferrer" class="">https://vladmihalcea.com/spring-data-jpa-specification/#more-26869</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[2025-07/博客]]></title>
+            <link>https://chenyduan.github.io/en/blog/2025-07/博客</link>
+            <guid>https://chenyduan.github.io/en/blog/2025-07/博客</guid>
+            <pubDate>Sun, 02 Nov 2025 10:26:13 GMT</pubDate>
+            <description><![CDATA[- 在debian上安装jdk21]]></description>
+            <content:encoded><![CDATA[<ul>
+<li class="">在debian上安装jdk21</li>
+<li class=""><a href="https://computingforgeeks.com/install-java-jdk-or-openjdk-21-on-debian/" target="_blank" rel="noopener noreferrer" class="">https://computingforgeeks.com/install-java-jdk-or-openjdk-21-on-debian/</a></li>
+</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Maven]]></title>
+            <link>https://chenyduan.github.io/en/blog/maven/maven4</link>
+            <guid>https://chenyduan.github.io/en/blog/maven/maven4</guid>
+            <pubDate>Tue, 07 Oct 2025 06:04:27 GMT</pubDate>
+            <description><![CDATA[maven4 升级]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="maven4-升级">maven4 升级<a href="https://chenyduan.github.io/en/blog/maven/maven4#maven4-%E5%8D%87%E7%BA%A7" class="hash-link" aria-label="Direct link to maven4 升级" title="Direct link to maven4 升级" translate="no">​</a></h2>
+<ul>
+<li class="">
+<p>安装maven4</p>
+</li>
+<li class="">
+<p>从 maven4-rc-4 开始,自带了升级工具</p>
+</li>
+<li class="">
+<p>执行升级检测  <code>mvnup check --model-version 4.1.0 --all</code></p>
+</li>
+<li class="">
+<p>执行升级命令  <code>mvnup apply --model-version 4.1.0 --all</code></p>
+</li>
+</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[AI网站书签页]]></title>
+            <link>https://chenyduan.github.io/en/blog/ai-website</link>
+            <guid>https://chenyduan.github.io/en/blog/ai-website</guid>
+            <pubDate>Sun, 21 Sep 2025 13:09:30 GMT</pubDate>
+            <description><![CDATA[AI网站书签页]]></description>
+            <content:encoded><![CDATA[<ul>
+<li class="">
+<a href="https://chatgpt.com/" target="_blank">OpenAI ChatGPT</a>
+</li>
+<li class="">
+<a href="https://gemini.google.com/app" target="_blank">Google Gemini</a>
+</li>
+<li class="">
+<a href="https://claude.ai/new" target="_blank">Anthropic Claude</a>
+</li>
+<li class="">
+<a href="https://www.cursor.com/" target="_blank">Cursor AI IDE</a>
+</li>
+<li class="">
+<a href="https://codeium.com/" target="_blank">Windsurf Codeium IDE</a>
+</li>
+<li class="">
+<a href="https://github.com/copilot" target="_blank">GitHub Copilot</a>
+</li>
+</ul>
+<h1>AI游戏</h1>
+<ul>
+<li class="">
+<a href="https://www.aidungeon.io/" target="_blank">AI Dungeon Game</a>
+</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="ai-ide插件">AI IDE/插件<a href="https://chenyduan.github.io/en/blog/ai-website#ai-ide%E6%8F%92%E4%BB%B6" class="hash-link" aria-label="Direct link to AI IDE/插件" title="Direct link to AI IDE/插件" translate="no">​</a></h2>
+<table><thead><tr><th>名称</th><th>价格</th><th>可用量</th><th>官网</th></tr></thead><tbody><tr><td>cursor</td><td>20美元/月</td><td>快速500,慢速无限制</td><td>(<a href="https://www.cursor.com/download" target="_blank" rel="noopener noreferrer" class="">https://www.cursor.com/download</a>)</td></tr><tr><td>Codeium windsurf</td><td>16</td><td></td><td>(<a href="https://www.codeium.com/download" target="_blank" rel="noopener noreferrer" class="">https://www.codeium.com/download</a>)</td></tr><tr><td>github copilot</td><td>10</td><td></td><td><a href="https://github.com/features/copilot/plans" target="_blank" rel="noopener noreferrer" class="">https://github.com/features/copilot/plans</a></td></tr><tr><td>zencoder</td><td></td><td>无限制</td><td><a href="https://zencoder.ai/pricing" target="_blank" rel="noopener noreferrer" class="">https://zencoder.ai/pricing</a></td></tr><tr><td>trae (国产)</td><td></td><td></td><td><a href="https://www.trae.ai/" target="_blank" rel="noopener noreferrer" class="">https://www.trae.ai/</a></td></tr><tr><td>clinet( vs 插件)</td><td></td><td></td><td><a href="https://cline.bot/" target="_blank" rel="noopener noreferrer" class="">https://cline.bot/</a></td></tr><tr><td>Aider     终端</td><td></td><td></td><td><a href="https://github.com/Aider-AI/aider" target="_blank" rel="noopener noreferrer" class="">https://github.com/Aider-AI/aider</a></td></tr><tr><td>Jetbrain 插件</td><td></td><td></td><td><a href="https://www.jetbrains.com/junie/#join-waitlist" target="_blank" rel="noopener noreferrer" class="">https://www.jetbrains.com/junie/#join-waitlist</a></td></tr></tbody></table>]]></content:encoded>
+            <category>2024</category>
+        </item>
+        <item>
+            <title><![CDATA[AiGC]]></title>
+            <link>https://chenyduan.github.io/en/blog/AiGC</link>
+            <guid>https://chenyduan.github.io/en/blog/AiGC</guid>
+            <pubDate>Sun, 21 Sep 2025 13:09:30 GMT</pubDate>
+            <description><![CDATA[https://civitai.com]]></description>
+            <content:encoded><![CDATA[<p><a href="https://civitai.com/" target="_blank" rel="noopener noreferrer" class="">https://civitai.com</a></p>
+<p><a href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqa3pKNFEyVDVWQ2cwbWxYX2pXTXR0Nm5fbVpLd3xBQ3Jtc0tuOEFOS2JfSHdGdlBfdk9hV0ViY2N1eFRMaEtZZm43bWFDR2JNb29kd0l1R1BvY2dNbmFDaWl4RU5raTd0VVNtejFKZmxMMUkweUVXRXRzS2pCTWFiam5KZVhJd3h4cEp4TDgycHczUjdZWkpTNldvUQ&amp;q=https%3A%2F%2Fpixverse.ai%2F&amp;v=SgVJ-1-a1xI" target="_blank" rel="noopener noreferrer" class="">https://pixverse.ai/</a> <a href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbUpOMS05eVpMQWNuUzg1LUo2VEU5RjZlRDZDZ3xBQ3Jtc0treXotWWZicEpXMF9qUS01WTBDOFBSellXN1BYb3MtOGZ1bGNKZDE1aUtzaGxZZmtmUXRFN2doUXIwWUU1YzdfQVU3NWhPOWFQT0VQN1AtSDVUQ2dkNHg5QzJyN3Bkd3RUZGJ4dElIVkpMMWo0ZWtXZw&amp;q=https%3A%2F%2Frunwayml.com%2F&amp;v=SgVJ-1-a1xI" target="_blank" rel="noopener noreferrer" class="">https://runwayml.com/</a> <a href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbm1uNW1GM0ZLcHpFMVhvNWlET1JicGZ1RTBNZ3xBQ3Jtc0tsLTVXOXdnaUFRUjcxNm9SekdKYmp4OElLSVhTOU1ycUx0TWZsUGRmYkVuYTRpTHo2SHhpOGJIblBwdy12bFI0V3o1Q2lPVVdWbjZVZjdSREZQQkJRZEVhWnIwWHlVclU4RWdQY01qVTVtU2dGSDVPaw&amp;q=https%3A%2F%2Fwww.genmo.ai%2F&amp;v=SgVJ-1-a1xI" target="_blank" rel="noopener noreferrer" class="">https://www.genmo.ai/</a> <a href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbEpCZ0o5Ykh2Q0paNEFWWGpBQnRpUG1IcW5nZ3xBQ3Jtc0traWtvUHo1Vl9KbGdzT1VDa0pXeUw2bVNQR25IOXMxbUxndEtYbEZQUG93Wml5ejJiMndocVVJSzdkQUVrTmswS0N3REk4THI4LW5wc042Nkp0RmQ4RlBZTnFUOVpEcjRvcFdZYVVfeVRiakd4VmxRNA&amp;q=https%3A%2F%2Fleonardo.ai%2F&amp;v=SgVJ-1-a1xI" target="_blank" rel="noopener noreferrer" class="">https://leonardo.ai/</a> <a href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbFlOa0VBTnlOWDhWOEpUVU5jNjh3dHNwc3QzZ3xBQ3Jtc0ttZGstLTY5SlMyVjRmaV9sdTZMNnpMcm5DanRPVllZVXFYYXZGNy00eEJaR1VRcTNJNm1WRldfaHhtRUFFSTgtdGg2U1QwTWRnbWJZa0hDMnFLQUFTVWYyZGozNU1TdGJSRlBvRk5ldTNIaW80aktpQQ&amp;q=https%3A%2F%2Fhaiper.ai%2F&amp;v=SgVJ-1-a1xI" target="_blank" rel="noopener noreferrer" class="">https://haiper.ai/</a></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="提示词">提示词<a href="https://chenyduan.github.io/en/blog/AiGC#%E6%8F%90%E7%A4%BA%E8%AF%8D" class="hash-link" aria-label="Direct link to 提示词" title="Direct link to 提示词" translate="no">​</a></h2>
+<ul>
+<li class="">masterpiece 杰作</li>
+<li class="">best quality 最佳品质</li>
+<li class="">ultra highres 超高分辨率</li>
+<li class="">8k resolution 8k分辨率</li>
+<li class="">realistic 逼真</li>
+<li class="">ultra detailed 超细致</li>
+<li class="">Sharp focus 锐焦-景深</li>
+<li class="">RAW- photo raw照片</li>
+</ul>
+<p>1 girl（1个女孩），detailed beautiful skin（细致的皮肤）kind smile（甜美笑容）solo（单独）absurdres</p>
+<p>（夸张）detailed beautiful face（细致美颜） petitefigure（身材较小）detailed skin texture（细致肌理）</p>
+<p>pale skin（白皙的皮肤） high gap（大腿缝隙）detailedhair（细致头发）random hair style（发型随机）</p>
+<p>detailed eyes（细致的眼睛）glistening skin（晶莹剔透的肌肤）portrait photo（人像写真）</p>
+<h1>权重</h1>
+<ul>
+<li class="">用小括号括起来</li>
+<li class="">输入:1.0-1.4 的权重</li>
+</ul>
+<h1>not suitable for work（办公场所不宜）</h1>
+<p>(nsfw:1.4)</p>
+<p>EasyNegative（负能量）worstquality（最差质量）low quality（低质量）normal quality（正常质量）</p>
+<p>bad legs ,error legs,bad feet,malformed limbs,extra limbs,age spot,6'more fingers on one hand</p>
+<p>lowers (降低) monochrome (单色) grayscales (灰度</p>
+<p>照片）skin spots（皮肤斑点）acnes（痤疮患者）skinblemishes（皮肤瑕疵）age spot（老年斑）6'morefingers on one hand（一只手有6个以上的手指）</p>
+<p>deformity（畸形）bad legs（坏的腿）error legs（错误的腿）bad feet（坏脚）malformed limbs（畸形的肢体）extra limbs（额外的肢体）</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Compose 与 Kotlin 的兼容性对应关系]]></title>
+            <link>https://chenyduan.github.io/en/blog/Compose 与 Kotlin 的兼容性对应关系</link>
+            <guid>https://chenyduan.github.io/en/blog/Compose 与 Kotlin 的兼容性对应关系</guid>
+            <pubDate>Sun, 21 Sep 2025 13:09:30 GMT</pubDate>
+            <description><![CDATA[- 安卓官网查询]]></description>
+            <content:encoded><![CDATA[<ul>
+<li class="">安卓官网查询</li>
+<li class=""><a href="https://developer.android.com/jetpack/androidx/releases/compose-kotlin?hl=zh-cn" target="_blank" rel="noopener noreferrer" class="">https://developer.android.com/jetpack/androidx/releases/compose-kotlin?hl=zh-cn</a></li>
+<li class="">androidx查询</li>
+<li class=""><a href="https://androidx.dev/storage/compose-compiler/repository" target="_blank" rel="noopener noreferrer" class="">https://androidx.dev/storage/compose-compiler/repository</a></li>
+</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[DRY or DAMP]]></title>
+            <link>https://chenyduan.github.io/en/blog/DRY还是DAMP</link>
+            <guid>https://chenyduan.github.io/en/blog/DRY还是DAMP</guid>
+            <pubDate>Sun, 21 Sep 2025 13:09:30 GMT</pubDate>
+            <description><![CDATA[代码]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="代码">代码<a href="https://chenyduan.github.io/en/blog/DRY%E8%BF%98%E6%98%AFDAMP#%E4%BB%A3%E7%A0%81" class="hash-link" aria-label="Direct link to 代码" title="Direct link to 代码" translate="no">​</a></h2>
+<p>使用 DRY 原则</p>
+<p>DRY（Don't Repeat Yourself）原则是软件开发中的一个重要原则，旨在减少代码重复，提高代码的可维护性和可读性。DRY 原则的核心思想是：每一段知识都应该在系统中有一个单一、明确的表示。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="测试用例">测试用例<a href="https://chenyduan.github.io/en/blog/DRY%E8%BF%98%E6%98%AFDAMP#%E6%B5%8B%E8%AF%95%E7%94%A8%E4%BE%8B" class="hash-link" aria-label="Direct link to 测试用例" title="Direct link to 测试用例" translate="no">​</a></h2>
+<p>偏向 DAMP （Descriptive And Meaningful Phrases）原则，强调测试用例的可读性和可理解性。DAMP 原则的核心思想是：测试用例应该使用描述性和有意义的短语，以便于其他开发人员理解其意图和目的。</p>
+<p>DAMP 原则的目标是使测试用例易于阅读和理解，从而提高测试的可维护性和可读性。DAMP 原则强调使用描述性和有意义的短语来命名测试用例，以便于其他开发人员理解其意图和目的。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="配置文件">配置文件<a href="https://chenyduan.github.io/en/blog/DRY%E8%BF%98%E6%98%AFDAMP#%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6" class="hash-link" aria-label="Direct link to 配置文件" title="Direct link to 配置文件" translate="no">​</a></h2>
+<p>偏向 DAMP 原则，强调配置文件的可读性和可理解性。DAMP 原则的核心思想是：配置文件应该使用描述性和有意义的短语，以便于其他开发人员理解其意图和目的。</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[GPA]]></title>
+            <link>https://chenyduan.github.io/en/blog/GPA</link>
+            <guid>https://chenyduan.github.io/en/blog/GPA</guid>
+            <pubDate>Sun, 21 Sep 2025 13:09:30 GMT</pubDate>
+            <description><![CDATA[jcuda]]></description>
+            <content:encoded><![CDATA[<p>jcuda</p>
+<p><a href="http://javagl.de/jcuda.org/downloads/downloads.html" target="_blank" rel="noopener noreferrer" class="">http://javagl.de/jcuda.org/downloads/downloads.html</a></p>
+<p><a href="https://scoop.sh/" target="_blank" rel="noopener noreferrer" class="">https://scoop.sh/</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Git]]></title>
+            <link>https://chenyduan.github.io/en/blog/Git</link>
+            <guid>https://chenyduan.github.io/en/blog/Git</guid>
+            <pubDate>Sun, 21 Sep 2025 13:09:30 GMT</pubDate>
+            <description><![CDATA[https://www.sourcetreeapp.com/]]></description>
+            <content:encoded><![CDATA[<p><a href="https://www.sourcetreeapp.com/" target="_blank" rel="noopener noreferrer" class="">https://www.sourcetreeapp.com/</a></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="命令">命令<a href="https://chenyduan.github.io/en/blog/Git#%E5%91%BD%E4%BB%A4" class="hash-link" aria-label="Direct link to 命令" title="Direct link to 命令" translate="no">​</a></h2>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[GitHub Actions 配置]]></title>
+            <link>https://chenyduan.github.io/en/blog/GitHub Actions 配置</link>
+            <guid>https://chenyduan.github.io/en/blog/GitHub Actions 配置</guid>
+            <pubDate>Sun, 21 Sep 2025 13:09:30 GMT</pubDate>
+            <description><![CDATA[仓库->setting->security->secrets and variables]]></description>
+            <content:encoded><![CDATA[<p>仓库-&gt;setting-&gt;security-&gt;secrets and variables</p>
+<h6 class="anchor anchorTargetStickyNavbar_Vzrq" id="secrets-配置-这里我都配置成-secrets没有配置成-variables">secrets 配置 (这里我都配置成 secrets，没有配置成 variables)<a href="https://chenyduan.github.io/en/blog/GitHub%20Actions%20%E9%85%8D%E7%BD%AE#secrets-%E9%85%8D%E7%BD%AE-%E8%BF%99%E9%87%8C%E6%88%91%E9%83%BD%E9%85%8D%E7%BD%AE%E6%88%90-secrets%E6%B2%A1%E6%9C%89%E9%85%8D%E7%BD%AE%E6%88%90-variables" class="hash-link" aria-label="Direct link to secrets 配置 (这里我都配置成 secrets，没有配置成 variables)" title="Direct link to secrets 配置 (这里我都配置成 secrets，没有配置成 variables)" translate="no">​</a></h6>
+<p>JD_SERVER_IP     xxxxxxxx
+JD_SSH_USERNAME    xxxxx
+JD_SSH_PRIVATE_KEY_PASSWORD  xxxxx</p>
+<p>SSH_PRIVATE_KEY
+私钥</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[oracle 官方G1GC]]></title>
+            <link>https://chenyduan.github.io/en/blog/JVM调优参数</link>
+            <guid>https://chenyduan.github.io/en/blog/JVM调优参数</guid>
+            <pubDate>Sun, 21 Sep 2025 13:09:30 GMT</pubDate>
+            <description><![CDATA[https://www.oracle.com/technical-resources/articles/java/g1gc.html]]></description>
+            <content:encoded><![CDATA[<p><a href="https://www.oracle.com/technical-resources/articles/java/g1gc.html" target="_blank" rel="noopener noreferrer" class="">https://www.oracle.com/technical-resources/articles/java/g1gc.html</a></p>
+<blockquote>
+<blockquote>
+<p>评估和微调 G1 GC 时，请记住以下建议：
+年轻代大小：避免使用 -Xmn 选项或 -XX<!-- -->:NewRatio<!-- --> 等其他相关选项显式设置年轻代大小。固定年轻代的大小会覆盖暂停时间目标。</p>
+</blockquote>
+</blockquote>
+<h1>JVM调优总结</h1>
+<p><a href="https://blog.csdn.net/RickyIT/article/details/53895060" target="_blank" rel="noopener noreferrer" class="">https://blog.csdn.net/RickyIT/article/details/53895060</a></p>
+<h1>jdk21的垃圾回收器</h1>
+<ul>
+<li class="">G1 (Garbage First) 垃圾回收器：</li>
+</ul>
+<p>适用于大堆内存的应用程序（通常超过4GB的堆内存）。
+适用于需要较低停顿时间的应用程序，因为它的主要目标是降低垃圾回收停顿时间。
+适用于多核处理器和大内存的服务器，因为它可以充分利用多核 CPU 和大内存来实现高吞吐量。</p>
+<ul>
+<li class="">Parallel 垃圾回收器：</li>
+</ul>
+<p>适用于需要高吞吐量的应用程序，它的主要目标是最大化应用程序的吞吐量。
+适用于拥有大量 CPU 资源的服务器，因为它能够充分利用多核 CPU。
+不适用于需要低停顿时间的应用程序，因为它的停顿时间通常较长。</p>
+<ul>
+<li class="">Z Garbage Collector：</li>
+</ul>
+<p>适用于需要非常低的垃圾回收停顿时间的应用程序。它的主要目标是最小化停顿时间。
+适用于需要预测性能的应用程序，因为它通过控制垃圾回收停顿时间来提供可预测的性能。
+适用于大堆内存的应用程序，可以有效减小大堆内存的停顿时间。</p>
+<ul>
+<li class="">Shenandoah 垃圾回收器：</li>
+</ul>
+<p>适用于需要极低停顿时间的应用程序。它的设计目标是最小化垃圾回收引起的停顿时间。
+适用于大堆内存的应用程序，因为它可以有效减小大堆内存的停顿时间。</p>
+<ul>
+<li class="">Epsilon 垃圾回收器：</li>
+</ul>
+<p>Epsilon 不是一个传统的垃圾回收器，而是一种实验性的垃圾回收器，其主要设计目标是完全消除垃圾回收停顿时间。
+适用于一些特殊场景，如非常短寿命的应用程序或需要尽量减小垃圾回收开销的场合。不适用于大多数生产环境。
+以上是 JDK 21 中常见的垃圾回收器及其主要应用场景的总结。在实际应用中，根据应用程序的性能需求、硬件配置和其他因素，你可以选择合适的垃圾回收器，并根据具体情况进行性能测试和调优。不同的垃圾回收器提供了不同的权衡，因此根据应用程序的特点进行选择非常重要。</p>
+<p>JDK 21 默认的垃圾回收器（Garbage Collector）是 G1（Garbage First）垃圾回收器。在 JDK 9 和之后的版本中，G1 成为默认的垃圾回收器，取代了之前的默认垃圾回收器 Parallel 垃圾回收器。当你没有显式指定其他垃圾回收器时，JDK 21 使用 G1 垃圾回收器作为默认选项。</p>
+<h1>JDK21参数</h1>
+<p>在 JDK 21 或其他较新版本中，你可以使用一些优化参数来提高 Java 应用程序的性能。以下是一些常见的 JDK 21 优化参数的建议：</p>
+<p>选择垃圾回收器：选择适合你的应用程序的垃圾回收器。JDK 21通常支持多种垃圾回收器，如 G1、Parallel 和 Z Garbage Collector。你可以使用 -XX:+UseG1GC、-XX:+UseParallelGC 或 -XX:+UseZGC 来选择相应的垃圾回收器。不同的垃圾回收器适用于不同的用例，所以要根据你的应用程序需求来选择。</p>
+<p>调整堆大小：通过 -Xms 和 -Xmx 参数来调整堆大小。合理的堆大小设置可以减少垃圾回收的频率，从而提高性能。</p>
+<p>启用编译优化：使用 -XX:+TieredCompilation 启用分层编译，这将在运行时进行更多的 JIT 编译，提高应用程序的性能。</p>
+<p>启用性能分析工具：使用 -XX:+PrintCompilation 和 -XX:+PrintGC 等参数启用性能分析工具，以帮助你了解应用程序的行为并进行性能调优。</p>
+<p>启用启动优化：使用 -XX:+UseAppCDS 启用应用程序类数据共享，以加速应用程序的启动时间。</p>
+<p>启用多线程处理器：使用 -XX:+UseNUMA 来启用非一致性内存访问 (NUMA) 支持，以提高多核系统上的性能。</p>
+<p>使用合适的 NIO 缓冲区大小：根据你的应用程序需求，合理选择 NIO 缓冲区的大小，以减少 I/O 操作的开销。</p>
+<p>启用并行处理：如果你的应用程序可以受益于并行处理，可以使用并行库和线程池来加速处理。</p>
+<p>避免不必要的同步：减少不必要的锁和同步操作，以提高多线程应用程序的性能。</p>
+<p>使用性能分析工具：使用性能分析工具（如 VisualVM、YourKit 或 Flight Recorder）来识别性能瓶颈，并进行进一步的优化。</p>
+<p>需要注意的是，优化参数的选择应该根据你的具体应用程序需求和硬件环境来进行调整。
+在使用这些参数之前，建议先进行基准测试和性能分析，以确保它们对你的应用程序产生积极的影响。不同应用程序可能需要不同的参数设置，因此需要根据具体情况来进行调整。</p>
+<h1>jdk21参数</h1>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain"># 设置堆的最大大小：这将设置堆的最大大小为 4GB。您可以根据可用的内存资源来调整此值。</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">"-XX:MaxHeapSize=4G",\</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># 设置新生代堆大小的百分比：这将设置新生代堆大小为堆的 30%。您可以根据应用程序的需求和性能来调整此值。</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">"-XX:G1NewSizePercent=30",\</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">#设置新生代堆大小的最大百分比：这将设置新生代堆的最大大小为堆的 60%。这个参数用于限制新生代堆大小的上限。</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">"-XX:G1MaxNewSizePercent=60",\</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># 最大垃圾回收暂停时间200ms,这将设置垃圾回收的最大暂停时间目标为 200 毫秒。您可以根据您的应用程序对停顿时间的需求进行调整。</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">"-XX:MaxGCPauseMillis=200",\</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># 设置堆区域大小：这将设置 G1 垃圾回收器的堆区域大小为 2MB。默认值通常是 1MB。调整堆区域大小可以影响 G1 的性能。</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">"-XX:G1HeapRegionSize=2M",\</span><br></span></code></pre></div></div>
+<h1>docker</h1>
+<div class="language-dockerfile codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-dockerfile codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">FROM openjdk:17.0.2</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">ADD ./knowledge-api-server/target/knowledge-api-server-dev.jar  knowledge-api-server-dev.jar</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">EXPOSE 12121 2898</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">ENTRYPOINT ["java",\</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">"--enable-preview",\</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># 最大堆大小 等同于-XX:MaxHeapSize</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">"-Xmx1g",\</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># 启动时分配，初始堆大小</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">"-Xms1g",\</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">"-Xmn512m",\</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># 启用G1</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">"-XX:+UseG1GC",\</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># 为每个线程分配</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">"-Xss512k",\</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">"-XX:MaxDirectMemorySize=512m",\</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">"-XX:+DisableExplicitGC",\</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">"-Dspring.profiles.active=dev",\</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">"-Dserver.port=12121",\</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">"-Djava.rmi.server.hostname=192.168.3.5",\</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">"-Dcom.sun.management.jmxremote.rmi.port=2898",\</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">"-Dcom.sun.management.jmxremote=true",\</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">"-Dcom.sun.management.jmxremote.port=2898",\</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">"-Dcom.sun.management.jmxremote.authenticate=false",\</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">"-Dcom.sun.management.jmxremote.ssl=false",\</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">"-Dcom.sun.management.jmxremote.local.only=false",\</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">"-Dfile.encoding=utf-8","-Djava.security.egd=file:/dev/./urandom","-jar","-Duser.timezone=GMT+8","/knowledge-api-server-dev.jar"]</span><br></span></code></pre></div></div>
+<h1>VisualVM、YourKit 或 Flight Recorder</h1>
+<ul>
+<li class="">Remote 右键</li>
+<li class="">Add Remote Host</li>
+<li class="">Add JMX Connection 输入 192.168.3.55:2898</li>
+</ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Java性能权威指南（第2版）]]></title>
+            <link>https://chenyduan.github.io/en/blog/Java性能权威指南（第2版）</link>
+            <guid>https://chenyduan.github.io/en/blog/Java性能权威指南（第2版）</guid>
+            <pubDate>Sun, 21 Sep 2025 13:09:30 GMT</pubDate>
+            <description><![CDATA[https://github.com/ScottOaks/JavaPerformanceTuning]]></description>
+            <content:encoded><![CDATA[<p>#auth/斯科特-奥克斯</p>
+<p><a href="https://github.com/ScottOaks/JavaPerformanceTuning" target="_blank" rel="noopener noreferrer" class="">https://github.com/ScottOaks/JavaPerformanceTuning</a></p>
+<h1>第一章 导论</h1>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="11-概述">1.1 概述<a href="https://chenyduan.github.io/en/blog/Java%E6%80%A7%E8%83%BD%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97%EF%BC%88%E7%AC%AC2%E7%89%88%EF%BC%89#11-%E6%A6%82%E8%BF%B0" class="hash-link" aria-label="Direct link to 1.1 概述" title="Direct link to 1.1 概述" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="12-平台和约定">1.2 平台和约定<a href="https://chenyduan.github.io/en/blog/Java%E6%80%A7%E8%83%BD%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97%EF%BC%88%E7%AC%AC2%E7%89%88%EF%BC%89#12-%E5%B9%B3%E5%8F%B0%E5%92%8C%E7%BA%A6%E5%AE%9A" class="hash-link" aria-label="Direct link to 1.2 平台和约定" title="Direct link to 1.2 平台和约定" translate="no">​</a></h2>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[原文]]></title>
+            <link>https://chenyduan.github.io/en/blog/Java虚拟机规范-JavaSE21</link>
+            <guid>https://chenyduan.github.io/en/blog/Java虚拟机规范-JavaSE21</guid>
+            <pubDate>Sun, 21 Sep 2025 13:09:30 GMT</pubDate>
+            <description><![CDATA[https://docs.oracle.com/javase/specs/jvms/se21/html/index.html]]></description>
+            <content:encoded><![CDATA[<p><a href="https://docs.oracle.com/javase/specs/jvms/se21/html/index.html" target="_blank" rel="noopener noreferrer" class="">https://docs.oracle.com/javase/specs/jvms/se21/html/index.html</a></p>
+<h1>1简介</h1>
+<h1>2 Java虚拟机的结构</h1>
+<p>本文档指定了一个抽象机。它没有描述 Java 虚拟机的任何特定实现。</p>
+<p>要正确实现Java虚拟机，您只需要能够读取class文件格式并正确执行其中指定的操作即可。不属于 Java 虚拟机规范的实现细节将不必要地限制实现者的创造力。例如，运行时数据区域的内存布局、使用的垃圾收集算法以及 Java 虚拟机指令的任何内部优化（例如，将它们转换为机器代码）都由实现者自行决定。</p>
+<p>本规范中对 Unicode 的所有引用均根据Unicode 标准版本 15.0给出，可从 获取<a href="https://www.unicode.org/%E3%80%82" target="_blank" rel="noopener noreferrer" class="">https://www.unicode.org/。</a></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="21-文件class格式">2.1 文件class格式<a href="https://chenyduan.github.io/en/blog/Java%E8%99%9A%E6%8B%9F%E6%9C%BA%E8%A7%84%E8%8C%83-JavaSE21#21-%E6%96%87%E4%BB%B6class%E6%A0%BC%E5%BC%8F" class="hash-link" aria-label="Direct link to 2.1 文件class格式" title="Direct link to 2.1 文件class格式" translate="no">​</a></h2>
+<p>由 Java 虚拟机执行的编译代码使用独立于硬件和操作系统的二进制格式表示，
+通常（但不一定）存储在文件中，称为文件格式class。
+文件class格式精确定义了类或接口的表示，包括字节顺序等细节，这些细节在特定于平台的目标文件格式中可能被认为是理所当然的。</p>
+<p>第 4 章“class文件格式”class详细介绍了文件格式。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="22-数据类型">2.2. 数据类型<a href="https://chenyduan.github.io/en/blog/Java%E8%99%9A%E6%8B%9F%E6%9C%BA%E8%A7%84%E8%8C%83-JavaSE21#22-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B" class="hash-link" aria-label="Direct link to 2.2. 数据类型" title="Direct link to 2.2. 数据类型" translate="no">​</a></h2>
+<p>与 Java 编程语言一样，Java 虚拟机对两种类型进行操作：基元类型和引用类型。
+相应地，可以存储在变量中、作为参数传递、由方法返回和操作的值也有两种：基元值和引用值。</p>
+<p>Java 虚拟机希望几乎所有的类型检查都在运行前完成，通常由编译器完成，Java 虚拟机本身无需进行类型检查。
+原始类型的值无需标记，也无需以其他方式进行检查，以便在运行时确定其类型，或将其与引用类型的值区分开来。相反，Java 虚拟机的指令集会使用旨在对特定类型的值进行操作的指令来区分其操作数类型。例如，iadd、ladd、fadd 和 dadd 都是 Java 虚拟机指令，用于将两个数值相加并产生数值结果，但每条指令都针对其操作数类型（分别为 int、long、float 和 double）进行了专门处理。有关 Java 虚拟机指令集的类型支持概要，请参阅第 2.11.1 节。</p>
+<p>Java 虚拟机包含对对象的明确支持。对象是动态分配的类实例或数组。对对象的引用被视为 Java 虚拟机类型引用。引用类型的值可视为指向对象的指针。
+一个对象可能存在多个引用。对象总是通过类型引用的值进行操作、传递和测试。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="23原始类型和值">2.3.原始类型和值<a href="https://chenyduan.github.io/en/blog/Java%E8%99%9A%E6%8B%9F%E6%9C%BA%E8%A7%84%E8%8C%83-JavaSE21#23%E5%8E%9F%E5%A7%8B%E7%B1%BB%E5%9E%8B%E5%92%8C%E5%80%BC" class="hash-link" aria-label="Direct link to 2.3.原始类型和值" title="Direct link to 2.3.原始类型和值" translate="no">​</a></h2>
+<p>Java 虚拟机支持的基本数据类型是 数字类型、boolean类型（第 2.3.4 节）和returnAddress类型（第 2.3.3 节）。</p>
+<p>数字类型由整型 （§2.3.1）和浮点类型（§2.3.2）组成。</p>
+<p>积分类型有：</p>
+<p>byte，其值为 8 位有符号补码整数，默认值为 0</p>
+<p>short，其值为 16 位有符号补码整数，默认值为 0</p>
+<p>int，其值为 32 位有符号二进制补码整数，其默认值为零</p>
+<p>long，其值为 64 位有符号二进制补码整数，其默认值为零</p>
+<p>char，其值为 16 位无符号整数，表示基本多语言平面中的 Unicode 代码点，使用 UTF-16 编码，其默认值为空代码点 ( '\u0000')</p>
+<p>浮点类型有：</p>
+<p>float，其值与 32 位 IEEE 754 二进制 32 格式表示的值完全对应，并且其默认值为正零</p>
+<p>double，其值与 64 位 IEEE 754 二进制 64 格式的值完全对应，其默认值为正零</p>
+<p>该boolean类型的值对真值true和 进行编码false，默认值为false。</p>
+<p>第一版Java ® 虚拟机规范并不认为 boolean是 Java 虚拟机类型。然而，boolean值在 Java 虚拟机中的支持确实有限。《Java ®虚拟机规范》第二版通过将其视为boolean一种类型 来澄清该问题。</p>
+<p>该returnAddress类型的值是指向 Java 虚拟机指令的操作码的指针。在原始类型中，只有returnAddress类型不与 Java 编程语言类型直接关联。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="231-整数类型和值">2.3.1. 整数类型和值<a href="https://chenyduan.github.io/en/blog/Java%E8%99%9A%E6%8B%9F%E6%9C%BA%E8%A7%84%E8%8C%83-JavaSE21#231-%E6%95%B4%E6%95%B0%E7%B1%BB%E5%9E%8B%E5%92%8C%E5%80%BC" class="hash-link" aria-label="Direct link to 2.3.1. 整数类型和值" title="Direct link to 2.3.1. 整数类型和值" translate="no">​</a></h3>
+<p>Java虚拟机的整数类型的值为：</p>
+<p>对于byte，从 -128 到 127（-2 7到 2 7 - 1），包括边界值</p>
+<p>对于short，从 -32768 到 32767（-2 15到 2 15 - 1），包括边界值</p>
+<p>对于int，从 -2147483648 到 2147483647（-2 31到 2 31 - 1），包括边界值</p>
+<p>对于long，从 -9223372036854775808 到 9223372036854775807（-2 63到 2 63 - 1），包括边界值</p>
+<p>对于char，从 0 到 65535（含）</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="232-浮点类型和值">2.3.2. 浮点类型和值<a href="https://chenyduan.github.io/en/blog/Java%E8%99%9A%E6%8B%9F%E6%9C%BA%E8%A7%84%E8%8C%83-JavaSE21#232-%E6%B5%AE%E7%82%B9%E7%B1%BB%E5%9E%8B%E5%92%8C%E5%80%BC" class="hash-link" aria-label="Direct link to 2.3.2. 浮点类型和值" title="Direct link to 2.3.2. 浮点类型和值" translate="no">​</a></h3>
+<p>浮点类型为float和double，
+它们在概念上与 IEEE 754 值和运算的 32 位 binary32 和 64 位 binary64 浮点格式相关联，如 IEEE 754 标准 (JLS §1.7) 中所指定。</p>
+<p>在 Java SE 15 及更高版本中，Java 虚拟机使用 2019 版 IEEE 754 标准。
+在 Java SE 15 之前，Java 虚拟机使用 1985 版本的 IEEE 754 标准，其中 binary32 格式称为单格式，binary64 格式称为双格式。</p>
+<p>IEEE 754 不仅包括由符号和大小组成的正数和负数，还包括正零和负零、
+正无穷大和负无穷大以及特殊的非数字值（以下缩写为 NaN）。NaN 值用于表示某些无效运算的结果，例如零除零。
+float和类型的 NaN 常量double预定义为 Float.NaN和Double.NaN。</p>
+<p>浮点类型的有限非零值都可以用 s ⋅ m ⋅ 2 ( e - N+ 1)的形式表示，其中：</p>
+<p>s为+1 或-1，</p>
+<p>m是小于 2 的正整数N，</p>
+<p>e是E min = -(2 K -1 -2) 和 E max = 2 K -1 -1之间的整数（ 含），并且</p>
+<p>N和K是取决于类型的参数。</p>
+<p>某些值可以通过多种方式以这种形式表示。
+例如，假设v浮点类型的值可以使用s、m和 e的某些值以这种形式表示，那么如果碰巧m是偶数且e小于 2 K -1，则可以将m减半并将e加 1，以生成相同值的第二个表示形式v。</p>
+<p>如果m ≥ 2 -1 ，则 这种形式的表示称为 归一化；否则该表示被认为是次正规的。
+如果浮点类型的值不能以m ≥ 2 -1的方式表示，则该值被称为次正规值，因为其大小低于最小标准化值的大小。 N N</p>
+<p>表 2.3.2-A总结了和的参数N和K（以及导出的参数E min和E max） 的约束。 floatdouble</p>
+<p>表 2.3.2-A。浮点参数</p>
+<p>范围	float	double
+N	24	53
+K	8	11
+最大E	+127	+1023
+最小E	-126	-1022
+除 NaN 外，浮点值都是有序的。从最小到最大排列时，它们是负无穷大、负有限非零值、正零和负零、正有限非零值和正无穷大。</p>
+<p>IEEE 754 允许其每个二进制 32 和二进制 64 浮点格式有多个不同的 NaN 值。
+然而，Java SE 平台通常将给定浮点类型的 NaN 值视为折叠为单个规范值，因此本规范通常将任意 NaN 视为规范值。</p>
+<p>在 IEEE 754 下，具有非 NaN 参数的浮点运算可能会生成 NaN 结果。
+IEEE 754 指定了一组 NaN 位模式，但不强制使用哪种特定 NaN 位模式来表示 NaN 结果；这是留给硬件架构的。
+程序员可以创建具有不同位模式的 NaN 来编码，例如，回顾性诊断信息。
+这些 NaN 值可以分别使用和 的 Float.intBitsToFloat和 Double.longBitsToDouble方法创建 。
+相反，要检查 NaN 值的位模式，和 方法可分别用于 和。 floatdoubleFloat.floatToRawIntBitsDouble.doubleToRawLongBitsfloatdouble</p>
+<p>正零和负零比较相等，但还有其他操作可以区分它们；例如，除以 1.0产生0.0正无穷大，但除以1.0产生 -0.0负无穷大。</p>
+<p>NaN 是无序的false，因此数值比较和数值相等测试如果其中一个或两个操作数都是 NaN，则具有值。
+false特别是，当且仅当该值为 NaN 时，对值与其自身进行数值相等的测试才具有该值。
+true如果任一操作数为 NaN，则 数值不等式测试具有该值。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="233-类型returnaddress和值">2.3.3. 类型returnAddress和值<a href="https://chenyduan.github.io/en/blog/Java%E8%99%9A%E6%8B%9F%E6%9C%BA%E8%A7%84%E8%8C%83-JavaSE21#233-%E7%B1%BB%E5%9E%8Breturnaddress%E5%92%8C%E5%80%BC" class="hash-link" aria-label="Direct link to 2.3.3. 类型returnAddress和值" title="Direct link to 2.3.3. 类型returnAddress和值" translate="no">​</a></h3>
+<p>该returnAddress类型由 Java 虚拟机的jsr、ret和jsr_w指令（§ jsr、§ ret、 § jsr_w）使用。
+该returnAddress 类型的值是指向 Java 虚拟机指令的操作码的指针。
+与数字基元类型不同，该returnAddress类型不对应于任何 Java 编程语言类型，并且不能由正在运行的程序修改。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="234-类型boolean_">2.3.4. 类型boolean_<a href="https://chenyduan.github.io/en/blog/Java%E8%99%9A%E6%8B%9F%E6%9C%BA%E8%A7%84%E8%8C%83-JavaSE21#234-%E7%B1%BB%E5%9E%8Bboolean_" class="hash-link" aria-label="Direct link to 2.3.4. 类型boolean_" title="Direct link to 2.3.4. 类型boolean_" translate="no">​</a></h3>
+<p>尽管Java虚拟机定义了 boolean类型，但它只提供非常有限的支持。
+不存在专门用于boolean 值操作的 Java 虚拟机指令。
+相反，Java 编程语言中对 boolean值进行操作的表达式被编译为使用 Java 虚拟机int数据类型的值。</p>
+<p>Java 虚拟机直接支持boolean数组。它的newarray指令（§ newarray）可以创建boolean 数组。
+使用数组指令baload和bastore （§ baload、 § bastore） boolean访问和修改 类型的数组。byte</p>
+<p>在 Oracle 的 Java 虚拟机实现中，booleanJava 编程语言中的数组被编码为 Java 虚拟机byte数组，每个 boolean元素使用 8 位。</p>
+<p>Java 虚拟机使用to 表示和to 表示 来对boolean 数组组件进行编码。当编译器将 Java 编程语言值映射到 Java 虚拟机类型的值时，编译器必须使用相同的编码。
+1true0falsebooleanint</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="24-参考类型和值">2.4. 参考类型和值<a href="https://chenyduan.github.io/en/blog/Java%E8%99%9A%E6%8B%9F%E6%9C%BA%E8%A7%84%E8%8C%83-JavaSE21#24-%E5%8F%82%E8%80%83%E7%B1%BB%E5%9E%8B%E5%92%8C%E5%80%BC" class="hash-link" aria-label="Direct link to 2.4. 参考类型和值" title="Direct link to 2.4. 参考类型和值" translate="no">​</a></h2>
+<p>类型分为三种reference ：类类型、数组类型和接口类型。
+它们的值分别是对动态创建的类实例、数组或实现接口的类实例或数组的引用。</p>
+<p>数组类型由 具有单一维度的组件类型组成（其长度不是由类型给出的）。数组类型的组件类型本身可以是数组类型。
+如果从任何数组类型开始，考虑其组件类型，然后（如果这也是数组类型）该类型的组件类型，依此类推，最终必须到达不是数组类型的组件类型；
+这称为数组类型的元素类型。数组类型的元素类型必须是基元类型、类类型或接口类型。</p>
+<p>值reference也可以是特殊的空引用，即对无对象的引用，此处用 表示null。
+该null引用最初没有运行时类型，但可以转换为任何类型。reference类型的默认值为null。</p>
+<p>本规范不强制要求具体的值编码null。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="25-运行时数据区">2.5. 运行时数据区<a href="https://chenyduan.github.io/en/blog/Java%E8%99%9A%E6%8B%9F%E6%9C%BA%E8%A7%84%E8%8C%83-JavaSE21#25-%E8%BF%90%E8%A1%8C%E6%97%B6%E6%95%B0%E6%8D%AE%E5%8C%BA" class="hash-link" aria-label="Direct link to 2.5. 运行时数据区" title="Direct link to 2.5. 运行时数据区" translate="no">​</a></h2>
+<p>Java 虚拟机定义了程序执行期间使用的各种运行时数据区域。
+其中一些数据区域是在 Java 虚拟机启动时创建的，并且仅在 Java 虚拟机终止时才被销毁。
+其他数据区域是每个线程的。每个线程的数据区域在创建线程时创建，并在线程终止时销毁。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="251-pc-registerpc寄存器">2.5.1. pc register(PC寄存器)<a href="https://chenyduan.github.io/en/blog/Java%E8%99%9A%E6%8B%9F%E6%9C%BA%E8%A7%84%E8%8C%83-JavaSE21#251-pc-registerpc%E5%AF%84%E5%AD%98%E5%99%A8" class="hash-link" aria-label="Direct link to 2.5.1. pc register(PC寄存器)" title="Direct link to 2.5.1. pc register(PC寄存器)" translate="no">​</a></h3>
+<p>Java 虚拟机可以同时支持多个执行线程（JLS §17）。
+每个Java虚拟机线程都有自己的 pc（程序计数器）寄存器。
+在任何时候，每个 Java 虚拟机线程都在执行单个方法的代码，即该线程的当前方法（第 2.6 节）。
+如果该方法不是 native，则pc寄存器包含当前正在执行的 Java 虚拟机指令的地址。
+如果线程当前正在执行的方法是native，则Java虚拟机寄存器的值pc 是未定义的。
+Java 虚拟机的pc寄存器足够宽，可以容纳returnAddress特定平台上的一个或一个本机指针。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="252-java-虚拟机栈">2.5.2. Java 虚拟机栈<a href="https://chenyduan.github.io/en/blog/Java%E8%99%9A%E6%8B%9F%E6%9C%BA%E8%A7%84%E8%8C%83-JavaSE21#252-java-%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%A0%88" class="hash-link" aria-label="Direct link to 2.5.2. Java 虚拟机栈" title="Direct link to 2.5.2. Java 虚拟机栈" translate="no">​</a></h3>
+<p><strong>每个Java虚拟机线程都有一个私有的Java虚拟机栈，与线程同时创建。</strong>
+Java 虚拟机栈存储帧（§2.6）。
+Java虚拟机栈类似于C等传统语言的栈：它保存局部变量和部分结果，并在方法调用和返回中发挥作用。
+由于除了推送和弹出帧之外，Java 虚拟机栈从不直接操作，因此帧可能是堆分配的。Java 虚拟机栈的内存不需要是连续的。</p>
+<p>在Java®虚拟机规范第一版中，Java 虚拟机栈被称为Java栈。</p>
+<p>该规范允许 Java 虚拟机栈具有固定大小或根据计算的需要动态扩展和收缩。
+如果Java虚拟机栈具有固定大小，则每个Java虚拟机栈的大小可以在创建该栈时独立选择。</p>
+<p>Java虚拟机实现可以为程序员或用户提供对Java虚拟机栈的初始大小的控制，以及在动态扩展或收缩Java虚拟机栈的情况下，对最大和最小大小的控制。</p>
+<p>以下异常情况与 Java 虚拟机堆栈相关：</p>
+<p>如果线程中的计算需要比允许的更大的 Java 虚拟机栈，则 Java 虚拟机会抛出StackOverflowError.</p>
+<p>如果 Java 虚拟机栈可以动态扩展，并且尝试扩展但没有足够的内存来实现扩展，
+或者如果没有足够的内存来为新线程创建初始 Java 虚拟机栈， 则 Java 虚拟机栈机器抛出一个OutOfMemoryError.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="253-堆">2.5.3. 堆<a href="https://chenyduan.github.io/en/blog/Java%E8%99%9A%E6%8B%9F%E6%9C%BA%E8%A7%84%E8%8C%83-JavaSE21#253-%E5%A0%86" class="hash-link" aria-label="Direct link to 2.5.3. 堆" title="Direct link to 2.5.3. 堆" translate="no">​</a></h3>
+<p>Java 虚拟机有一个在所有 Java 虚拟机线程之间共享的堆。堆是运行时数据区域，所有类实例和数组的内存都从这里分配。</p>
+<p>堆是在虚拟机启动时创建的。对象的堆存储由自动存储管理系统（称为垃圾收集器）回收；对象永远不会被显式释放。
+Java虚拟机不假设特定类型的自动存储管理系统，并且可以根据实现者的系统要求来选择存储管理技术。
+堆可以是固定大小的，或者可以根据计算的需要进行扩展，并且如果不需要更大的堆，则可以收缩。堆的内存不需要是连续的。</p>
+<p>Java虚拟机实现可以为程序员或用户提供对堆的初始大小的控制，并且如果堆可以动态扩展或收缩，则可以对最大和最小堆大小进行控制。</p>
+<p>以下异常情况与堆相关：</p>
+<p>如果计算需要的堆多于自动存储管理系统所能提供的堆，Java 虚拟机将抛出一个 OutOfMemoryError.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="254-方法区">2.5.4. 方法区<a href="https://chenyduan.github.io/en/blog/Java%E8%99%9A%E6%8B%9F%E6%9C%BA%E8%A7%84%E8%8C%83-JavaSE21#254-%E6%96%B9%E6%B3%95%E5%8C%BA" class="hash-link" aria-label="Direct link to 2.5.4. 方法区" title="Direct link to 2.5.4. 方法区" translate="no">​</a></h3>
+<p>Java 虚拟机有一个在所有 Java 虚拟机线程之间共享的方法区。
+方法区类似于传统语言的编译代码的存储区或者类似于操作系统进程中的“文本”段。
+它存储每个类的结构，例如运行时常量池、字段和方法数据，以及方法和构造函数的代码，包括类和接口初始化以及实例初始化中使用的特殊方法（第 2.9 节）。</p>
+<p>方法区是在虚拟机启动时创建的。尽管方法区在逻辑上是堆的一部分，但简单的实现可以选择不进行垃圾收集或压缩它。
+本规范不强制要求方法区的位置或用于管理编译代码的策略。
+方法区可以是固定大小的，或者可以根据计算的需要来扩展，并且如果不需要更大的方法区，则可以收缩。方法区的内存不需要是连续的。</p>
+<p>Java虚拟机实现可以为程序员或用户提供对方法区的初始大小的控制，以及在方法区大小变化的情况下，对最大和最小方法区大小的控制。</p>
+<p>以下异常情况与方法区相关：</p>
+<p>如果方法区中的内存无法满足分配请求，Java 虚拟机将抛出一个OutOfMemoryError.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="255运行时常量池">2.5.5。运行时常量池<a href="https://chenyduan.github.io/en/blog/Java%E8%99%9A%E6%8B%9F%E6%9C%BA%E8%A7%84%E8%8C%83-JavaSE21#255%E8%BF%90%E8%A1%8C%E6%97%B6%E5%B8%B8%E9%87%8F%E6%B1%A0" class="hash-link" aria-label="Direct link to 2.5.5。运行时常量池" title="Direct link to 2.5.5。运行时常量池" translate="no">​</a></h3>
+<p>运行时常量池是constant_pool文件中表的每个类或每个接口的运行时表示class（第 4.4 节）。
+它包含多种常量，范围从编译时已知的数字文字到必须在运行时解析的方法和字段引用。
+运行时常量池的功能类似于传统编程语言的符号表，尽管它包含比典型符号表更广泛的数据。</p>
+<p>每个运行时常量池都是从 Java 虚拟机的方法区（第 2.5.4 节）分配的。类或接口的运行时常量池是在Java 虚拟机 创建类或接口（第 5.3 节）时构造的。</p>
+<p>以下异常情况与类或接口的运行时常量池的构造相关：</p>
+<p>创建类或接口时，如果运行时常量池的构造需要的内存多于 Java 虚拟机方法区中可用的内存，Java 虚拟机将抛出一个OutOfMemoryError.</p>
+<p>有关运行时常量池构造的信息， 请参阅§5（加载、链接和初始化） 。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="256本机方法栈">2.5.6。本机方法栈<a href="https://chenyduan.github.io/en/blog/Java%E8%99%9A%E6%8B%9F%E6%9C%BA%E8%A7%84%E8%8C%83-JavaSE21#256%E6%9C%AC%E6%9C%BA%E6%96%B9%E6%B3%95%E6%A0%88" class="hash-link" aria-label="Direct link to 2.5.6。本机方法栈" title="Direct link to 2.5.6。本机方法栈" translate="no">​</a></h3>
+<p>Java虚拟机的实现可以使用传统的栈（通俗地称为“C栈”）来支持native方法（以除Java编程语言之外的语言编写的方法）。
+本机方法栈也可以由 Java 虚拟机指令集的解释器的实现使用，例如 C 语言。
+无法加载方法并且本身不依赖于常规栈的 Java 虚拟机实现不需要提供本机方法native 栈。
+如果提供了本机方法栈，则通常会在创建每个线程时为每个线程分配本机方法栈。</p>
+<p>该规范允许本机方法栈具有固定大小或根据计算的需要动态扩展和收缩。如果本机方法栈具有固定大小，则每个本机方法栈的大小可以在创建该栈时独立选择。</p>
+<p>Java虚拟机实现可以为程序员或用户提供对本机方法栈的初始大小的控制，以及在不同大小的本机方法栈的情况下，对最大和最小方法栈大小的控制。</p>
+<p>以下异常情况与本机方法栈相关：</p>
+<p>如果线程中的计算需要比允许的更大的本机方法栈，则 Java 虚拟机会抛出StackOverflowError.</p>
+<p>如果可以动态扩展本机方法栈并尝试扩展本机方法栈，但可用内存不足，或者没有足够的内存来为新线程创建初始本机方法栈，则 Java 虚拟机将抛出OutOfMemoryError.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="26frames">2.6。frames<a href="https://chenyduan.github.io/en/blog/Java%E8%99%9A%E6%8B%9F%E6%9C%BA%E8%A7%84%E8%8C%83-JavaSE21#26frames" class="hash-link" aria-label="Direct link to 2.6。frames" title="Direct link to 2.6。frames" translate="no">​</a></h2>
+<p>框架 用于存储数据和部分结果，以及执行动态链接、方法的返回值和分派异常 。</p>
+<p>每次调用方法时都会创建一个新框架。当其方法调用完成时，框架将被销毁，无论该完成是正常完成还是突然完成（它会引发未捕获的异常）。
+帧是从创建帧的线程的Java 虚拟机栈（第 2.5.2 节）分配的。
+每个帧都有自己的局部变量数组（第 2.6.1 节）、自己的操作数栈（第 2.6.2 节）以及对当前方法的类的运行时常量池（第 2.5.5 节）的引用。</p>
+<p>帧可以用附加的特定于实现的信息来扩展，例如调试信息。</p>
+<p>局部变量数组和操作数栈的大小在编译时确定，并与与帧关联的方法的代码一起提供（第 4.7.3 节）。
+因此，帧数据结构的大小仅取决于Java虚拟机的实现，并且这些结构的内存可以在方法调用时同时分配。</p>
+<p>在给定的控制线程中，只有一帧（执行方法的帧）在任何点处于活动状态。
+该帧称为当前帧，其方法称为当前方法。
+定义当前方法的类是当前类。对局部变量和操作数栈的操作通常参考当前帧。</p>
+<p>如果一个框架的方法调用另一个方法或者它的方法完成，那么该框架就不再是当前的。
+调用方法时，将创建一个新框架，并在控制权转移到新方法时成为当前框架。
+在方法返回时，当前帧将其方法调用的结果（如果有）传回前一帧。
+当前一帧成为当前帧时，当前帧将被丢弃。</p>
+<p>请注意，<strong>线程创建的帧是该线程本地的，不能被任何其他线程引用</strong>。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="261-局部变量">2.6.1. 局部变量<a href="https://chenyduan.github.io/en/blog/Java%E8%99%9A%E6%8B%9F%E6%9C%BA%E8%A7%84%E8%8C%83-JavaSE21#261-%E5%B1%80%E9%83%A8%E5%8F%98%E9%87%8F" class="hash-link" aria-label="Direct link to 2.6.1. 局部变量" title="Direct link to 2.6.1. 局部变量" translate="no">​</a></h3>
+<p>每个帧（第 2.6节）包含一个称为局部变量的变量数组。
+框架的局部变量数组的长度在编译时确定，并以类或接口的二进制表示形式以及与框架关联的方法的代码提供（第 4.7.3 节）。</p>
+<p>boolean单个局部变量可以保存、byte、char、short、int、 float、reference、 或类型的值returnAddress。
+一对局部变量可以保存类型为long或的值double。</p>
+<p>局部变量通过索引来寻址。第一个局部变量的索引为零。
+当且仅当该整数介于零和比局部变量数组的大小小一之间时，该整数才被视为局部变量数组的索引。</p>
+<p>long一个type或type的值double占用两个连续的局部变量。
+这样的值只能使用较小的索引来寻址。
+例如，存储在索引为ndouble的局部变量数组中的类型值 实际上占用了索引为n和 n +1的局部变量；
+但是，无法加载索引n +1处的局部变量。可以将其存储到. 但是，这样做会使局部变量n的内容无效。</p>
+<p>Java虚拟机不要求 n是偶数。
+直观地说，类型long和 的值double不需要在局部变量数组中进行 64 位对齐。
+实现者可以自由决定使用为该值保留的两个局部变量来表示这些值的适当方式。</p>
+<p>Java 虚拟机使用局部变量在方法调用时传递参数。
+在类方法调用时，任何参数都以从局部变量0开始的连续局部变量传递。
+在实例方法调用时，局部变量0始终用于传递对正在调用实例方法的对象的引用（this在 Java 编程语言中）。
+随后，所有参数都会在从局部变量1开始的连续局部变量中传递。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="262-操作数栈">2.6.2. 操作数栈<a href="https://chenyduan.github.io/en/blog/Java%E8%99%9A%E6%8B%9F%E6%9C%BA%E8%A7%84%E8%8C%83-JavaSE21#262-%E6%93%8D%E4%BD%9C%E6%95%B0%E6%A0%88" class="hash-link" aria-label="Direct link to 2.6.2. 操作数栈" title="Direct link to 2.6.2. 操作数栈" translate="no">​</a></h3>
+<p>每个帧（§2.6）包含一个后进先出（LIFO）堆栈，称为操作数堆栈。帧的操作数堆栈的最大深度在编译时确定，并与与帧关联的方法的代码一起提供（第 4.7.3 节）。</p>
+<p>在上下文清楚的情况下，我们有时会将当前帧的操作数堆栈简称为操作数堆栈。</p>
+<p>创建包含操作数堆栈的帧时，操作数堆栈为空。Java 虚拟机提供将局部变量或字段中的常量或值加载到操作数堆栈上的指令。其他 Java 虚拟机指令从操作数堆栈中获取操作数，对其进行操作，然后将结果推回操作数堆栈。操作数堆栈还用于准备要传递给方法的参数以及接收方法结果。</p>
+<p>例如，iadd 指令 ( § iadd ) 将两个int值相加。它要求int要添加的值是操作数堆栈的顶部两个值，由先前的指令推送到那里。这两个int值都从操作数堆栈中弹出。它们被相加，并且它们的和被推回操作数栈。子计算可以嵌套在操作数堆栈上，从而产生可由包含计算使用的值。</p>
+<p>操作数堆栈上的每个条目都可以保存任何 Java 虚拟机类型的值，包括 type long或 type的值double。</p>
+<p>操作数堆栈中的值必须以适合其类型的方式进行操作。例如，不可能推入两个int值，然后将它们视为 a long，或者推入两个值，然后使用iaddfloat指令将它们相加。少量 Java 虚拟机指令（dup指令 ( § dup ) 和swap ( § swap )）将运行时数据区域作为原始值进行操作，而不考虑其具体类型；这些指令的定义方式使其不能用于修改或分解单个值。这些对操作数堆栈操作的限制是通过文件验证强制执行的（第 4.10 节）。 class</p>
+<p>在任何时间点，操作数堆栈都具有关联的深度，其中 或 类型的值long贡献 double两个单位的深度，而任何其他类型的值贡献一个单位的深度。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="263-动态链接">2.6.3. 动态链接<a href="https://chenyduan.github.io/en/blog/Java%E8%99%9A%E6%8B%9F%E6%9C%BA%E8%A7%84%E8%8C%83-JavaSE21#263-%E5%8A%A8%E6%80%81%E9%93%BE%E6%8E%A5" class="hash-link" aria-label="Direct link to 2.6.3. 动态链接" title="Direct link to 2.6.3. 动态链接" translate="no">​</a></h3>
+<p>每个帧（§2.6 ）包含对当前方法类型的运行时常量池（ §2.5.5 ）的引用，以支持方法代码的动态链接。class方法的文件代码是指通过符号引用调用的方法和访问的变量。动态链接将这些符号方法引用转换为具体方法引用，根据需要加载类以解析尚未定义的符号，并将变量访问转换为与这些变量的运行时位置关联的存储结构中的适当偏移量。</p>
+<p>方法和变量的这种后期绑定使得方法使用的其他类中的更改不太可能破坏此代码。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="264-正常方法调用完成">2.6.4. 正常方法调用完成<a href="https://chenyduan.github.io/en/blog/Java%E8%99%9A%E6%8B%9F%E6%9C%BA%E8%A7%84%E8%8C%83-JavaSE21#264-%E6%AD%A3%E5%B8%B8%E6%96%B9%E6%B3%95%E8%B0%83%E7%94%A8%E5%AE%8C%E6%88%90" class="hash-link" aria-label="Direct link to 2.6.4. 正常方法调用完成" title="Direct link to 2.6.4. 正常方法调用完成" translate="no">​</a></h3>
+<p>如果方法调用 不会直接从 Java 虚拟机或由于执行显式 语句而引发异常（第 2.10 节），则该方法调用正常完成。如果当前方法的调用正常完成，则可以向调用方法返回一个值。当调用的方法执行返回指令之一（第 2.11.8 节）时，会发生这种情况，该指令的选择必须适合返回值的类型（如果有）。 throw</p>
+<p>在这种情况下，当前帧（§2.6）用于恢复调用者的状态，包括其局部变量和操作数堆栈，调用者的程序计数器适当递增以跳过方法调用指令。然后，执行在调用方法的帧中正常继续，并将返回值（如果有）推送到该帧的操作数堆栈上。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="265方法调用突然完成">2.6.5。方法调用突然完成<a href="https://chenyduan.github.io/en/blog/Java%E8%99%9A%E6%8B%9F%E6%9C%BA%E8%A7%84%E8%8C%83-JavaSE21#265%E6%96%B9%E6%B3%95%E8%B0%83%E7%94%A8%E7%AA%81%E7%84%B6%E5%AE%8C%E6%88%90" class="hash-link" aria-label="Direct link to 2.6.5。方法调用突然完成" title="Direct link to 2.6.5。方法调用突然完成" translate="no">​</a></h3>
+<p>如果方法 内执行 Java 虚拟机指令导致 Java 虚拟机抛出异常（第 2.10 节），并且方法内未处理该异常，则方法调用会突然完成。执行athrow指令 ( §athrow ) 也会导致显式抛出异常，并且如果当前方法没有捕获该异常，则会导致方法调用突然完成。突然完成的方法调用永远不会向其调用者返回值。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="27-对象的表示">2.7. 对象的表示<a href="https://chenyduan.github.io/en/blog/Java%E8%99%9A%E6%8B%9F%E6%9C%BA%E8%A7%84%E8%8C%83-JavaSE21#27-%E5%AF%B9%E8%B1%A1%E7%9A%84%E8%A1%A8%E7%A4%BA" class="hash-link" aria-label="Direct link to 2.7. 对象的表示" title="Direct link to 2.7. 对象的表示" translate="no">​</a></h2>
+<p>Java 虚拟机不强制要求对象有任何特定的内部结构。</p>
+<p>在 Oracle 的 Java 虚拟机实现中，对类实例的引用是一个指向句柄的指针，该句柄本身就是一对指针：一个指向包含对象方法的表，另一个指向代表该对象的 Class对象。对象的类型，另一个是从堆中为对象数据分配的内存。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="28-浮点运算">2.8. 浮点运算<a href="https://chenyduan.github.io/en/blog/Java%E8%99%9A%E6%8B%9F%E6%9C%BA%E8%A7%84%E8%8C%83-JavaSE21#28-%E6%B5%AE%E7%82%B9%E8%BF%90%E7%AE%97" class="hash-link" aria-label="Direct link to 2.8. 浮点运算" title="Direct link to 2.8. 浮点运算" translate="no">​</a></h2>
+<p>Java 虚拟机包含 IEEE 754 标准 (JLS §1.7) 中指定的浮点算术子集。</p>
+<p>在 Java SE 15 及更高版本中，Java 虚拟机使用 2019 版 IEEE 754 标准。在 Java SE 15 之前，Java 虚拟机使用 1985 版本的 IEEE 754 标准，其中 binary32 格式称为单格式，binary64 格式称为双格式。</p>
+<p>许多用于算术（§2.11.3）和类型转换（§2.11.4）的 Java 虚拟机指令都使用浮点数。这些指令通常对应于 IEEE 754 操作（表 2.8-A），除了下面描述的某些指令之外。</p>
+<p>表 2.8-A。与 IEEE 754 操作的对应关系</p>
+<p>Java 虚拟机和 IEEE 754 标准支持的浮点运算之间的主要区别是：</p>
+<p>浮点余数指令drem ( § drem ) 和fem ( § fem ) 不对应于 IEEE 754 余数运算。这些指令基于使用向零舍入策略舍入的隐含除法；相反，IEEE 754 余数基于使用舍入到最接近的舍入策略的隐含除法。（舍入政策将在下面讨论。）</p>
+<p>浮点取反指令dneg ( § dneg ) 和fneg ( § fneg ) 并不精确对应 IEEE 754 取反操作。特别是，这些指令不需要反转 NaN 操作数的符号位。</p>
+<p>Java 虚拟机的浮点指令不会引发异常、陷阱或以其他方式发出无效操作、除以零、上溢、下溢或不精确的 IEEE 754 异常情况信号。</p>
+<p>Java 虚拟机不支持 IEEE 754 信号浮点比较，并且没有信号 NaN 值。</p>
+<p>IEEE 754 包含与 Java 虚拟机中的舍入策略不对应的舍入方向属性。Java 虚拟机不提供任何方法来更改给定浮点指令使用的舍入策略。</p>
+<p>Java 虚拟机不支持 IEEE 754 定义的二进制 32 扩展和二进制 64 扩展浮点格式。在操作或存储浮点值时，不得使用 超出float和类型指定的扩展范围和扩展精度。double</p>
+<p>Math一些在 Java 虚拟机中没有相应指令的 IEEE 754 运算是通过和类中的方法提供的 StrictMath，包括sqrtIEEE 754 squareRoot 运算的方法、fmaIEEE 754 fusedMultiplyAdd 运算的方法和IEEEremainder IEEE 754 余数运算的方法。</p>
+<p>Java 虚拟机需要支持 IEEE 754 次正规 浮点数和渐进下溢，这使得更容易证明特定数值算法的所需属性。</p>
+<p>浮点运算是真实运算的近似。虽然实数的数量是无限的，但特定的浮点格式仅具有有限数量的值。在Java虚拟机中，舍入策略是用于将实数映射到给定格式的浮点值的函数。对于浮点格式可表示范围内的实数，实数轴的连续段被映射到单个浮点值。其值在数值上等于浮点值的实数被映射到该浮点值；例如，实数 1.5 以给定格式映射到浮点值 1.5。Java虚拟机定义了两种舍入策略，如下：</p>
+<p>舍入到最接近的舍入策略适用于除 (i) 转换为整数值和 (ii) 余数之外的所有浮点指令。在舍入到最接近的舍入策略下，不精确的结果必须舍入到最接近无限精确结果的可表示值；如果两个最接近的可表示值同样接近，则选择最低有效位为零的值。</p>
+<p>舍入到最接近的舍入策略对应于 IEEE 754 中二进制算术的默认舍入方向属性 roundTiesToEven。</p>
+<p>roundTiesToEven舍 入方向属性在 1985 版 IEEE 754 标准中称为“舍入到最近”舍入模式。Java虚拟机中的舍入策略就是以这种舍入模式命名的。</p>
+<p>向零舍入 策略适用于 (i) 通过d2i、d2l、f2i和f2l指令（§ d2i、§ d2l、 § f2i、§ f2l ）将浮点值转换为整数值 ，以及 (ii ) 浮点余数指令drem和frem ( § drem , § frem )。根据零舍入政策，不精确的结果将舍入到最接近的可表示值，该值的大小不大于无限精确的结果。对于转换为整数，向零舍入策略的舍入相当于舍弃小数有效位的截断。</p>
+<p>向零舍入策略的舍入对应于 IEEE 754 中二进制算术的roundTowardZero舍入方向属性。</p>
+<p>roundTowardZero 舍入方向属性在 1985 版 IEEE 754 标准中称为“向零舍入”舍入模式。Java虚拟机中的舍入策略就是以这种舍入模式命名的。</p>
+<p>Java 虚拟机要求每个浮点指令将其浮点结果舍入到结果精度。每条指令使用的舍入策略是舍入到最接近的值或舍入到零，如上所述。</p>
+<p>Java 1.0 和 1.1 要求对浮点表达式进行严格的计算。严格求值意味着每个float 操作数对应于可以以 IEEE 754 二进制 32 格式表示的值，每个double操作数对应于可以以 IEEE 754 二进制 64 格式表示的值，并且具有相应 IEEE 754 操作的每个浮点运算符与 IEEE 754 结果匹配相同的操作数。</p>
+<p>严格的评估提供了可预测的结果，但在 Java 1.0/1.1 时代常见的一些处理器系列的 Java 虚拟机实现中引起了性能问题。因此，在 Java 1.2 到 Java SE 16 中，Java SE 平台允许 Java 虚拟机实现具有与每个浮点类型关联的一个或两个值集。类型与浮点值集和 浮点扩展指数值集float关联 ，而 类型与双精度值集和双精度扩展指数值集关联。浮点值集对应于以 IEEE 754 二进制 32 格式表示的值；浮点扩展指数值集具有相同的精度位数，但指数范围更大。类似地，双精度值集对应于以 IEEE 754 二进制 64 格式表示的值；双扩展指数值集具有相同的精度位数，但指数范围更大。默认情况下允许使用扩展指数值集可以改善某些处理器系列上的性能问题。 double</p>
+<p>为了兼容性，Java 1.2 允许class文件禁止实现使用扩展指数值集。文件通过在方法声明上class设置标志来表达这一点。限制方法指令的浮点语义，以使用操作数的浮点值集和操作数的双精度值集 ，确保此类指令的结果是完全可预测的。因此标记为的方法具有与 Java 1.0 和 1.1 中指定的相同的浮点语义。 ACC_STRICTACC_STRICTfloatdoubleACC_STRICT</p>
+<p>在 Java SE 17 及更高版本中，Java SE 平台始终要求对浮点表达式进行严格计算。处理器系列的新成员在实施严格评估时遇到性能问题，但不再遇到这种困难。该规范不再将float和double与上述四个值集相关联，并且该ACC_STRICT标志不再影响浮点运算的评估。ACC_STRICT为了兼容性，在主版本号为 46-60 的文件中分配用于表示的位模式在主版本号大于 60 的文件class中未分配（即不表示任何标志） （第 4.6 节）。Java 虚拟机的未来版本可能会为未来文件中的位模式分配不同的含义。 classclass</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="29-特殊方法">2.9. 特殊方法<a href="https://chenyduan.github.io/en/blog/Java%E8%99%9A%E6%8B%9F%E6%9C%BA%E8%A7%84%E8%8C%83-JavaSE21#29-%E7%89%B9%E6%AE%8A%E6%96%B9%E6%B3%95" class="hash-link" aria-label="Direct link to 2.9. 特殊方法" title="Direct link to 2.9. 特殊方法" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="291-实例初始化方法">2.9.1. 实例初始化方法<a href="https://chenyduan.github.io/en/blog/Java%E8%99%9A%E6%8B%9F%E6%9C%BA%E8%A7%84%E8%8C%83-JavaSE21#291-%E5%AE%9E%E4%BE%8B%E5%88%9D%E5%A7%8B%E5%8C%96%E6%96%B9%E6%B3%95" class="hash-link" aria-label="Direct link to 2.9.1. 实例初始化方法" title="Direct link to 2.9.1. 实例初始化方法" translate="no">​</a></h3>
+<p>一个类有零个或多个实例初始化方法，每个方法通常对应于用 Java 编程语言编写的构造函数。</p>
+<p>如果满足以下所有条件，则该方法是实例初始化方法：</p>
+<p>它是在类（而不是接口）中定义的。
+它有一个特殊的名字<code>&lt;init&gt;</code>。</p>
+<p>它是void（4.3.3）。
+在类中，任何void名为的非方法<code>&lt;init&gt;</code>都不是实例初始化方法。在接口中，任何命名的方法<code>&lt;init&gt;</code>都不是实例初始化方法。此类方法不能由任何 Java 虚拟机指令（第 4.4.2 节、 第 4.9.2 节）调用，并且会被格式检查拒绝（第 4.6 节、第 4.8 节）。</p>
+<p>实例初始化方法的声明和使用受到Java虚拟机的约束。对于声明，方法的 access_flags项和code数组受到约束（第 4.6 节、第 4.9.2 节）。对于使用，实例初始化方法只能由未初始化的类实例上的invokespecial指令调用 （第 4.10.1.9 节）。</p>
+<p>由于该名称<code>&lt;init&gt;</code>在 Java 编程语言中不是有效的标识符，因此不能直接在用 Java 编程语言编写的程序中使用。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="292-类初始化方法">2.9.2. 类初始化方法<a href="https://chenyduan.github.io/en/blog/Java%E8%99%9A%E6%8B%9F%E6%9C%BA%E8%A7%84%E8%8C%83-JavaSE21#292-%E7%B1%BB%E5%88%9D%E5%A7%8B%E5%8C%96%E6%96%B9%E6%B3%95" class="hash-link" aria-label="Direct link to 2.9.2. 类初始化方法" title="Direct link to 2.9.2. 类初始化方法" translate="no">​</a></h3>
+<p>一个类或接口最多有一个类或接口初始化方法，并由调用该方法的 Java 虚拟机进行初始化（第 5.5 节）。</p>
+<p>如果满足以下所有条件，则 方法是类或接口初始化方法：</p>
+<p>它有一个特殊的名字<code>&lt;clinit&gt;</code>。</p>
+<p>它是void（§4.3.3）。</p>
+<p>在class版本号为 51.0 或更高版本的文件中，该方法设置了其ACC_STATIC标志并且不接受任何参数（第 4.6 节）。</p>
+<p>Java SE 7 中引入了的要求ACC_STATIC，Java SE 9 中引入了不带参数的要求。在版本号为 50.0 或更低的类文件中，名为 的方法被视为 <code>&lt;clinit&gt;</code>类void或接口初始化方法，无论设置如何它的 ACC_STATIC标志或是否需要参数。</p>
+<p><code>&lt;clinit&gt;</code>文件中 命名的其他方法class不是类或接口初始化方法。它们永远不会被 Java 虚拟机本身调用，也不能被任何 Java 虚拟机指令（第 4.9.1 节）调用，并且会被格式检查拒绝（第 4.6 节、第 4.8 节）。</p>
+<p>由于该名称<code>&lt;clinit&gt;</code>在 Java 编程语言中不是有效的标识符，因此不能直接在用 Java 编程语言编写的程序中使用。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="293-特征多态性方法">2.9.3. 特征多态性方法<a href="https://chenyduan.github.io/en/blog/Java%E8%99%9A%E6%8B%9F%E6%9C%BA%E8%A7%84%E8%8C%83-JavaSE21#293-%E7%89%B9%E5%BE%81%E5%A4%9A%E6%80%81%E6%80%A7%E6%96%B9%E6%B3%95" class="hash-link" aria-label="Direct link to 2.9.3. 特征多态性方法" title="Direct link to 2.9.3. 特征多态性方法" translate="no">​</a></h3>
+<p>如果满足以下所有条件，则 方法是签名多态的：</p>
+<p>它是在java.lang.invoke.MethodHandle类或java.lang.invoke.VarHandle类中声明的。</p>
+<p>它有一个类型为 的形式参数Object[]。</p>
+<p>它已设置ACC_VARARGS和ACC_NATIVE标志。</p>
+<p>Java 虚拟机对invokevirtual指令（§invokevirtual）中的签名多态方法进行特殊处理，以便实现方法句柄的调用或 实现对 实例引用的变量的访问java.lang.invoke.VarHandle。</p>
+<p>方法句柄是对底层方法、构造函数、字段或类似低级操作（第5.4.3.5 节）的动态强类型且可直接执行的引用，具有可选的参数或返回值转换。的实例 java.lang.invoke.VarHandle是对变量或变量族的动态强类型引用，包括static字段、非static字段、数组元素或堆外数据结构的组件。有关详细信息，请参阅java.lang.invokeJava SE 平台 API 中的包。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="210-例外情况">2.10. 例外情况<a href="https://chenyduan.github.io/en/blog/Java%E8%99%9A%E6%8B%9F%E6%9C%BA%E8%A7%84%E8%8C%83-JavaSE21#210-%E4%BE%8B%E5%A4%96%E6%83%85%E5%86%B5" class="hash-link" aria-label="Direct link to 2.10. 例外情况" title="Direct link to 2.10. 例外情况" translate="no">​</a></h2>
+<p>ThrowableJava 虚拟机中的异常由类或其子类之一的实例表示。引发异常会导致从引发异常的位置立即进行非本地控制转移。</p>
+<p>大多数异常都是由于发生异常的线程的操作而同步发生的。相比之下，异步异常可能发生在程序执行过程中的任何时刻。Java 虚拟机因以下三个原因之一引发异常：</p>
+<p>执行了 athrow指令( § athrow )。</p>
+<p>Java虚拟机同步检测到异常执行情况。这些异常不会在程序中的任意点抛出，而是仅在执行以下指令后同步抛出：</p>
+<p>将异常指定为可能的结果，例如：</p>
+<p>当指令包含违反 Java 编程语言语义的操作时，例如在数组边界之外进行索引。</p>
+<p>当加载或链接部分程序时发生错误时。</p>
+<p>导致超出资源的某些限制，例如使用过多内存时。</p>
+<p>发生异步异常是因为 Java 虚拟机实现中发生内部错误（第 6.3 节）。</p>
+<p>Java 虚拟机实现可能允许在引发异步异常之前发生少量但有限的执行。允许这种延迟是为了允许优化的代码在可以实际处理这些异常的地方检测并抛出这些异常，同时遵守 Java 编程语言的语义。</p>
+<p>一个简单的实现可能会在每个控制传输指令点轮询异步异常。由于程序的大小有限，因此这限制了检测异步异常的总延迟。由于控制传输之间不会发生异步异常，因此代码生成器具有一定的灵活性，可以在控制传输之间重新排序计算以获得更高的性能。Marc Feeley 的论文“对库存硬件进行有效轮询” ， Proc。1993 年函数式编程和计算机体系结构会议，丹麦哥本哈根，第 179-187 页，建议进一步阅读。</p>
+<p>Java 虚拟机抛出的异常是精确的：当发生控制权转移时，在抛出异常的点之前执行的指令的所有效果都必须看起来已经发生。在引发异常的点之后发生的指令可能看起来没有被评估。如果优化的代码已推测性地执行了异常发生点之后的某些指令，则此类代码必须准备好从程序的用户可见状态中隐藏此推测性执行。</p>
+<p>Java 虚拟机中的每个方法都可能与零个或多个异常处理程序相关联。异常处理程序指定 Java 虚拟机代码中实现异常处理程序处于活动状态的方法的偏移量范围，描述异常处理程序能够处理的异常类型，并指定要处理的代码的位置那个例外。如果引起异常的指令的偏移量在异常处理程序的偏移量范围内，并且异常类型与异常处理程序处理的异常类是同一类或其子类，则异常与异常处理程序匹配。当抛出异常时，Java虚拟机在当前方法中搜索匹配的异常处理程序。如果找到匹配的异常处理程序，系统将分支到匹配的处理程序指定的异常处理代码。</p>
+<p>如果在当前方法中没有找到这样的异常处理程序，则当前方法调用突然完成（§2.6.5）。突然完成时，当前方法调用的操作数堆栈和局部变量将被丢弃，并且其帧将被弹出，恢复调用方法的帧。然后，在调用者框架的上下文中重新引发异常，依此类推，继续沿方法调用链向上。如果在到达方法调用链的顶部之前没有找到合适的异常处理程序，则抛出异常的线程的执行将被终止。在线程终止之前，未捕获的异常按照以下规则进行处理：</p>
+<p>如果线程设置了未捕获的异常处理程序，则执行该处理程序。</p>
+<p>否则，将为该线程的父线程uncaughtException调用 该方法。ThreadGroup如果 ThreadGroup及其父级ThreadGroup不 override ，则调用 uncaughtException默认处理程序的 方法。uncaughtException</p>
+<p>搜索方法的异常处理程序以查找匹配项的顺序很重要。在class文件中，每个方法的异常处理程序都存储在表中（第 4.7.3 节）。在运行时，当抛出异常时，Java 虚拟机按照文件中相应异常处理程序表中出现的顺序搜索当前方法的异常处理程序，从该表的开头开始class。</p>
+<p>请注意，Java 虚拟机不强制方法的异常表条目的嵌套或任何顺序。Java 编程语言的异常处理语义只能通过与编译器的配合来实现（第 3.12 节）。当class通过其他方式生成文件时，定义的搜索过程可确保所有 Java 虚拟机实现的行为一致。</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Macos]]></title>
+            <link>https://chenyduan.github.io/en/blog/Macos</link>
+            <guid>https://chenyduan.github.io/en/blog/Macos</guid>
+            <pubDate>Sun, 21 Sep 2025 13:09:30 GMT</pubDate>
+            <description><![CDATA[显示隐藏文件：]]></description>
+            <content:encoded><![CDATA[<p>显示隐藏文件：</p>
+<blockquote>
+<p>command + shift + .         # Mac 中的隐藏文件是以“.”打头的</p>
+</blockquote>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[PNPM2]]></title>
+            <link>https://chenyduan.github.io/en/blog/PNPM2</link>
+            <guid>https://chenyduan.github.io/en/blog/PNPM2</guid>
+            <pubDate>Sun, 21 Sep 2025 13:09:30 GMT</pubDate>
+            <description><![CDATA[Npm 安装]]></description>
+            <content:encoded><![CDATA[<h6 class="anchor anchorTargetStickyNavbar_Vzrq" id="npm-安装">Npm 安装<a href="https://chenyduan.github.io/en/blog/PNPM2#npm-%E5%AE%89%E8%A3%85" class="hash-link" aria-label="Direct link to Npm 安装" title="Direct link to Npm 安装" translate="no">​</a></h6>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">npm install -g pnpm</span><br></span></code></pre></div></div>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[本·福达 （Ben Forta）]]></title>
+            <link>https://chenyduan.github.io/en/blog/SQL必知必会</link>
+            <guid>https://chenyduan.github.io/en/blog/SQL必知必会</guid>
+            <pubDate>Sun, 21 Sep 2025 13:09:30 GMT</pubDate>
+            <description><![CDATA[Adobe公司教育计划高级总监，世界知名的技术作家，在计算机产品开发、支持、培训和营销等方面拥有几十年的丰富经验。多年来，他撰写了SQL、正则表达式、JSP、WAP和Windows开发等方面的40余部技术图书，其中不少是世界畅销书，已被翻译为多达15种语言并在全世界出版发行。]]></description>
+            <content:encoded><![CDATA[<p>Adobe公司教育计划高级总监，世界知名的技术作家，在计算机产品开发、支持、培训和营销等方面拥有几十年的丰富经验。多年来，他撰写了SQL、正则表达式、JSP、WAP和Windows开发等方面的40余部技术图书，其中不少是世界畅销书，已被翻译为多达15种语言并在全世界出版发行。</p>
+<h1>引言</h1>
+<p>书里没有挑战题的答案，但是别担心，你可以在配套的网站找到答案：<a href="http://forta.com/books/0135182794%E3%80%82" target="_blank" rel="noopener noreferrer" class="">http://forta.com/books/0135182794。</a></p>
+<p>本书中的所有数据库示例（或者创建数据库示例的SQL脚本例子）对于这些DBMS都是适用的，它们可以在本书的网页http:
+//forta.com/books/0135182794上获得。</p>
+<h1>第1课 了解SQL</h1>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="11-数据库基础">1.1 数据库基础<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#11-%E6%95%B0%E6%8D%AE%E5%BA%93%E5%9F%BA%E7%A1%80" class="hash-link" aria-label="Direct link to 1.1 数据库基础" title="Direct link to 1.1 数据库基础" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="111-数据库">1.1.1 数据库<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#111-%E6%95%B0%E6%8D%AE%E5%BA%93" class="hash-link" aria-label="Direct link to 1.1.1 数据库" title="Direct link to 1.1.1 数据库" translate="no">​</a></h3>
+<p>数据库这个术语的用法很多，但就本书而言（从SQL的角度来看），数据库是以某种有组织的方式存储的数据集合。最简单的办法是将数据库想象为一个文件柜。文件柜只是一个存放数据的物理位置，它不管数据是什么，也不管数据是如何组织的。</p>
+<blockquote>
+<p>数据库（database）</p>
+<blockquote>
+<p>保存有组织的数据的容器（通常是一个文件或一组文件）。</p>
+</blockquote>
+<p>注意：误用导致混淆</p>
+<blockquote>
+<p>人们通常用数据库这个术语来代表他们使用的数据库软件，这是不正确的，也因此产生了许多混淆。确切地说，数据库软件应称为数据库管理系统（DBMS）。数据库是通过DBMS创建和操纵的容器，而具体它究竟是什么，形式如何，各种数据库都不一样。</p>
+</blockquote>
+</blockquote>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="112-表">1.1.2 表<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#112-%E8%A1%A8" class="hash-link" aria-label="Direct link to 1.1.2 表" title="Direct link to 1.1.2 表" translate="no">​</a></h3>
+<p>你往文件柜里放资料时，并不是随便将它们扔进某个抽屉就完事了的，而是在文件柜中创建文件，然后将相关的资料放入特定的文件中。在数据库领域中，这种文件称为表。表是一种结构化的文件，可用来存储某种特定类型的数据。表可以保存顾客清单、产品目录，或者其他信息清单。</p>
+<blockquote>
+<p>表（table）</p>
+<blockquote>
+<p>某种特定类型数据的结构化清单。</p>
+</blockquote>
+</blockquote>
+<p>这里的关键一点在于，存储在表中的数据是同一种类型的数据或清单。决不应该将顾客的清单与订单的清单存储在同一个数据库表中，否则以后的检索和访问会很困难。应该创建两个表，每个清单一个表。数据库中的每个表都有一个名字来标识自己。这个名字是唯一的，即数据库中没有其他表具有相同的名字。</p>
+<blockquote>
+<p>说明：表名</p>
+<blockquote>
+<p>使表名成为唯一的，实际上是数据库名和表名等的组合。有的数据库还使用数据库拥有者的名字作为唯一名的一部分。也就是说，虽然在一个数据库中不能两次使用相同的表名，但在不同的数据库中完全可以使用相同的表名。</p>
+</blockquote>
+</blockquote>
+<p>表具有一些特性，这些特性定义了数据在表中如何存储，包括存储什么样的数据，数据如何分解，各部分信息如何命名等信息。描述表的这组信息就是所谓的模式（schema），模式可以用来描述数据库中特定的表，也可以用来描述整个数据库（和其中表的关系）。</p>
+<blockquote>
+<p>模式</p>
+<blockquote>
+<p>关于数据库和表的布局及特性的信息。</p>
+</blockquote>
+</blockquote>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="113-列和数据类型">1.1.3 列和数据类型<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#113-%E5%88%97%E5%92%8C%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B" class="hash-link" aria-label="Direct link to 1.1.3 列和数据类型" title="Direct link to 1.1.3 列和数据类型" translate="no">​</a></h3>
+<p>表由列组成。列存储表中某部分的信息。</p>
+<blockquote>
+<p>列（column）</p>
+<blockquote>
+<p>表中的一个字段。所有表都是由一个或多个列组成的。</p>
+</blockquote>
+</blockquote>
+<p>理解列的最好办法是将数据库表想象为一个网格，就像个电子表格那样。网格中每一列存储着某种特定的信息。例如，在顾客表中，一列存储顾客编号，另一列存储顾客姓名，而地址、城市、州以及邮政编码全都存储在各自的列中。</p>
+<blockquote>
+<p>提示：数据分解</p>
+<blockquote>
+</blockquote>
+</blockquote>
+<p>正确地将数据分解为多个列极为重要。例如，城市、州、邮政编码应该总是彼此独立的列。通过分解这些数据，才有可能利用特定的列对数据进行分类和过滤（如找出特定州或特定城市的所有顾客）。如果城市和州组合在一个列中，则按州进行分类或过滤就会很困难。你可以根据自己的具体需求来决定把数据分解到何种程度。例如，一般可以把门牌号和街道名一起存储在地址里。这没有问题，除非你哪天想用街道名来排序，这时，最好将门牌号和街道名分开。</p>
+<blockquote>
+</blockquote>
+<p>数据库中每个列都有相应的数据类型。数据类型（datatype）定义了列可以存储哪些数据种类。例如，如果列中存储的是数字（或许是订单中的物品数），则相应的数据类型应该为数值类型。如果列中存储的是日期、文本、注释、金额等，则应该规定好恰当的数据类型。</p>
+<blockquote>
+<p>数据类型</p>
+<blockquote>
+<p>允许什么类型的数据。每个表列都有相应的数据类型，它限制（或允许）该列中存储的数据。</p>
+</blockquote>
+</blockquote>
+<p>数据类型限定了可存储在列中的数据种类（例如，防止在数值字段中录入字符值）。数据类型还帮助正确地分类数据，并在优化磁盘使用方面起重要的作用。因此，在创建表时必须特别关注所用的数据类型。</p>
+<blockquote>
+<p>注意：数据类型兼容</p>
+<blockquote>
+</blockquote>
+</blockquote>
+<p>数据类型及其名称是SQL不兼容的一个主要原因。虽然大多数基本数据类型得到了一致的支持，但许多高级的数据类型却没有。更糟的是，偶然会有相同的数据类型在不同的DBMS中具有不同的名称。对此用户毫无办法，重要的是在创建表结构时要记住这些差异。</p>
+<blockquote>
+</blockquote>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="114-行">1.1.4 行<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#114-%E8%A1%8C" class="hash-link" aria-label="Direct link to 1.1.4 行" title="Direct link to 1.1.4 行" translate="no">​</a></h3>
+<p>表中的数据是按行存储的，所保存的每个记录存储在自己的行内。如果将表想象为网格，网格中垂直的列为表列，水平行为表行。例如，顾客表可以每行存储一个顾客。表中的行编号为记录的编号。</p>
+<blockquote>
+<p>行（row）</p>
+<blockquote>
+<p>表中的一个记录。说明：是记录还是行？你可能听到用户在提到行时称其为数据库记录（record）。这两个术语多半是可以互通的，但从技术上说，行才是正确的术语。</p>
+</blockquote>
+</blockquote>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="115-主键">1.1.5 主键<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#115-%E4%B8%BB%E9%94%AE" class="hash-link" aria-label="Direct link to 1.1.5 主键" title="Direct link to 1.1.5 主键" translate="no">​</a></h3>
+<p>表中每一行都应该有一列（或几列）可以唯一标识自己。顾客表可以使用顾客编号，而订单表可以使用订单ID。雇员表可以使用雇员ID。书目表则可以使用国际标准书号ISBN。</p>
+<blockquote>
+<p>主键（primary key）</p>
+<blockquote>
+<p>一列（或几列），其值能够唯一标识表中每一行。</p>
+</blockquote>
+</blockquote>
+<p>唯一标识表中每行的这个列（或这几列）称为主键。主键用来表示一个特定的行。没有主键，更新或删除表中特定行就极为困难，因为你不能保证操作只涉及相关的行，没有伤及无辜。</p>
+<blockquote>
+<p>提示：应该总是定义主键</p>
+<blockquote>
+<p>虽然并不总是需要主键，但多数数据库设计者都会保证他们创建的每个表具有一个主键，以便于以后的数据操作和管理。</p>
+</blockquote>
+</blockquote>
+<p>表中的任何列都可以作为主键，只要它满足以下条件：</p>
+<ul>
+<li class="">❑ 任意两行都不具有相同的主键值；</li>
+<li class="">❑ 每一行都必须具有一个主键值（主键列不允许空值NULL）；</li>
+<li class="">❑ 主键列中的值不允许修改或更新；</li>
+<li class="">❑ 主键值不能重用（如果某行从表中删除，它的主键不能赋给以后的新行）。</li>
+</ul>
+<p>主键通常定义在表的一列上，但并不是必须这么做，也可以一起使用多个列作为主键。在使用多列作为主键时，上述条件必须应用到所有列，所有列值的组合必须是唯一的（但其中单个列的值可以不唯一）。</p>
+<p>还有一种非常重要的键，称为外键，我们将在第12课中介绍。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="12-什么是sql">1.2 什么是SQL<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#12-%E4%BB%80%E4%B9%88%E6%98%AFsql" class="hash-link" aria-label="Direct link to 1.2 什么是SQL" title="Direct link to 1.2 什么是SQL" translate="no">​</a></h2>
+<p>SQL（发音为字母S-Q-L或sequel）是Structured Query
+Language（结构化查询语言）的缩写。SQL是一种专门用来与数据库沟通的语言。与其他语言（如英语或Java、C、PHP这样的编程语言）不一样，SQL中只有很少的词，这是有意而为的。设计SQL的目的是很好地完成一项任务——提供一种从数据库中读写数据的简单有效的方法。</p>
+<p>SQL有哪些优点呢？
+❑ SQL不是某个特定数据库厂商专有的语言。绝大多数重要的DBMS支持SQL，所以学习此语言使你几乎能与所有数据库打交道。
+❑ SQL简单易学。它的语句全都是由有很强描述性的英语单词组成，而且这些单词的数目不多。
+❑ SQL虽然看上去很简单，但实际上是一种强有力的语言，灵活使用其语言元素，可以进行非常复杂和高级的数据库操作。</p>
+<p>下面我们将开始真正学习SQL。</p>
+<blockquote>
+<p>说明：SQL的扩展</p>
+<blockquote>
+</blockquote>
+</blockquote>
+<p>许多DBMS厂商通过增加语句或指令，对SQL进行了扩展。这种扩展的目的是提供执行特定操作的额外功能或简化方法。虽然这种扩展很有用，但一般都是针对个别DBMS的，很少有两个厂商同时支持这种扩展。标准SQL由ANSI标准委员会管理，从而称为ANSI
+SQL。所有主要的DBMS，即使有自己的扩展，也都支持ANSI SQL。各个实现有自己的名称，如Oracle的PL/SQL、微软SQL
+Server用的Transact-SQL等。本书讲授的SQL主要是ANSI SQL。在使用某种DBMS特定的SQL时，会特别说明。</p>
+<blockquote>
+</blockquote>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="13-动手实践">1.3 动手实践<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#13-%E5%8A%A8%E6%89%8B%E5%AE%9E%E8%B7%B5" class="hash-link" aria-label="Direct link to 1.3 动手实践" title="Direct link to 1.3 动手实践" translate="no">​</a></h2>
+<h1>第2课 检索数据</h1>
+<p>这一课介绍如何使用SELECT语句从表中检索一个或多个数据列。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="21-select语句">2.1 SELECT语句<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#21-select%E8%AF%AD%E5%8F%A5" class="hash-link" aria-label="Direct link to 2.1 SELECT语句" title="Direct link to 2.1 SELECT语句" translate="no">​</a></h2>
+<p>正如第1课所述，SQL语句是由简单的英语单词构成的。这些单词称为关键字，每个SQL语句都是由一个或多个关键字构成的。最经常使用的SQL语句大概就是SELECT语句了。它的用途是从一个或多个表中检索信息。</p>
+<blockquote>
+<p>关键字（keyword）</p>
+<blockquote>
+<p>作为SQL组成部分的保留字。关键字不能用作表或列的名字。附录D列出了某些经常使用的保留字。</p>
+</blockquote>
+</blockquote>
+<p>为了使用SELECT检索表数据，必须至少给出两条信息——想选择什么，以及从什么地方选择。</p>
+<p>2.2 检索单个列
+我们将从简单的SQL SELECT语句讲起，此语句如下所示：</p>
+<div class="language-sql codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-sql codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">SELECT</span><span class="token plain"> prod_name</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">FROM</span><span class="token plain"> product</span><span class="token punctuation" style="color:#393A34">;</span><br></span></code></pre></div></div>
+<p>分析▼
+上述语句利用SELECT语句从Products表中检索一个名为prod_name的列。所需的列名写在SELECT关键字之后，FROM关键字指出从哪个表中检索数据。</p>
+<blockquote>
+<p>提示：结束SQL语句</p>
+<blockquote>
+<p>多条SQL语句必须以分号（;）分隔。
+多数DBMS不需要在单条SQL语句后加分号，但也有DBMS可能必须在单条SQL语句后加上分号。当然，如果愿意可以总是加上分号。事实上，即使不一定需要，加上分号也肯定没有坏处。
+提示：SQL语句和大小写请注意，</p>
+</blockquote>
+</blockquote>
+<p>SQL语句不区分大小写，因此SELECT与select是相同的。同样，写成Select也没有关系。许多SQL开发人员喜欢对SQL关键字使用大写，而对列名和表名使用小写，这样做代码更易于阅读和调试。不过，一定要认识到虽然SQL是不区分大小写的，但是表名、列名和值可能有所不同（这有赖于具体的DBMS及其如何配置）。</p>
+<blockquote>
+<p>提示：使用空格在处理SQL语句时，其中所有空格都被忽略。</p>
+<blockquote>
+<p>SQL语句可以写成长长的一行，也可以分写在多行。下面这种写法的作用是一样的。</p>
+</blockquote>
+</blockquote>
+<p>SELECT</p>
+<p>prod_name</p>
+<p>FROM product;</p>
+<blockquote>
+<blockquote>
+<p>多数SQL开发人员认为，将SQL语句分成多行更容易阅读和调试。</p>
+</blockquote>
+</blockquote>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="23-检索多个列">2.3 检索多个列<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#23-%E6%A3%80%E7%B4%A2%E5%A4%9A%E4%B8%AA%E5%88%97" class="hash-link" aria-label="Direct link to 2.3 检索多个列" title="Direct link to 2.3 检索多个列" translate="no">​</a></h2>
+<p>要想从一个表中检索多个列，仍然使用相同的SELECT语句。唯一的不同是必须在SELECT关键字后给出多个列名，列名之间必须以逗号分隔。</p>
+<blockquote>
+<p>提示：当心逗号</p>
+<blockquote>
+<p>在选择多个列时，一定要在列名之间加上逗号，但最后一个列名后不加。如果在最后一个列名后加了逗号，将出现错误。</p>
+</blockquote>
+</blockquote>
+<p>下面的SELECT语句从Products表中选择3列。</p>
+<div class="language-sql codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-sql codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">SELECT</span><span class="token plain">  prod_id</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain">prod_name</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain">prod_price </span><span class="token keyword" style="color:#00009f">FROM</span><span class="token plain">  product</span><span class="token punctuation" style="color:#393A34">;</span><br></span></code></pre></div></div>
+<blockquote>
+<p>说明：数据表示</p>
+<blockquote>
+<p>SQL语句一般返回原始的、无格式的数据，不同的DBMS和客户端显示数据的方式略有不同（如对齐格式不同、小数位数不同）。
+数据的格式化是表示问题，而不是检索问题。因此，如何表示一般会在显示该数据的应用程序中规定。
+通常很少直接使用实际检索出的数据（没有应用程序提供的格式）。</p>
+</blockquote>
+</blockquote>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="24-检索所有列">2.4 检索所有列<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#24-%E6%A3%80%E7%B4%A2%E6%89%80%E6%9C%89%E5%88%97" class="hash-link" aria-label="Direct link to 2.4 检索所有列" title="Direct link to 2.4 检索所有列" translate="no">​</a></h2>
+<p>除了指定所需的列外（如上所述，一列或多列）,
+SELECT语句还可以检索所有的列而不必逐个列出它们。
+在实际列名的位置使用星号（*）通配符可以做到这点，如下所示。</p>
+<div class="language-sql codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-sql codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">SELECT</span><span class="token plain">  </span><span class="token operator" style="color:#393A34">*</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">FROM</span><span class="token plain">  product </span><span class="token punctuation" style="color:#393A34">;</span><br></span></code></pre></div></div>
+<p>分析▼
+如果给定一个通配符（*），则返回表中所有列。
+列的顺序一般是表中出现的物理顺序，但并不总是如此。
+不过，SQL数据很少直接显示（通常，数据返回给应用程序，根据需要进行格式化，再表示出来）。
+因此，这不应该造成什么问题。</p>
+<blockquote>
+<p>注意：使用通配符</p>
+<blockquote>
+<p>一般而言，除非你确实需要表中的每一列，否则最好别使用＊通配符。
+虽然使用通配符能让你自己省事，不用明确列出所需列，但检索不需要的列通常会降低检索速度和应用程序的性能。</p>
+</blockquote>
+<p>提示：检索未知列</p>
+<blockquote>
+<p>使用通配符有一个大优点。由于不明确指定列名（因为星号检索每一列），所以能检索出名字未知的列。</p>
+</blockquote>
+</blockquote>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="25-检索不同的值">2.5 检索不同的值<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#25-%E6%A3%80%E7%B4%A2%E4%B8%8D%E5%90%8C%E7%9A%84%E5%80%BC" class="hash-link" aria-label="Direct link to 2.5 检索不同的值" title="Direct link to 2.5 检索不同的值" translate="no">​</a></h2>
+<p>如前所述，SELECT语句返回所有匹配的行。但是，如果你不希望每个值每次都出现，该怎么办呢？例如，你想检索Products表中所有产品供应商的ID：</p>
+<p>办法就是使用DISTINCT关键字，顾名思义，它指示数据库只返回不同的值。</p>
+<div class="language-sql codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-sql codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">SELECT</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">DISTINCT</span><span class="token plain">  node_root </span><span class="token keyword" style="color:#00009f">FROM</span><span class="token plain"> kn_node </span><span class="token punctuation" style="color:#393A34">;</span><br></span></code></pre></div></div>
+<p>分析▼
+SELECT DISTINCT vend_id告诉DBMS只返回不同（具有唯一性）的vend_id行，所以正如下面的输出，只有3行。如果使用DISTINCT关键字，它必须直接放在列名的前面。</p>
+<blockquote>
+<p>注意：不能部分使用DISTINCT</p>
+<blockquote>
+<p>DISTINCT关键字作用于所有的列，不仅仅是跟在其后的那一列。
+例如，你指定SELECT DISTINCT vend_id, prod_price，则9行里的6行都会被检索出来，因为指定的两列组合起来有6个不同的结果。</p>
+</blockquote>
+</blockquote>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="26-限制结果">2.6 限制结果<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#26-%E9%99%90%E5%88%B6%E7%BB%93%E6%9E%9C" class="hash-link" aria-label="Direct link to 2.6 限制结果" title="Direct link to 2.6 限制结果" translate="no">​</a></h2>
+<p>SELECT语句返回指定表中所有匹配的行，很可能是每一行。
+如果你只想返回第一行或者一定数量的行，该怎么办呢？这是可行的，然而遗憾的是，各种数据库中的这一SQL实现并不相同。</p>
+<ul>
+<li class="">在SQL Server中使用SELECT时，可以用TOP关键字来限制最多返回多少行，如下所示：</li>
+</ul>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">SELECT TOP 5  node_root FROM kn_node ;</span><br></span></code></pre></div></div>
+<p>分析▼上面代码使用SELECT TOP 5语句，只检索前5行数据。</p>
+<ul>
+<li class="">如果你使用的是DB2，就得使用下面这样的DB2特有的SQL语句：</li>
+</ul>
+<div class="language-db2 codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-db2 codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">SELECT  prod_name FROM  product FETCH FIRST 5 ROWS ONLY</span><br></span></code></pre></div></div>
+<p>分析▼FETCH FIRST 5 ROWS ONLY就会按字面的意思去做的（只取前5行）。</p>
+<ul>
+<li class="">如果你使用Oracle，需要基于ROWNUM（行计数器）来计算行，像这样：</li>
+</ul>
+<div class="language-oraclesqlplus codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-oraclesqlplus codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">SELECT  prod_name FROM  product ROWNum &lt;= 5 ;</span><br></span></code></pre></div></div>
+<ul>
+<li class="">如果你使用MySQL、MariaDB、PostgreSQL或者SQLite，需要使用LIMIT子句，像这样：</li>
+</ul>
+<div class="language-mysql codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-mysql codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">SELECT prod_name</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">FROM product</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">limit 5;</span><br></span></code></pre></div></div>
+<p>分析▼
+上述代码使用SELECT语句来检索单独的一列数据。LIMIT 5指示MySQL等DBMS返回不超过5行的数据。
+这个语句的输出参见下面的代码。为了得到后面的5行数据，
+需要指定从哪儿开始以及检索的行数，像这样：</p>
+<div class="language-mysql codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-mysql codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">SELECT prod_name</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">FROM product</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">LIMIT 5 OFFSET 5;</span><br></span></code></pre></div></div>
+<p>分析▼
+LIMIT 5 OFFSET 5指示MySQL等DBMS返回从第5行起的5行数据。第一个数字是检索的行数，第二个数字是指从哪儿开始。这个语句的输出是：</p>
+<p>所以，LIMIT指定返回的行数。LIMIT带的OFFSET指定从哪儿开始。在我们的例子中，Products表中只有9种产品，
+所以LIMIT 5 OFFSET 5只返回了4行数据（因为没有第5行）。</p>
+<blockquote>
+<p>注意：第0行第一个被检索的行是第0行，而不是第1行。</p>
+<blockquote>
+<p>因此，LIMIT 1 OFFSET 1会检索第2行，而不是第1行。</p>
+</blockquote>
+<p>提示：MySQL、MariaDB和SQLite捷径</p>
+<blockquote>
+<p>MySQL、MariaDB和SQLite可以把LIMIT 4 OFFSET 3语句简化为LIMIT 3,4。使用这个语法，逗号之前的值对应OFFSET，逗号之后的值对应LIMIT（反着的，要小心）。说明：并非所有的SQL实现都一样我加入这一节只有一个原因，就是要说明，SQL虽然通常都有相当一致的实现，但你不能想当然地认为它总是这样。非常基本的语句往往是相通的，但较复杂的语句就不同了。当你针对某个问题寻找SQL解决方案时，一定要记住这一点。</p>
+</blockquote>
+</blockquote>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="27-使用注释">2.7 使用注释<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#27-%E4%BD%BF%E7%94%A8%E6%B3%A8%E9%87%8A" class="hash-link" aria-label="Direct link to 2.7 使用注释" title="Direct link to 2.7 使用注释" translate="no">​</a></h2>
+<p>可以看到，SQL语句是由DBMS处理的指令。
+如果你希望包括不进行处理和执行的文本，该怎么办呢？
+为什么你想要这么做呢？
+原因有以下几点。
+❑ 我们这里使用的SQL语句都很短，也很简单。
+然而，随着SQL语句变长，复杂性增加，你就会想添加一些描述性的注释，这便于你自己今后参考，或者供项目后续参与人员参考。
+这些注释需要嵌入在SQL脚本中，但显然不能进行实际的DBMS处理。（相关示例可以参见附录B中使用的create.sql和populate.sql。）
+❑ 这同样适用于SQL文件开始处的内容，它可能包含程序描述以及一些说明，甚至是程序员的联系方式。
+（相关示例也可参见附录B中的那些．sql文件。）
+❑ 注释的另一个重要应用是暂停要执行的SQL代码。
+如果你碰到一个长SQL语句，而只想测试它的一部分，那么应该注释掉一些代码，以便DBMS略去这些注释。
+很多DBMS都支持各种形式的注释语法。我们先来看行内注释：</p>
+<div class="language-sql codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-sql codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">SELECT</span><span class="token plain">   node_root </span><span class="token comment" style="color:#999988;font-style:italic">-- 注释</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"> </span><span class="token keyword" style="color:#00009f">FROM</span><span class="token plain"> kn_node </span><span class="token punctuation" style="color:#393A34">;</span><br></span></code></pre></div></div>
+<p>分析▼注释使用--（两个连字符）嵌在行内。——之后的文本就是注释，例如，这用来描述CREATE TABLE语句中的列就很不错。下面是另一种形式的行内注释（但这种形式有些DBMS不支持）。</p>
+<div class="language-sql codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-sql codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token comment" style="color:#999988;font-style:italic"># 注释</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">SELECT</span><span class="token plain">   node_root</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"> </span><span class="token keyword" style="color:#00009f">FROM</span><span class="token plain"> kn_node </span><span class="token punctuation" style="color:#393A34">;</span><br></span></code></pre></div></div>
+<p>在一行的开始处使用#，这一整行都将作为注释。你在本书提供的脚本create.sql和populate.sql中可以看到这种形式的注释。
+你也可以进行多行注释，注释可以在脚本的任何位置停止和开始。</p>
+<div class="language-sql codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-sql codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">SELECT</span><span class="token plain">   node_root </span><span class="token comment" style="color:#999988;font-style:italic">/* 多行注释</span><br></span><span class="token-line" style="color:#393A34"><span class="token comment" style="color:#999988;font-style:italic">多行注释</span><br></span><span class="token-line" style="color:#393A34"><span class="token comment" style="color:#999988;font-style:italic">*/</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"> </span><span class="token keyword" style="color:#00009f">FROM</span><span class="token plain"> kn_node </span><span class="token punctuation" style="color:#393A34">;</span><br></span></code></pre></div></div>
+<p>分析▼
+注释从/＊开始，到＊/结束，/＊和＊/之间的任何内容都是注释。这种方式常用于把代码注释掉，就如这个例子演示的，这里定义了两个SELECT语句，但是第一个不会执行，因为它已经被注释掉了。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="28-小结">2.8 小结<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#28-%E5%B0%8F%E7%BB%93" class="hash-link" aria-label="Direct link to 2.8 小结" title="Direct link to 2.8 小结" translate="no">​</a></h2>
+<p>这一课学习了如何使用SQL的SELECT语句来检索单个表列、多个表列以及所有表列。你也学习了如何返回不同的值，如何注释代码。同时不好的消息是，复杂的SQL语句往往不够通用。下一课将讲授如何对检索出来的数据进行排序。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="29-挑战题">2.9 挑战题<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#29-%E6%8C%91%E6%88%98%E9%A2%98" class="hash-link" aria-label="Direct link to 2.9 挑战题" title="Direct link to 2.9 挑战题" translate="no">​</a></h2>
+<p>1．编写SQL语句，从Customers表中检索所有的ID（cust_id）。
+2．OrderItems表包含了所有已订购的产品（有些已被订购多次）。编写SQL语句，检索并列出已订购产品（prod_id）的清单（不用列每个订单，只列出不同产品的清单）。提示：最终应该显示7行。
+3．编写SQL语句，检索Customers表中所有的列，再编写另外的SELECT语句，仅检索顾客的ID。使用注释，注释掉一条SELECT语句，以便运行另一条SELECT语句。（当然，要测试这两个语句。）</p>
+<blockquote>
+<p>提示：答案在哪里？本书挑战题的答案在<a href="http://forta.com/books/0135182794%EF%BC%8C%E6%88%96%E8%87%B3%E5%9B%BE%E7%81%B5%E7%A4%BE%E5%8C%BA%E6%9C%AC%E4%B9%A6%E4%B8%BB%E9%A1%B5www.ituring.com.cn/book/2649%E4%B8%8B%E8%BD%BD%E3%80%82" target="_blank" rel="noopener noreferrer" class="">http://forta.com/books/0135182794，或至图灵社区本书主页www.ituring.com.cn/book/2649下载。</a></p>
+</blockquote>
+<h1>第3课 排序检索数据</h1>
+<p>这一课讲授如何使用SELECT语句的ORDER BY子句，根据需要排序检索出的数据。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="31-排序数据">3.1 排序数据<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#31-%E6%8E%92%E5%BA%8F%E6%95%B0%E6%8D%AE" class="hash-link" aria-label="Direct link to 3.1 排序数据" title="Direct link to 3.1 排序数据" translate="no">​</a></h2>
+<p>正如上一课所述，下面的SQL语句返回某个数据库表的单个列。但请看其输出，并没有特定的顺序。</p>
+<div class="language-sql codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-sql codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">SELECT</span><span class="token plain">   node_root</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">FROM</span><span class="token plain"> kn_node </span><span class="token punctuation" style="color:#393A34">;</span><br></span></code></pre></div></div>
+<p>其实，检索出的数据并不是随机显示的。
+如果不排序，数据一般将以它在表中出现的顺序显示，这有可能是数据最初添加到表中的顺序。
+但是，如果数据随后进行过更新或删除，那么这个顺序将会受到DBMS重用回收存储空间的方式的影响。
+因此，如果不明确控制的话，则最终的结果不能（也不应该）依赖该排序顺序。
+关系数据库设计理论认为，如果不明确规定排序顺序，则不应该假定检索出的数据的顺序有任何意义。</p>
+<blockquote>
+<p>子句（clause）</p>
+<blockquote>
+<p>SQL语句由子句构成，有些子句是必需的，有些则是可选的。
+一个子句通常由一个关键字加上所提供的数据组成。
+子句的例子有我们在前一课看到的SELECT语句的FROM子句。</p>
+</blockquote>
+</blockquote>
+<p>为了明确地排序用SELECT语句检索出的数据，可使用ORDER BY子句。
+ORDER BY子句取一个或多个列的名字，据此对输出进行排序。请看下面的例子：</p>
+<div class="language-sql codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-sql codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">SELECT</span><span class="token plain">   node_root</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">FROM</span><span class="token plain"> kn_node  </span><span class="token keyword" style="color:#00009f">ORDER</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">BY</span><span class="token plain"> node_root</span><span class="token punctuation" style="color:#393A34">;</span><br></span></code></pre></div></div>
+<p>除了指示DBMS软件对prod_name列以字母顺序排序数据的ORDER BY子句外，这条语句与前面的语句相同。</p>
+<blockquote>
+<p>注意：ORDER BY子句的位置</p>
+<blockquote>
+<p>在指定一条ORDER BY子句时，应该保证它是SELECT语句中最后一条子句。
+如果它不是最后的子句，将会出错。</p>
+</blockquote>
+<p>提示：通过非选择列进行排序</p>
+<blockquote>
+<p>通常，ORDER BY子句中使用的列将是为显示而选择的列。
+但是，实际上并不一定要这样，用非检索的列排序数据是完全合法的。</p>
+</blockquote>
+</blockquote>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="32-按多个列排序">3.2 按多个列排序<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#32-%E6%8C%89%E5%A4%9A%E4%B8%AA%E5%88%97%E6%8E%92%E5%BA%8F" class="hash-link" aria-label="Direct link to 3.2 按多个列排序" title="Direct link to 3.2 按多个列排序" translate="no">​</a></h2>
+<p>经常需要按不止一个列进行数据排序。
+例如，如果要显示雇员名单，可能希望按姓和名排序（首先按姓排序，然后在每个姓中再按名排序）。
+如果多个雇员有相同的姓，这样做很有用。
+要按多个列排序，只须指定这些列名，列名之间用逗号分开即可（就像选择多个列时那样）。
+下面的代码检索3个列，并按其中两个列对结果进行排序——首先按价格，然后按名称排序。</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">SELECT   node_root,kn_id</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">FROM kn_node</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">ORDER BY node_root,kn_id;</span><br></span></code></pre></div></div>
+<p>重要的是理解在按多个列排序时，排序的顺序完全按规定进行。换句话说，对于上述例子中的输出，仅在多个行具有相同的prod_price值时才对产品按prod_name进行排序。
+如果prod_price列中所有的值都是唯一的，则不会按prod_name排序。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="33-按列位置排序">3.3 按列位置排序<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#33-%E6%8C%89%E5%88%97%E4%BD%8D%E7%BD%AE%E6%8E%92%E5%BA%8F" class="hash-link" aria-label="Direct link to 3.3 按列位置排序" title="Direct link to 3.3 按列位置排序" translate="no">​</a></h2>
+<p>除了能用列名指出排序顺序外，ORDER BY还支持按相对列位置进行排序。为理解这一内容，我们来看个例子：</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">SELECT   name,node_root,kn_id</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">FROM kn_node</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">ORDER BY 2,3;</span><br></span></code></pre></div></div>
+<p>可以看到，这里的输出与上面的查询相同，不同之处在于ORDER BY子句。SELECT清单中指定的是选择列的相对位置而不是列名。ORDER BY 2表示按SELECT清单中的第二个列prod_price进行排序。ORDER BY 2, 3表示先按prod_price，再按prod_name进行排序。这一技术的主要好处在于不用重新输入列名。但它也有缺点。首先，不明确给出列名有可能造成错用列名排序。其次，在对SELECT清单进行更改时容易错误地对数据进行排序（忘记对ORDER BY子句做相应的改动）。
+最后，如果进行排序的列不在SELECT清单中，显然不能使用这项技术。</p>
+<blockquote>
+<p>提示：按非选择列排序</p>
+<blockquote>
+<p>显然，当根据不出现在SELECT清单中的列进行排序时，不能采用这项技术。
+但是，如果有必要，可以混合使用实际列名和相对列位置。</p>
+</blockquote>
+</blockquote>
+<div class="language-sql codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-sql codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">SELECT</span><span class="token plain">   name</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain">node_root</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain">kn_id</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain">shortname</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">FROM</span><span class="token plain"> kn_node</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">ORDER</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">BY</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">2</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain">shortname</span><span class="token punctuation" style="color:#393A34">;</span><br></span></code></pre></div></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="34-指定排序方向">3.4 指定排序方向<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#34-%E6%8C%87%E5%AE%9A%E6%8E%92%E5%BA%8F%E6%96%B9%E5%90%91" class="hash-link" aria-label="Direct link to 3.4 指定排序方向" title="Direct link to 3.4 指定排序方向" translate="no">​</a></h2>
+<p>数据排序不限于升序排序（从A到Z），这只是默认的排序顺序。
+还可以使用ORDER BY子句进行降序（从Z到A）排序。
+为了进行降序排序，必须指定DESC关键字。</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">SELECT   name,node_root,kn_id,shortname</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">FROM kn_node</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">ORDER BY kn_id DESC</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">;</span><br></span></code></pre></div></div>
+<p>如果打算用多个列排序，该怎么办？下面的例子以降序排序产品（最贵的在最前面），再加上产品名：</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">SELECT   name,node_root,kn_id,shortname</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">FROM kn_node</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">ORDER BY node_root,kn_id DESC</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">;</span><br></span></code></pre></div></div>
+<p>分析▼
+DESC关键字只应用到直接位于其前面的列名。
+在上例中，只对prod_price列指定DESC，对prod_name列不指定。
+因此，prod_price列以降序排序，而prod_name列（在每个价格内）仍然按标准的升序排序。</p>
+<blockquote>
+<p>警告：在多个列上降序排序如果想在多个列上进行降序排序，必须对每一列指定DESC关键字。</p>
+</blockquote>
+<p>请注意，DESC是DESCENDING的缩写，这两个关键字都可以使用。
+与DESC相对的是ASC（或ASCENDING），在升序排序时可以指定它。
+但实际上，ASC没有多大用处，因为升序是默认的（如果既不指定ASC也不指定DESC，则假定为ASC）。</p>
+<blockquote>
+<p>提示：区分大小写和排序顺序在对文本性数据进行排序时，A与a相同吗？a位于B之前，还是Z之后？
+这些问题不是理论问题，其答案取决于数据库的设置方式。
+在字典（dictionary）排序顺序中，A被视为与a相同，这是大多数数据库管理系统的默认做法。
+但是，许多DBMS允许数据库管理员在需要时改变这种行为（如果你的数据库包含大量外语字符，可能必须这样做）。
+这里的关键问题是，如果确实需要改变这种排序顺序，用简单的ORDER BY子句可能做不到。你必须请求数据库管理员的帮助。</p>
+</blockquote>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="35-小结">3.5 小结<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#35-%E5%B0%8F%E7%BB%93" class="hash-link" aria-label="Direct link to 3.5 小结" title="Direct link to 3.5 小结" translate="no">​</a></h2>
+<p>这一课学习了如何用SELECT语句的ORDER BY子句对检索出的数据进行排序。
+这个子句必须是SELECT语句中的最后一条子句。
+根据需要，可以利用它在一个或多个列上对数据进行排序。</p>
+<p>3.6 挑战题
+1．编写SQL语句，从Customers中检索所有的顾客名称（cust_names），并按从Z到A的顺序显示结果。
+2．编写SQL语句，从Orders表中检索顾客ID（cust_id）和订单号（order_num），并先按顾客ID对结果进行排序，再按订单日期倒序排列。
+3．显然，我们的虚拟商店更喜欢出售比较贵的物品，而且这类物品有很多。编写SQL语句，显示OrderItems表中的数量和价格（item_price），并按数量由多到少、价格由高到低排序。
+4．下面的SQL语句有问题吗？（尝试在不运行的情况下指出。）<code>select vend_name FROM vendors order verd_name desc;  </code></p>
+<h1>第4课 过滤数据</h1>
+<p>这一课将讲授如何使用SELECT语句的WHERE子句指定搜索条件。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="41-使用where子句">4.1 使用WHERE子句<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#41-%E4%BD%BF%E7%94%A8where%E5%AD%90%E5%8F%A5" class="hash-link" aria-label="Direct link to 4.1 使用WHERE子句" title="Direct link to 4.1 使用WHERE子句" translate="no">​</a></h2>
+<p>数据库表一般包含大量的数据，很少需要检索表中的所有行。
+通常只会根据特定操作或报告的需要提取表数据的子集。
+只检索所需数据需要指定搜索条件（search criteria），搜索条件也称为过滤条件（filter condition）。
+在SELECT语句中，数据根据WHERE子句中指定的搜索条件进行过滤。
+WHERE子句在表名（FROM子句）之后给出，如下所示：</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">SELECT   name,node_root,kn_id,shortname</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">FROM kn_node</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">WHERE node_root = '集合'</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">;</span><br></span></code></pre></div></div>
+<p>这条语句从products表中检索两个列，但不返回所有行，只返回prod_price值为3.49的行，</p>
+<blockquote>
+<p>提示：有多少个0？</p>
+<blockquote>
+<p>你在练习这个示例时，会发现显示的结果可能是3.49、3.490、3.4900等。
+出现这样的情况，往往是因为DBMS指定了所使用的数据类型及其默认行为。
+所以，如果你的输出可能与书上的有点不同，不必焦虑，毕竟从数学角度讲，3.49和3.4900是一样的。</p>
+</blockquote>
+<p>提示：SQL过滤与应用过滤数据也可以在应用层过滤。</p>
+<blockquote>
+<p>为此，SQL的SELECT语句为客户端应用检索出超过实际所需的数据，然后客户端代码对返回数据进行循环，提取出需要的行。
+通常，这种做法极其不妥。优化数据库后可以更快速有效地对数据进行过滤。
+而让客户端应用（或开发语言）处理数据库的工作将会极大地影响应用的性能，并且使所创建的应用完全不具备可伸缩性。
+此外，如果在客户端过滤数据，服务器不得不通过网络发送多余的数据，这将导致网络带宽的浪费。</p>
+</blockquote>
+<p>注意：WHERE子句的位置</p>
+<blockquote>
+<p>在同时使用ORDER BY和WHERE子句时，应该让ORDER BY位于WHERE之后，否则将会产生错误（关于ORDER BY的使用，请参阅第3课）。</p>
+</blockquote>
+</blockquote>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="42-where子句操作符">4.2 WHERE子句操作符<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#42-where%E5%AD%90%E5%8F%A5%E6%93%8D%E4%BD%9C%E7%AC%A6" class="hash-link" aria-label="Direct link to 4.2 WHERE子句操作符" title="Direct link to 4.2 WHERE子句操作符" translate="no">​</a></h2>
+<ul>
+<li class="">where 子句操作符</li>
+</ul>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">=  等于            &gt; 大于</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">&lt;&gt; 不等于          &gt;= 大于等于</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">!= 不等于           !&gt; 不大于</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">&lt; 小于              BETWEEN  在两个指定值之间</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">&lt;= 小于等于    IS NULL  为NULL值</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">!&lt; 不小于</span><br></span></code></pre></div></div>
+<blockquote>
+<p>注意：操作符兼容</p>
+<blockquote>
+<p>表4-1中列出的某些操作符是冗余的（如&lt; &gt;与！=相同，!&lt; 相当于&gt;=）。并非所有DBMS都支持这些操作符。想确定你的DBMS支持哪些操作符，请参阅相应的文档。</p>
+</blockquote>
+<p>提示：何时使用引号如果仔细观察上述WHERE子句中的条件，会看到有的值括在单引号内，而有的值未括起来。单引号用来限定字符串。如果将值与字符串类型的列进行比较，就需要限定引号。用来与数值列进行比较的值不用引号。</p>
+</blockquote>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">注意：是！=还是&lt;&gt;？！=和&lt;&gt;通常可以互换。但是，并非所有DBMS都支持这两种不等于操作符。如果有疑问，请参阅相应的DBMS文档。</span><br></span></code></pre></div></div>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">SELECT   name,node_root,kn_id,shortname</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">FROM kn_node</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">WHERE kn_id BETWEEN 2 AND 3</span><br></span></code></pre></div></div>
+<blockquote>
+<p>NULL无值（no value），它与字段包含0、空字符串或仅仅包含空格不同。</p>
+</blockquote>
+<p>确定值是否为NULL，不能简单地检查是否等于NULL。SELECT语句有一个特殊的WHERE子句，可用来检查具有NULL值的列。这个WHERE子句就是IS NULL子句。其语法如下：</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">SELECT   name,node_root,kn_id,shortname</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">FROM kn_node</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">WHERE kn_id IS NULL</span><br></span></code></pre></div></div>
+<p>注意：NULL和非匹配通过过滤选择不包含指定值的所有行时，你可能希望返回含NULL值的行。但是这做不到。因为NULL比较特殊，所以在进行匹配过滤或非匹配过滤时，不会返回这些结果。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="43-小结">4.3 小结<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#43-%E5%B0%8F%E7%BB%93" class="hash-link" aria-label="Direct link to 4.3 小结" title="Direct link to 4.3 小结" translate="no">​</a></h2>
+<p>这一课介绍了如何用SELECT语句的WHERE子句过滤返回的数据。我们学习了如何检验相等、不相等、大于、小于、值的范围以及NULL值。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="44-挑战题">4.4 挑战题<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#44-%E6%8C%91%E6%88%98%E9%A2%98" class="hash-link" aria-label="Direct link to 4.4 挑战题" title="Direct link to 4.4 挑战题" translate="no">​</a></h2>
+<p>1．编写SQL语句，从Products表中检索产品ID（prod_id）和产品名称（prod_name），只返回价格为9.49美元的产品。
+2．编写SQL语句，从Products表中检索产品ID（prod_id）和产品名称（prod_name），只返回价格为9美元或更高的产品。
+3．结合第3课和第4课编写SQL语句，从OrderItems表中检索出所有不同订单号（order_num），其中包含100个或更多的产品。
+4．编写SQL语句，返回Products表中所有价格在3美元到6美元之间的产品的名称（prod_name）和价格（prod_price），然后按价格对结果进行排序。（本题有多种解决方案，我们在下一课再讨论，不过你可以使用目前已学的知识来解决它。）</p>
+<h1>第5课 高级数据过滤</h1>
+<p>这一课讲授如何组合WHERE子句以建立功能更强、更高级的搜索条件。我们还将学习如何使用NOT和IN操作符。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="51-组合where子句">5.1 组合WHERE子句<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#51-%E7%BB%84%E5%90%88where%E5%AD%90%E5%8F%A5" class="hash-link" aria-label="Direct link to 5.1 组合WHERE子句" title="Direct link to 5.1 组合WHERE子句" translate="no">​</a></h2>
+<p>第4课介绍的所有WHERE子句在过滤数据时使用的都是单一的条件。为了进行更强的过滤控制，SQL允许给出多个WHERE子句。这些子句有两种使用方式，即以AND子句或OR子句的方式使用。</p>
+<blockquote>
+<p>操作符（operator）</p>
+<blockquote>
+<p>用来联结或改变WHERE子句中的子句的关键字，也称为逻辑操作符（logical operator）。</p>
+</blockquote>
+</blockquote>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="511-and操作符">5.1.1 AND操作符<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#511-and%E6%93%8D%E4%BD%9C%E7%AC%A6" class="hash-link" aria-label="Direct link to 5.1.1 AND操作符" title="Direct link to 5.1.1 AND操作符" translate="no">​</a></h3>
+<div class="language-sql codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-sql codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">SELECT</span><span class="token plain">   name</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain">node_root</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain">kn_id</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain">shortname</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">FROM</span><span class="token plain"> kn_node</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">WHERE</span><span class="token plain"> kn_id </span><span class="token operator" style="color:#393A34">&gt;</span><span class="token number" style="color:#36acaa">1</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">AND</span><span class="token plain"> node_root</span><span class="token operator" style="color:#393A34">=</span><span class="token string" style="color:#e3116c">'集合'</span><br></span></code></pre></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="512-or操作符">5.1.2 OR操作符<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#512-or%E6%93%8D%E4%BD%9C%E7%AC%A6" class="hash-link" aria-label="Direct link to 5.1.2 OR操作符" title="Direct link to 5.1.2 OR操作符" translate="no">​</a></h3>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">SELECT  name,node_root,kn_id,shortname</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">FROM kn_node</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">WHERE kn_id &gt;1 OR node_root='集合'</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre></div></div>
+<p>OR操作符与AND操作符正好相反，它指示DBMS检索匹配任一条件的行。事实上，许多DBMS在OR WHERE子句的第一个条件得到满足的情况下，就不再计算第二个条件了（在第一个条件满足时，不管第二个条件是否满足，相应的行都将被检索出来）。</p>
+<blockquote>
+<p>提示：在WHERE子句中使用圆括号</p>
+<blockquote>
+<p>任何时候使用具有AND和OR操作符的WHERE子句，都应该使用圆括号明确地分组操作符。不要过分依赖默认求值顺序，即使它确实如你希望的那样。使用圆括号没有什么坏处，它能消除歧义。</p>
+</blockquote>
+</blockquote>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="52-in操作符">5.2 IN操作符<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#52-in%E6%93%8D%E4%BD%9C%E7%AC%A6" class="hash-link" aria-label="Direct link to 5.2 IN操作符" title="Direct link to 5.2 IN操作符" translate="no">​</a></h2>
+<p>IN操作符用来指定条件范围，范围中的每个条件都可以进行匹配。IN取一组由逗号分隔、括在圆括号中的合法值。下面的例子说明了这个操作符。</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">SELECT   name,node_root,kn_id,shortname</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">FROM kn_node</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">WHERE node_root IN ('集合','知识点')</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">;</span><br></span></code></pre></div></div>
+<p>为什么要使用IN操作符？其优点如下。
+❑ 在有很多合法选项时，IN操作符的语法更清楚，更直观。
+❑ 在与其他AND和OR操作符组合使用IN时，求值顺序更容易管理。
+❑ IN操作符一般比一组OR操作符执行得更快（在上面这个合法选项很少的例子中，你看不出性能差异）。❑ IN的最大优点是可以包含其他SELECT语句，能够更动态地建立WHERE子句。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="53-not操作符">5.3 NOT操作符<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#53-not%E6%93%8D%E4%BD%9C%E7%AC%A6" class="hash-link" aria-label="Direct link to 5.3 NOT操作符" title="Direct link to 5.3 NOT操作符" translate="no">​</a></h2>
+<p>WHERE子句中的NOT操作符有且只有一个功能，那就是否定其后所跟的任何条件。因为NOT从不单独使用（它总是与其他操作符一起使用），所以它的语法与其他操作符有所不同。NOT关键字可以用在要过滤的列前，而不仅是在其后。</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">SELECT name,node_root,kn_id,shortname</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">FROM kn_node</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">WHERE node_root NOT IN ('集合')</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">;</span><br></span></code></pre></div></div>
+<p>这里的NOT否定跟在其后的条件：</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">SELECT   name,node_root,kn_id,shortname</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">FROM kn_node</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">WHERE NOT node_root = '集合'</span><br></span></code></pre></div></div>
+<p>为什么使用NOT？
+对于这里的这种简单的WHERE子句，使用NOT确实没有什么优势。
+但在更复杂的子句中，NOT是非常有用的。
+例如，在与IN操作符联合使用时，NOT可以非常简单地找出与条件列表不匹配的行。</p>
+<blockquote>
+<p>说明：MariaDB中的NOT</p>
+<blockquote>
+<p>MariaDB支持使用NOT否定IN、BETWEEN和EXISTS子句。大多数DBMS允许使用NOT否定任何条件。</p>
+</blockquote>
+</blockquote>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="54-小结">5.4 小结<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#54-%E5%B0%8F%E7%BB%93" class="hash-link" aria-label="Direct link to 5.4 小结" title="Direct link to 5.4 小结" translate="no">​</a></h2>
+<p>这一课讲授如何用AND和OR操作符组合成WHERE子句，还讲授了如何明确地管理求值顺序，如何使用IN和NOT操作符。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="55-挑战题">5.5 挑战题<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#55-%E6%8C%91%E6%88%98%E9%A2%98" class="hash-link" aria-label="Direct link to 5.5 挑战题" title="Direct link to 5.5 挑战题" translate="no">​</a></h2>
+<p>1．编写SQL语句，从Vendors表中检索供应商名称（vend_name），仅返回加利福尼亚州的供应商（这需要按国家[USA]和州[CA]进行过滤，没准其他国家也存在一个加利福尼亚州）。提示：过滤器需要匹配字符串。2．编写SQL语句，查找所有至少订购了总量100个的BR01、BR02或BR03的订单。你需要返回OrderItems表的订单号（order_num）、产品ID（prod_id）和数量，并按产品ID和数量进行过滤。提示：根据编写过滤器的方式，可能需要特别注意求值顺序。3．现在，我们回顾上一课的挑战题。编写SQL语句，返回所有价格在3美元到6美元之间的产品的名称（prod_name）和价格（prod_price）。使用AND，然后按价格对结果进行排序。
+4．下面的SQL语句有问题吗？（尝试在不运行的情况下指出。）</p>
+<h1>第6课 用通配符进行过滤</h1>
+<p>这一课介绍什么是通配符、如何使用通配符，以及怎样使用LIKE操作符进行通配搜索，以便对数据进行复杂过滤。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="61-like操作符">6.1 LIKE操作符<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#61-like%E6%93%8D%E4%BD%9C%E7%AC%A6" class="hash-link" aria-label="Direct link to 6.1 LIKE操作符" title="Direct link to 6.1 LIKE操作符" translate="no">​</a></h2>
+<p>%匹配词%  表示前包含和后包含</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">SELECT   name,node_root,kn_id,shortname</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">FROM kn_node</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">WHERE  node_root LIKE '%识%'</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">;</span><br></span></code></pre></div></div>
+<blockquote>
+<p>通配符（wildcard）用来匹配值的一部分的特殊字符。
+搜索模式（search pattern）由字面值、通配符或两者组合构成的搜索条件。</p>
+<p>谓词（predicate）操作符何时不是操作符？答案是，它作为谓词时。从技术上说，LIKE是谓词而不是操作符。虽然最终的结果是相同的，但应该对此术语有所了解，以免在SQL文献或手册中遇到此术语时不知所云。</p>
+</blockquote>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="611-百分号通配符">6.1.1 百分号（%）通配符<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#611-%E7%99%BE%E5%88%86%E5%8F%B7%E9%80%9A%E9%85%8D%E7%AC%A6" class="hash-link" aria-label="Direct link to 6.1.1 百分号（%）通配符" title="Direct link to 6.1.1 百分号（%）通配符" translate="no">​</a></h3>
+<p>最常使用的通配符是百分号（%）。在搜索串中，%表示任何字符出现任意次数。</p>
+<blockquote>
+<p>说明：区分大小写根据DBMS的不同及其配置，搜索可以是区分大小写的。如果区分大小写，则’fish%’与Fish bean bag toy就不匹配。</p>
+<p>提示：根据部分信息搜索电子邮件地址有一种情况下把通配符放在搜索模式中间是很有用的，就是根据邮件地址的一部分来查找电子邮件，例如WHERE email LIKE 'b%@forta.com'。</p>
+</blockquote>
+<p>说明：请注意后面所跟的空格有些DBMS用空格来填补字段的内容。
+例如，如果某列有50个字符，而存储的文本为Fish bean bag toy（17个字符），则为填满该列需要在文本后附加33个空格。
+这样做一般对数据及其使用没有影响，但是可能对上述SQL语句有负面影响。
+子句WHERE prod_name LIKE 'F%y’只匹配以F开头、以y结尾的prod_name。如果值后面跟空格，则不是以y结尾，所以Fish bean bag toy就不会检索出来。简单的解决办法是给搜索模式再增加一个%号：'F%y%’还匹配y之后的字符（或空格）。
+更好的解决办法是用函数去掉空格。请参阅第8课。注意：请注意NULL通配符%看起来像是可以匹配任何东西，但有个例外，这就是NULL。子句WHERE prod_name LIKE '%’不会匹配产品名称为NULL的行。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="612-下划线_通配符">6.1.2 下划线（_）通配符<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#612-%E4%B8%8B%E5%88%92%E7%BA%BF_%E9%80%9A%E9%85%8D%E7%AC%A6" class="hash-link" aria-label="Direct link to 6.1.2 下划线（_）通配符" title="Direct link to 6.1.2 下划线（_）通配符" translate="no">​</a></h3>
+<p>另一个有用的通配符是下划线（_）。下划线的用途与%一样，
+但它只匹配单个字符，而不是多个字符。</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">SELECT   name,node_root,kn_id,shortname</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">FROM kn_node</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">WHERE  node_root LIKE '_识点'</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">;</span><br></span></code></pre></div></div>
+<blockquote>
+<p>说明：请注意后面所跟的空格与上例一样，可能需要给这个模式添加一个通配符。</p>
+</blockquote>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="613-方括号-通配符">6.1.3 方括号（[ ]）通配符<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#613-%E6%96%B9%E6%8B%AC%E5%8F%B7-%E9%80%9A%E9%85%8D%E7%AC%A6" class="hash-link" aria-label="Direct link to 6.1.3 方括号（[ ]）通配符" title="Direct link to 6.1.3 方括号（[ ]）通配符" translate="no">​</a></h3>
+<p>方括号（[]）通配符用来指定一个字符集，它必须匹配指定位置（通配符的位置）的一个字符。</p>
+<blockquote>
+<p>说明：并不总是支持集合与前面描述的通配符不一样，并不是所有DBMS都支持用来创建集合的[]。
+微软的SQL Server支持集合，但是MySQL,Oracle,DB2,SQLite都不支持。为确定你使用的DBMS是否支持集合，请参阅相应的文档。</p>
+</blockquote>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">SELECT   name,node_root,kn_id,shortname</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">FROM kn_node</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">WHERE  node_root LIKE '[JM]%'</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">;</span><br></span></code></pre></div></div>
+<p>此语句的WHERE子句中的模式为’[JM]%'。
+这一搜索模式使用了两个不同的通配符。
+[JM]匹配方括号中任意一个字符，它也只能匹配单个字符。
+因此，任何多于一个字符的名字都不匹配。[JM]之后的%通配符匹配第一个字符之后的任意数目的字符，返回所需结果。</p>
+<p>此通配符可以用前缀字符^（脱字号）来否定。例如，下面的查询匹配以J和M之外的任意字符起头的任意联系人名（与前一个例子相反）：</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">SELECT   name,node_root,kn_id,shortname</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">FROM kn_node</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">WHERE NOT node_root LIKE '[^JM]%'</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">;</span><br></span></code></pre></div></div>
+<p>当然，也可以使用NOT操作符得出类似的结果。^的唯一优点是在使用多个WHERE子句时可以简化语法：</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">SELECT   name,node_root,kn_id,shortname</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">FROM kn_node</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">WHERE NOT node_root LIKE '[JM]%'</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">;</span><br></span></code></pre></div></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="62-使用通配符的技巧">6.2 使用通配符的技巧<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#62-%E4%BD%BF%E7%94%A8%E9%80%9A%E9%85%8D%E7%AC%A6%E7%9A%84%E6%8A%80%E5%B7%A7" class="hash-link" aria-label="Direct link to 6.2 使用通配符的技巧" title="Direct link to 6.2 使用通配符的技巧" translate="no">​</a></h2>
+<p>正如所见，SQL的通配符很有用。
+但这种功能是有代价的，即通配符搜索一般比前面讨论的其他搜索要耗费更长的处理时间。
+这里给出一些使用通配符时要记住的技巧。
+❑ 不要过度使用通配符。如果其他操作符能达到相同的目的，应该使用其他操作符。
+❑ 在确实需要使用通配符时，也尽量不要把它们用在搜索模式的开始处。把通配符置于开始处，搜索起来是最慢的。
+❑ 仔细注意通配符的位置。如果放错地方，可能不会返回想要的数据。
+总之，通配符是一种极其重要和有用的搜索工具，以后我们经常会用到它。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="63-小结">6.3 小结<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#63-%E5%B0%8F%E7%BB%93" class="hash-link" aria-label="Direct link to 6.3 小结" title="Direct link to 6.3 小结" translate="no">​</a></h2>
+<p>这一课介绍了什么是通配符，如何在WHERE子句中使用SQL通配符，还说明了通配符应该细心使用，不要使用过度。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="64-挑战题">6.4 挑战题<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#64-%E6%8C%91%E6%88%98%E9%A2%98" class="hash-link" aria-label="Direct link to 6.4 挑战题" title="Direct link to 6.4 挑战题" translate="no">​</a></h2>
+<p>1．编写SQL语句，从Products表中检索产品名称（prod_name）和描述（prod_desc），仅返回描述中包含toy一词的产品。2．反过来再来一次。编写SQL语句，从Products表中检索产品名称（prod_name）和描述（prod_desc），仅返回描述中未出现toy一词的产品。这次，按产品名称对结果进行排序。3．编写SQL语句，从Products表中检索产品名称（prod_name）和描述（prod_desc），仅返回描述中同时出现toy和carrots的产品。有好几种方法可以执行此操作，但对于这个挑战题，请使用AND和两个LIKE比较。4．来个比较棘手的。我没有特别向你展示这个语法，而是想看看你根据目前已学的知识是否可以找到答案。编写SQL语句，从Products表中检索产品名称（prod_name）和描述（prod_desc），仅返回在描述中以先后顺序同时出现toy和carrots的产品。提示：只需要用带有三个%符号的LIKE即可。</p>
+<h1>第7课 创建计算字段</h1>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="71-计算字段">7.1 计算字段<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#71-%E8%AE%A1%E7%AE%97%E5%AD%97%E6%AE%B5" class="hash-link" aria-label="Direct link to 7.1 计算字段" title="Direct link to 7.1 计算字段" translate="no">​</a></h2>
+<p>存储在数据库表中的数据一般不是应用程序所需要的格式，下面举几个例子。
+❑ 需要显示公司名，同时还需要显示公司的地址，但这两个信息存储在不同的表列中。
+❑ 城市、州和邮政编码存储在不同的列中（应该这样），
+但邮件标签打印程序需要把它们作为一个有恰当格式的字段检索出来。
+❑ 列数据是大小写混合的，但报表程序需要把所有数据按大写表示出来。
+❑ 物品订单表存储物品的价格和数量，不存储每个物品的总价格（用价格乘以数量即可）。
+但为打印发票，需要物品的总价格。
+❑ 需要根据表数据进行诸如总数、平均数的计算。在上述每个例子中，存储在表中的数据都不是应用程序所需要的。
+我们需要直接从数据库中检索出转换、计算或格式化过的数据，而不是检索出数据，
+然后再在客户端应用程序中重新格式化。这就是计算字段可以派上用场的地方了。</p>
+<p>与前几课介绍的列不同，计算字段并不实际存在于数据库表中。计算字段是运行时在SELECT语句内创建的。</p>
+<blockquote>
+<p>字段（field）</p>
+<blockquote>
+<p>基本上与列（column）的意思相同，经常互换使用，不过数据库列一般称为列，而字段这个术语通常在计算字段这种场合下使用。</p>
+</blockquote>
+</blockquote>
+<p>需要特别注意，只有数据库知道SELECT语句中哪些列是实际的表列，哪些列是计算字段。从客户端（如应用程序）来看，计算字段的数据与其他列的数据的返回方式相同。</p>
+<blockquote>
+<p>提示：客户端与服务器的格式</p>
+<blockquote>
+<p>在SQL语句内可完成的许多转换和格式化工作都可以直接在客户端应用程序内完成。但一般来说，在数据库服务器上完成这些操作比在客户端中完成要快得多。</p>
+</blockquote>
+</blockquote>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="72-拼接字段">7.2 拼接字段<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#72-%E6%8B%BC%E6%8E%A5%E5%AD%97%E6%AE%B5" class="hash-link" aria-label="Direct link to 7.2 拼接字段" title="Direct link to 7.2 拼接字段" translate="no">​</a></h2>
+<p>为了说明如何使用计算字段，我们来举一个简单例子，创建由两列组成的标题。
+Vendors表包含供应商名和地址信息。假如要生成一个供应商报表，需要在格式化的名称（位置）中列出供应商的位置。
+此报表需要一个值，而表中数据存储在两个列vend_name和vend_country中。
+此外，需要用括号将vend_country括起来，这些东西都没有存储在数据库表中。
+这个返回供应商名称和地址的SELECT语句很简单，但我们是如何创建这个组合值的呢？
+拼接（concatenate）将值联结到一起（将一个值附加到另一个值）构成单个值。
+解决办法是把两个列拼接起来。
+在SQL中的SELECT语句中，可使用一个特殊的操作符来拼接两个列。
+根据你所使用的DBMS，此操作符可用加号（+）或两个竖杠（||）表示。
+在MySQL和MariaDB中，必须使用特殊的函数。</p>
+<blockquote>
+<p>说明：是+还是||？</p>
+<blockquote>
+<p>SQL Server使用+号。DB2、Oracle、PostgreSQL和SQLite使用||。详细请参阅具体的DBMS文档。下面是使用加号的例子（多数DBMS使用这种语法）：</p>
+</blockquote>
+</blockquote>
+<div class="language-sql codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-sql codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">SELECT</span><span class="token plain">  vend_name </span><span class="token operator" style="color:#393A34">+</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">'('</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">+</span><span class="token plain"> vend_country </span><span class="token operator" style="color:#393A34">+</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">')'</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">FROM</span><span class="token plain"> vendors</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">order</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">by</span><span class="token plain">  vend_name</span><br></span></code></pre></div></div>
+<p>下面是相同的语句，但使用的是|| 语法：</p>
+<div class="language-sql codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-sql codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">SELECT</span><span class="token plain">  vend_name </span><span class="token operator" style="color:#393A34">||</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">'('</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">||</span><span class="token plain"> vend_country </span><span class="token operator" style="color:#393A34">||</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">')'</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">from</span><span class="token plain"> vendors</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">order</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">by</span><span class="token plain">  vend_name</span><br></span></code></pre></div></div>
+<p>下面是使用MySQL或MariaDB时需要使用的语句：</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">SELECT  CONCAT(node_root,'(',kn_id,')')</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">FROM kn_node</span><br></span></code></pre></div></div>
+<p>许多数据库（不是所有）保存填充为列宽的文本值，而实际上你要的结果不需要这些空格。为正确返回格式化的数据，必须去掉这些空格。这可以使用SQL的RTRIM()函数来完成</p>
+<p>RTRIM()函数去掉值右边的所有空格。通过使用RTRIM()，各个列都进行了整理。说明：TRIM函数大多数DBMS都支持RTRIM()（正如刚才所见，它去掉字符串右边的空格）、LTRIM()（去掉字符串左边的空格）以及TRIM()（去掉字符串左右两边的空格）。</p>
+<p>SQL支持列别名。别名（alias）是一个字段或值的替换名。别名用AS关键字赋予。</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">SELECT  node_root AS nr</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">FROM kn_node</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">;</span><br></span></code></pre></div></div>
+<blockquote>
+<p>说明：AS通常可选在很多DBMS中，AS关键字是可选的，不过最好使用它，这被视为一条最佳实践。
+提示：别名的其他用途别名还有其他用途。常见的用途包括在实际的表列名包含不合法的字符（如空格）时重新命名它，在原来的名字含混或容易误解时扩充它。注意：别名别名的名字既可以是一个单词，也可以是一个字符串。如果是后者，字符串应该括在引号中。虽然这种做法是合法的，但不建议这么去做。多单词的名字可读性高，不过会给客户端应用带来各种问题。因此，别名最常见的使用是将多个单词的列名重命名为一个单词的名字。
+说明：导出列别名有时也称为导出列（derived column），不管怎么叫，它们所代表的是相同的东西。</p>
+</blockquote>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="73-执行算术计算">7.3 执行算术计算<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#73-%E6%89%A7%E8%A1%8C%E7%AE%97%E6%9C%AF%E8%AE%A1%E7%AE%97" class="hash-link" aria-label="Direct link to 7.3 执行算术计算" title="Direct link to 7.3 执行算术计算" translate="no">​</a></h2>
+<p>计算字段的另一常见用途是对检索出的数据进行算术计算。</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">SELECT  (kn_id * node_id )AS id</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">FROM kn_node</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">;</span><br></span></code></pre></div></div>
+<blockquote>
+<p>提示：如何测试计算SELECT语句为测试、检验函数和计算提供了很好的方法。虽然SELECT通常用于从表中检索数据，但是省略了FROM子句后就是简单地访问和处理表达式，例如SELECT 3＊2；将返回6,SELECT Trim(' abc ');将返回abc,SELECT Curdate()；使用Curdate()函数返回当前日期和时间。现在你明白了，可以根据需要使用SELECT语句进行检验。</p>
+</blockquote>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="74-小结">7.4 小结<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#74-%E5%B0%8F%E7%BB%93" class="hash-link" aria-label="Direct link to 7.4 小结" title="Direct link to 7.4 小结" translate="no">​</a></h2>
+<p>这一课介绍了计算字段以及如何创建计算字段。我们用例子说明了计算字段在字符串拼接和算术计算中的用途。此外，还讲述了如何创建和使用别名，以便应用程序能引用计算字段。</p>
+<h1>第8课 使用函数处理数据</h1>
+<p>与SQL语句不一样，SQL函数不是可移植的。这意味着为特定SQL实现编写的代码在其他实现中可能不能用。可移植（portable）所编写的代码可以在多个系统上运行。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="82-使用函数大多数sql实现支持以下类型的函数">8.2 使用函数大多数SQL实现支持以下类型的函数。<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#82-%E4%BD%BF%E7%94%A8%E5%87%BD%E6%95%B0%E5%A4%A7%E5%A4%9A%E6%95%B0sql%E5%AE%9E%E7%8E%B0%E6%94%AF%E6%8C%81%E4%BB%A5%E4%B8%8B%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%87%BD%E6%95%B0" class="hash-link" aria-label="Direct link to 8.2 使用函数大多数SQL实现支持以下类型的函数。" title="Direct link to 8.2 使用函数大多数SQL实现支持以下类型的函数。" translate="no">​</a></h2>
+<p>❑ 用于处理文本字符串（如删除或填充值，转换值为大写或小写）的文本函数。
+❑ 用于在数值数据上进行算术操作（如返回绝对值，进行代数运算）的数值函数。
+❑ 用于处理日期和时间值并从这些值中提取特定成分（如返回两个日期之差，检查日期有效性）的日期和时间函数。
+❑ 用于生成美观好懂的输出内容的格式化函数（如用语言形式表达出日期，用货币符号和千分位表示金额）。
+❑ 返回DBMS正使用的特殊信息（如返回用户登录信息）的系统函数。我们在上一课看到函数用于SELECT后面的列名，但函数的作用不仅于此。它还可以作为SELECT语句的其他成分，如在WHERE子句中使用，在其他SQL语句中使用等，后面会做更多的介绍。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="821-文本处理函数">8.2.1 文本处理函数<a href="https://chenyduan.github.io/en/blog/SQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A#821-%E6%96%87%E6%9C%AC%E5%A4%84%E7%90%86%E5%87%BD%E6%95%B0" class="hash-link" aria-label="Direct link to 8.2.1 文本处理函数" title="Direct link to 8.2.1 文本处理函数" translate="no">​</a></h3>
+<p>在上一课，我们已经看过一个文本处理函数的例子，其中使用RTRIM()函数来去除列值右边的空格。
+下面是另一个例子，这次使用的是UPPER()函数：
+UPPER()将文本转换为大写，</p>
+<blockquote>
+<p>提示：大写，小写，大小写混合此时你应该已经知道SQL函数不区分大小写，因此upper(),UPPER(), Upper()都可以，substr(), SUBSTR(), SubStr()也都行。随你的喜好，不过注意保持风格一致，不要变来变去，否则你写的程序代码就不好读了。</p>
+</blockquote>
+<p>DATEPART()函数，顾名思义，此函数返回日期的某一部分。DATEPART()函数有两个参数，它们分别是返回的成分和从中返回成分的日期。在此例子中，DATEPART()只从order_date列中返回年份</p>
+<p>EXTRACT()函数用来提取日期的成分，year表示提取哪个部分，</p>
+<h1>第22课 高级SQL特性</h1>
+<p>这一课介绍SQL所涉及的几个高级数据处理特性：约束、索引和触发器。</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[AI网站书签页]]></title>
+            <link>https://chenyduan.github.io/en/blog/ai</link>
+            <guid>https://chenyduan.github.io/en/blog/ai</guid>
+            <pubDate>Sun, 21 Sep 2025 13:09:30 GMT</pubDate>
+            <description><![CDATA[AI网站书签页]]></description>
+            <content:encoded><![CDATA[<ul>
+<li class="">
+<a href="https://chatgpt.com/" target="_blank">OpenAI ChatGPT</a>
+</li>
+<li class="">
+<a href="https://gemini.google.com/app" target="_blank">Google Gemini</a>
+</li>
+<li class="">
+<a href="https://claude.ai/new" target="_blank">Anthropic Claude</a>
+</li>
+<li class="">
+<a href="https://www.cursor.com/" target="_blank">Cursor AI IDE</a>
+</li>
+<li class="">
+<a href="https://codeium.com/" target="_blank">Windsurf Codeium IDE</a>
+</li>
+<li class="">
+<a href="https://github.com/copilot" target="_blank">GitHub Copilot</a>
+</li>
+</ul>
+<h1>AI游戏</h1>
+<ul>
+<li class="">
+<a href="https://www.aidungeon.io/" target="_blank">AI Dungeon Game</a>
+</li>
+</ul>]]></content:encoded>
+            <category>2024</category>
+        </item>
+        <item>
+            <title><![CDATA[bazel 构建系统知识]]></title>
+            <link>https://chenyduan.github.io/en/blog/bazel-build-system</link>
+            <guid>https://chenyduan.github.io/en/blog/bazel-build-system</guid>
+            <pubDate>Sun, 21 Sep 2025 13:09:30 GMT</pubDate>
+            <description><![CDATA[https://bazel.build/basics?hl=zh-cn]]></description>
+            <content:encoded><![CDATA[<p><a href="https://bazel.build/basics?hl=zh-cn" target="_blank" rel="noopener noreferrer" class="">https://bazel.build/basics?hl=zh-cn</a></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[bazel构建工具]]></title>
+            <link>https://chenyduan.github.io/en/blog/bazel构建工具</link>
+            <guid>https://chenyduan.github.io/en/blog/bazel构建工具</guid>
+            <pubDate>Sun, 21 Sep 2025 13:09:30 GMT</pubDate>
+            <description><![CDATA[创建一个新的 Bazel 工作区 bazel init]]></description>
+            <content:encoded><![CDATA[<p>#monorepo</p>
+<p>创建一个新的 Bazel 工作区 bazel init
+查看工作区根目录 pwd
+/path/to/workspace
+查看 WORKSPACE 文件
+cat WORKSPACE</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[excalidraw]]></title>
+            <link>https://chenyduan.github.io/en/blog/excalidraw</link>
+            <guid>https://chenyduan.github.io/en/blog/excalidraw</guid>
+            <pubDate>Sun, 21 Sep 2025 13:09:30 GMT</pubDate>
+            <description><![CDATA[npm install react react-dom @excalidraw/excalidraw]]></description>
+            <content:encoded><![CDATA[<p>npm install react react-dom @excalidraw/excalidraw</p>]]></content:encoded>
+        </item>
+    </channel>
+</rss>
